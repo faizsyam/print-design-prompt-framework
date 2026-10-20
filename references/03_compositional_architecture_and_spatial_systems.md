@@ -12,7 +12,7 @@ A design's physical shape governs how visual weight, information blocks, and neg
 
 ### 1. Zoning Derivation
 1. **Read the canvas:** Take the dominant axis and the visibility map from `01` (Canvas Shape & Visibility).
-2. **Form zones from content groups:** Zones follow groups of related content and the number of groups the brief actually has, not a fixed zone count.
+2. **Form zones from content groups:** Zones follow groups of related content and the number of groups the brief actually has, not a fixed zone count; their position and form follow the placement logic (Section 5).
 3. **Size zones by tier:** Each zone's area follows the attention tier and weight of its content (Section 5), not a default share. A zone holding lower-tier content stays compact or merges with another.
 4. **Set the path:** Choose a reading pathway (Section 3) that suits the axis and anchor, and arrange zones along it.
 
@@ -39,7 +39,7 @@ To create immediate visual order from a distance, the primary headline must main
 ### 2. Typographic Personality Pairing Logic
 Never pair fonts with identical visual weight or personality traits. Enforce strict functional contrast:
 * **Roles:** The display voice carries identity; the supporting voice carries information.
-* **Derivation:** Choose each voice from the brand's character, the selected movement (Phase 2), and the reading distance of the tier it serves.
+* **Derivation:** Choose each voice from the brand's theme and personality, the selected movement (Phase 2), and the reading distance of the tier it serves.
 * **Contrast:** The pair must differ in weight, structure, or personality, and neither may compromise legibility at its tier's floor.
 
 ---
@@ -55,22 +55,22 @@ Direct the viewer's eye sequentially through deliberate visual anchors and struc
 
      Z-PATTERN (Diagonal Sweep)               FOCAL HUB & SPOKE (Radial)
   ┌───────────────────────────────┐          ┌───────────────────────────────┐
-  │  (1) BRAND ───────► (2) BADGE │          │       (2) SECONDARY           │
+  │  (1) ENTRY ───────► (2) NEXT  │          │       (2) SECONDARY           │
   │         \                     │          │              ▲                │
   │          \                    │          │              │                │
-  │           ▼                   │          │  (3) INFO ◄─(1)─► (4) ACTION  │
-  │  (3) HERO ────────► (4) CTA   │          │          BRAND HUB            │
+  │           ▼                   │          │  (3) SPOKE ◄─(1)─► (4) SPOKE  │
+  │  (3) MID  ────────► (4) END   │          │          FOCAL HUB            │
   └───────────────────────────────┘          └───────────────────────────────┘
 ```
 
 ### 1. Directional Reading Pathways
-* **Z-Pattern Reading Flow:** The eye enters at top-left (Primary Brand), moves right to top-right (Key Badge), cuts diagonally down-left across the center hero visual, and terminates at bottom-right (Contact CTA).
+* **Z-Pattern Reading Flow:** The eye enters at top-left (the entry anchor), moves right to top-right (the second anchor), cuts diagonally down-left across the center, and terminates at bottom-right (the final element of the path).
 * **Focal Hub & Spoke Flow:** The eye lands first on the center hero graphic/emblem (Hub), then radiates outward to perimeter information modules (Spokes).
 
 ### 2. Grouping & Separation of Information
 * **Group by relationship:** Related information is grouped through relationship cues: proximity, similarity, alignment, continuity, and common region. Enclosure is only one of these, and the heaviest.
 * **Lightest sufficient device:** Use the weakest cue that achieves the grouping or separation against the background and competing content. Every added device (enclosure, rule, field) adds weight that the tier budget must pay for, so none is applied by habit.
-* **Form follows concept:** Where a boundary is warranted, its form (edge, corner behavior, line quality, shape, or a change of field or texture) is derived from the movement's form language and the brand, never from a default shape. Absence of any boundary is a valid choice.
+* **Form follows concept:** Where a boundary is warranted, its form (edge, corner behavior, line quality, shape, or a change of field or texture) is derived from the movement's form language and the brand's theme, never from a default shape. Absence of any boundary is a valid choice.
 
 ---
 
@@ -90,7 +90,7 @@ Negative space is a structural design tool that ensures legibility and elevates 
 Zones and ratios are only a skeleton. Final layout is resolved by the Attention Tiers (`01`, Section 3) and the physical scale of the medium.
 
 ### 1. Balance by Attention, Not by Element Type
-* **Tier 1** forms the dominant anchor(s). **Tier 2** elements are distributed to support and counterweight the anchor and to carry the eye along the reading pathway (Section 3), rather than being stacked beside it. **Tier 3** is consolidated into one compact, quiet block.
+* **Tier 1** forms the dominant anchor(s). **Tier 2** elements are distributed to support and counterweight the anchor and to carry the eye along the reading pathway (Section 3), rather than being stacked beside it. **Tier 3** stays compact and quiet; whether it forms one group or several, and where it sits, follows the placement logic below.
 * **Distribute weight:** Visual weight (mass, contrast, chroma) is balanced around the focal anchor across the canvas. Clustering many text elements into one zone creates a text dump and leaves other zones inert. Elements that belong together by meaning (such as the logo mark and its descriptor) stay together; elements that are merely the same kind of content do not have to.
 * **Weight dimensions:** Scale is only one carrier of weight. Color relationship, placement on the reading path, proximity to the focal anchor, isolation, and detail density each transfer attention. A lower-tier element must be quieter than higher-tier elements across the dimensions in play; sharing a higher-tier element's color relationship or occupying a prime position competes with it unless other dimensions clearly subordinate it.
 * **Ornament:** Ornament has no content tier. It ranks below all content in weight, and its color relationships, scale, and placement stay recessive, supporting the composition without drawing the eye off the reading path.
@@ -100,3 +100,12 @@ Zones and ratios are only a skeleton. Final layout is resolved by the Attention 
 * **Large media:** The floor is small relative to the canvas, so lower-tier elements sit near their floors and stay compact. Tier 1 takes the scale its distance demands, and the headroom becomes negative space and hero presence. No element is enlarged merely because the canvas is large. Crowded layouts on a large canvas indicate sizing from canvas proportion instead of from the floor.
 * **Small media:** The floor binds. Keep every element readable at its floor, reduce element count, and group related content instead of shrinking below the floor.
 * **Tier 3 information:** It serves readers who have chosen to engage, so it needs legibility, not recognition. It is never scaled up to compete for attention.
+
+### 3. Placement Logic for All Information
+Every element's position, extent, and grouping, at every tier, is a decision derived from the brief and never a default pattern:
+* **Function:** Where the reader needs it in their journey (entry, along the path, or after engaging) and where the viewer is physically positioned when they need it.
+* **Relationship:** Nearness to what it explains, qualifies, or completes. Related items share a region and unrelated items do not, regardless of content type.
+* **Counterweight:** Its contribution to the canvas balance around the focal anchor (Section 5.1).
+* **Form of the group:** The shape and extent of an information group (compact or spread, one group or several, how much of an edge or axis it spans, standing free or integrated with another element) is chosen for the composition. Spanning an entire edge or axis requires justification.
+* **No reserved positions:** Canvas edges and the end of the reading path are not reserved for any content category, and no placement pattern repeats across briefs by habit.
+

@@ -39,7 +39,7 @@ To prevent the vision model from reverting to generic "AI stock design" tropes, 
 Exclude words that assess quality, promise an effect, or invoke popularity without describing form. Replace each with the visual mechanic it was standing in for. A rendering stance (photographic or otherwise) is stated as a chosen technique, never as a quality boost.
 
 ### 2. Genericness Test & Default Overrides
-Genericness enters wherever a decision is left unspecified, because the model fills gaps with its most common defaults. Where the prompt is silent, the model supplies its most common default for that element, so silence is itself a decision. For each element, make the decision that determines its distinctiveness: how it is anchored in the structure, how related information is grouped and separated (an enclosure is a decision, and so is its absence), the representation mode and expressive character of each visual layer, the typographic and decorative voice, what the background is and what it does for legibility, and which surface effects exist and why.
+Genericness enters wherever a decision is left unspecified, because the model fills gaps with its most common defaults. Where the prompt is silent, the model supplies its most common default for that element, so silence is itself a decision. For each element, make the decision that determines its distinctiveness: how it expresses the theme and personality, how it is anchored in the structure, how related information is grouped and separated (an enclosure is a decision, and so is its absence), the representation mode and expressive character of each visual layer, the typographic and decorative voice, what the background is and what it does for legibility, and which surface effects exist and why.
 * **Test:** If a sentence could be placed unchanged into a prompt for a different business, it is generic. Rewrite it with this brief's specifics.
 * **Exclusions:** State an exclusion only where a likely default would damage the brief.
 
@@ -73,8 +73,8 @@ When generating the final prompt output, assemble the deconstructed design decis
 
 ### Execution Protocol Steps
 
-1. **Header Block Assembly:** State aspect ratio, physical media type, full brand name, selected design movement, and explicit color role allocation with proportions.
-2. **Primary Logo Mark & Branding:** Detail the emblem/wordmark geometry, typography style, descriptor, and structural isolation mechanics.
+1. **Header Block Assembly:** State aspect ratio, physical media type, full brand name, the brand theme and personality, selected design movement, and the palette's roles, hues, and proportions.
+2. **Primary Logo Mark & Branding:** Detail the emblem/wordmark geometry, how it embodies the theme and personality, typography style, descriptor, and structural isolation mechanics.
 3. **Composition & Layout Zoning:** Map the physical canvas into distinct spatial zones derived from its dominant axis, visibility, and content groups, aligned to the target reading distance. Place every element, including the tagline, by attention tier and balance, with relative sizes calibrated to the physical scale.
 4. **Visual Elements & Rendering Technique:** Detail product displays, hero visuals, the representation mode and expressive character of each visual layer, and line-weight parameters.
 5. **Background, Borders & Finish:** Define substrate textures, borders or their deliberate absence, decorative accents, or background pattern density.
@@ -89,9 +89,11 @@ Before emitting the final expanded prompt, execute a final cognitive audit:
 * [ ] **Hard Copy Fidelity:** Is every brand name, menu item, price, phone number, address, and trust badge from the brief explicitly included in the prompt text without alterations?
 * [ ] **Zero Added Hallucinations:** Did you avoid inserting extra menu items, fake prices, or unrequested social handles?
 * [ ] **Open Choice:** Were the design movement, mark architecture, and layout derived from the brief's principles, rather than from the first conventional fit or a listed category?
+* [ ] **Theme Coherence:** Is one specific theme and personality stated, embodied first and most fully in the logo mark, and traceable through every other layer at an intensity set by its tier, without altering hard content?
 * [ ] **Semantic Density:** Are all visual instructions expressed in professional design, art history, and print production terminology?
 * [ ] **Attention Balance:** Does visual weight follow the attention tiers across every dimension (scale, color relationship, placement, isolation), with ornament and lower-tier elements recessive in color and position rather than sharing the hero's, weight distributed across the canvas rather than clustered, and the tagline and contact information placed by role rather than by habit?
 * [ ] **Deliberate Devices:** Is each grouping or separation device, representation mode, expressive character, and typographic and decorative voice a specific choice for this brief, including the choice of no boundary where none is needed?
+* [ ] **Placement Logic:** Is every placement and group form (including contact information) derived from function, relationship, and counterweight, rather than repeated from a template?
 * [ ] **Scale Calibration:** Is each element sized within the band set by its legibility floor and its tier, with surplus canvas given to hero scale and negative space rather than to enlarged secondary content, and with Tier 3 information kept legible but unboosted?
 * [ ] **Distinctiveness:** Would any sentence in the prompt survive unchanged in a prompt for a different business? If so, rewrite it.
 * [ ] **Template Integrity:** Does the output strictly adhere to the universal template structure defined in `SKILL.md`?
