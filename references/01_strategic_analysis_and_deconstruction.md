@@ -11,42 +11,37 @@ This reference guide establishes the principles and analytical methods for decon
 Every print design brief contains structural variables that govern visual prioritization. Deconstruct the input brief across five core dimensions:
 
 ```
-                  ┌───────────────────────────────┐
-                  │      BUSINESS POSITIONING     │
-                  │   Price Point & Market Tier   │
-                  └──────────────┬────────────────┘
-                                 │
-      ┌──────────────────────────┼──────────────────────────┐
-      │                          │                          │
-┌─────┴───────────────────┐      │      ┌───────────────────┴─────┐
-│     MEDIA SUBSTRATE     │      │      │    TARGET PSYCHOLOGY    │
-│ Dimensions, Aspect Ratio│      │      │ Decision Speed, Trigger │
-│ Material & Lighting     │      │      │ Points, Trust Signals   │
-└─────┬───────────────────┘      │      └───────────────────┬─────┘
-      │                          │                          │
-      └──────────────────────────┼──────────────────────────┘
-                                 │
-                  ┌──────────────┴────────────────┐
-                  │    CONTENT & COPY DENSITY     │
-                  │  Hard Data, Hierarchy Levels  │
-                  └───────────────────────────────┘
+      ┌───────────────────────────┐        ┌───────────────────────────┐
+      │    BUSINESS POSITIONING   │        │  COMMUNICATION OBJECTIVE  │
+      │   Market Position & Value │        │ Outcome the Piece Drives  │
+      └─────────────┬─────────────┘        └─────────────┬─────────────┘
+                    │                                    │
+                    └─────────────────┬──────────────────┘
+                                      │
+        ┌─────────────────────────────┼─────────────────────────────┐
+        │                             │                             │
+┌───────┴─────────────────┐           │           ┌─────────────────┴───────┐
+│     MEDIA SUBSTRATE     │           │           │    TARGET PSYCHOLOGY    │
+│ Dimensions, Aspect Ratio│           │           │ Decision Speed, Trigger │
+│ Material & Lighting     │           │           │ Points, Trust Signals   │
+└───────┬─────────────────┘           │           └─────────────────┬───────┘
+        │                             │                             │
+        └─────────────────────────────┼─────────────────────────────┘
+                                      │
+                       ┌──────────────┴────────────────┐
+                       │    CONTENT & COPY DENSITY     │
+                       │  Hard Data, Hierarchy Levels  │
+                       └───────────────────────────────┘
 ```
 
-### 1. Business Domain & Market Positioning
-* **Price Tier & Accessibility:** Identify whether the business operates as budget/mass-market, mid-tier accessible, or premium/artisanal. 
-  * *Budget/Mass Market:* Demands immediate price visibility, high visual contrast, bold weights, and unmistakable value hooks.
-  * *Mid-Tier/Trendy:* Requires contemporary visual polish, balanced typography, and strong product/service feature highlights.
-  * *Premium/Artisanal:* Prioritizes negative space, refined typographic scale, subtle textures, and material authenticity over loud pricing.
-* **Core Value Proposition (USP):** Isolate the single visual or message anchor that differentiates the business from competitors (e.g., speed, portion size, heritage recipe, technical precision, eco-friendliness, low price).
+### 1. Business Domain, Market Positioning & Objective
+* **Positioning:** Positioning is a spectrum across several axes (price accessibility, exclusivity, formality, audience, emotional register), not a fixed set of tiers; most brands sit between or across them. Resolve where the brand sits on each axis from the brief. The more price or value is the audience's decision driver, the more immediate price visibility, high contrast, and bold weight are required. The more perceived quality, craft, or exclusivity is the driver, the more restraint, negative space, refined scale, subtle texture, and material authenticity carry the message. Intermediate positions blend these.
+* **Communication Objective:** Identify the single outcome the piece exists to produce in the reader, as implied by the brief. The objective, not the business category, decides which content is primary and whether conversion elements (price hooks, calls to action) belong in the hierarchy at all.
+* **Core Value Proposition (USP):** Isolate the single visual or message anchor that differentiates the business from competitors.
 
 ### 2. Target Audience Psychology & Viewing Context
-* **Engagement Duration & Decision Speed:**
-  * *Impulse / High-Speed (1–3 seconds):* Roadside banners, feather flags, car wraps. Requires high contrast, large display scale, single visual focal point, and maximum 3 information hierarchy levels.
-  * *Considered / Medium-Speed (5–15 seconds):* Counter posters, window A-frames, pop-up backdrops. Allows structured menu blocks, secondary feature highlights, and sub-branding elements.
-  * *Deliberate / Low-Speed (30+ seconds):* Handout flyers, door drop magnets, menu inserts, table tents. Accommodates detailed service matrices, fine typography, terms, and multi-channel contact blocks.
-* **Environmental Noise & Viewing Distance:**
-  * *Extreme Distance (5m–20m):* Visual elements must use thick boundary linework, high chroma contrast, and display fonts with wide counters.
-  * *Arm's Length / Close Reading (30cm–1m):* Tactile paper textures, delicate line details, secondary body copy, and subtle background patterns become effective.
+* **Reading Time & Decision Speed:** Reading time is continuous. It is set by how the reader encounters the piece: in motion or stationary, by choice or incidentally, and how much else competes for attention. The shorter the exposure, the fewer hierarchy levels and focal points the piece can carry (at the shortest exposures: a single focal point and roughly three levels or fewer, high contrast, large display scale). Longer exposure allows structured blocks, secondary features, sub-branding, fine typography, and detailed information.
+* **Environmental Noise & Viewing Distance:** Distance is also continuous and differs per element (see Physical Scale below). The farther an element is read from, the heavier its linework, the higher its contrast, and the more open its letterforms must be. The closer it is read from, the more tactile textures, delicate detail, secondary copy, and subtle pattern become effective.
 
 ---
 
@@ -54,17 +49,18 @@ Every print design brief contains structural variables that govern visual priori
 
 Print designs exist in physical space. Physical constraints dictate spatial zoning, typographic scale ratios, and margin requirements.
 
-### Aspect Ratio Matrix
-* **3:1 to 2.5:1 (Ultra-Wide Banners):** Demands horizontal 3-zone linear composition (Left Hook / Center Focus / Right Action) or strong central anchor flanked by balanced content blocks.
-* **1:1 (Square Backdrops/Posters):** Requires radial or centered focal symmetry, strong central branding, and structured perimeter or corner information modules.
-* **1:1.414 / 1:2 (Vertical Posters & Roll-Up Banners):** Demands a vertical top-to-bottom stack: Primary Brand Header (Top 25%), Hero Visual/Content Display (Middle 50%), Contact & Action Terminal (Bottom 25%).
-* **1:3.5 (Feather Flags / Wind Banners):** Requires vertical text stacking, ultra-bold compressed display fonts, and strong visual weight concentrated in the upper two-thirds to counteract bottom flag motion.
+### Canvas Shape & Visibility
+* **Dominant Axis:** The long axis of the canvas sets the primary reading direction and the natural flow of zones. Near-equal axes call for a centered or radial organization instead of a directional flow.
+* **Visibility Map:** Determine which regions of the canvas are reliably seen and which are compromised by mounting, folds, trim, motion, eye-level or ground-level obstruction, or surrounding structure. Concentrate high-tier weight in reliable regions and keep critical content out of compromised ones.
+* **Commitment to the Axis:** The more extreme the ratio, the more the composition must commit to its axis, with elements, type, and weight following it.
+* **Non-Standard Formats:** For any other shape or construction (unconventional ratios, multi-panel, folded, wraparound, non-rectangular, dimensional), treat each independently seen face as its own canvas and design the continuity between faces.
 
 ### Physical Scale & Legibility Floor
 Aspect ratio describes shape; physical dimensions and viewing distance determine how large content must actually be.
-* **Legibility Floor:** For a given viewing distance, every element has a minimum physical size below which it stops being readable; this floor grows in proportion to distance. Derive it from the physical dimensions and the distance at which each element is meant to be read, never from canvas proportion.
-* **Scale Relationship:** Compare the floor-sized content footprint to the canvas. On small formats the floor consumes most of the area, so content is constrained. On large formats the floor occupies a small share of the area, so a large surplus exists. Surplus area is not a reason to enlarge lower-priority content.
-* **Distance Layering:** Large formats are often read at more than one distance (approach and close). Size each element for the distance at which it is meant to be read.
+* **Legibility Floor (a lower bound, never a target):** Each element has a minimum physical size below which it stops being readable at the distance from which it is actually read. Derive it from the physical dimensions and that distance, never from canvas proportion. Any size at or above the floor is functionally legible; where within that range an element sits is decided by hierarchy and balance.
+* **Distance Belongs to the Tier:** Viewing distance does not apply equally to every element. The farthest distance sets the size demanded by Tier 1 only. Tier 2 is read while approaching. Tier 3 is read by a reader who has chosen to engage, at the distance that reader then adopts.
+* **Scale Relationship:** Compare the floor-sized content footprint to the canvas. On large media the floor is far below what the canvas can hold, so lower-tier elements can sit near their floors without losing function, and the headroom belongs to Tier 1 scale and negative space. On small media the floor binds, so every element must remain readable at its floor and content is constrained.
+* **Distance Layering:** Large media are often read at more than one distance. Size each element for the distance at which it is meant to be read.
 
 ---
 
@@ -82,6 +78,7 @@ Brief inputs combine non-negotiable requirements with soft preferences. The desi
    * Stated Prices or Price Hooks
    * Exact Contact Details (Phone, WhatsApp, Instagram, Physical Address)
    * Explicit Badges or Trust Claims
+   * Any other copy or element the brief supplies or designates as required
    * *Rule:* Every piece of hard content provided in the brief MUST appear in the final prompt logic. Never drop, truncate, or alter hard copy unless reformatting for visual density.
 
 2. **Soft Preferences (Directional Guidance):**
@@ -89,31 +86,32 @@ Brief inputs combine non-negotiable requirements with soft preferences. The desi
    * *Rule:* Evaluate soft preferences against design principles. Synthesize them if they reinforce brand goals; adjust or refine them if they create visual conflict or compromise print legibility.
 
 3. **Content Density Management:**
-   * High copy volume in constrained spaces requires grouping related data into **visual containers** (badges, ribbons, distinct color-blocked modules, rule-lined grids) rather than shrinking text into unreadable sizes.
+   * High copy volume in constrained spaces requires grouping related data into **visual containers** rather than shrinking text below its legibility floor.
 
 4. **Attention Tiering (Reading Priority):**
    * After categorizing, rank every content element by *when the reader needs it*, not by what type of element it is:
-     * **Tier 1 — Glance:** What must register at full viewing distance within the available reading time: the brand identity and the single message anchor (USP).
+     * **Tier 1 — Glance:** What must register at full viewing distance within the available reading time: the primary identity and the single message anchor that serves the objective.
      * **Tier 2 — Scan:** Supporting content that builds interest while the reader approaches.
-     * **Tier 3 — Deliberate:** Reference details needed only after the reader has decided to act.
+     * **Tier 3 — Deliberate:** Reference details needed only after the reader has decided to engage or act.
    * *Rule:* Tier is decided by an element's role in this brief's decision path, not by its category. Visual weight (scale, contrast, chroma, area) is a budget allocated in descending order by tier; a lower tier never out-weighs a higher one, and raising one element's weight is paid for by others.
+   * *Rule:* Tier 3 content must be legible, not noticeable. It is never boosted for recognition at a glance.
    * *Rule:* The reading time from Section 1 limits how many Tier 2 elements can be carried; surplus Tier 2 content is grouped into containers or demoted.
 
 ---
 
 ## 4. Regional & Local Market Dynamics (UMKM Contexts)
 
-When designing for local micro, small, and medium enterprises (UMKM) and vibrant street-level commercial environments (e.g., Southeast Asian / Indonesian market contexts), specific environmental factors dictate design execution:
+When designing for local micro, small, and medium enterprises (UMKM) and vibrant street-level commercial environments (e.g., Southeast Asian / Indonesian market contexts), specific environmental factors shape design execution. Apply each only where it holds for the brief:
 
 ### 1. Street-Level Visual Competition
 * **Visual Density:** Commercial streets, food centers, and traditional markets (*pasar*) present intense visual clutter (competing signs, overhead wires, varied lighting). 
-* **Design Response:** Print pieces require heavy outer framing, high-chroma primary boundaries, thick dark-edged typography, and simplified background shapes to isolate the design from its surrounding physical environment.
+* **Design Response:** The piece must separate itself from its surroundings through contrast, a simplified background structure, and clear boundaries. The means follow the brand's own identity (Phase 2) rather than a prescribed treatment.
 
 ### 2. Value Communication & Trust Signals
-* **Immediate Price Anchoring:** In price-sensitive markets, prominent badges stating starting prices (e.g., *"Mulai Rp..."*) operate as vital visual hooks rather than secondary details.
-* **Trust & Quality Badges:** Local trust markers (e.g., *"100% Halal," "Resep Warisan," "Gratis Antar-Jemput," "Garansi 30 Hari"*) require dedicated badge geometry (bursts, seals, ribbon frames) to signal authenticity instantly.
-* **Direct Mobile Action:** WhatsApp handles and Instagram usernames serve as primary conversion channels and must be grouped with recognizable, high-visibility vector icons. They are used after the hook has landed, so they are sized to the legibility floor and kept subordinate in weight unless contact itself is the brief's message anchor.
+* **Price Anchoring:** Where price is a decision driver for the local audience, price hooks operate as primary visual hooks rather than secondary details. Where it is not, they follow their tier.
+* **Trust & Quality Signals:** Trust and quality claims supplied by the brief need a distinct container or treatment so they read instantly as claims of authenticity. Their weight follows their tier.
+* **Direct Mobile Action:** WhatsApp handles and Instagram usernames serve as primary conversion channels and must be grouped with recognizable icons. They are used after the hook has landed, so they are sized to the legibility floor and kept subordinate in weight unless contact itself is the brief's message anchor.
 
 ### 3. Cultural Authenticity vs. Modern Polish
-* **Preserving Heritage:** Traditional food, craft, or service businesses (e.g., Bakso, Jamu, Batik) must communicate mastery and authenticity without appearing outdated or unhygienic.
-* **Modern Refinement:** Combine heritage visual motifs (woodcut textures, arch shapes, traditional color accents) with clean grid structures, vector linework, and sharp typographic hierarchy to project professional reliability.
+* **Preserving Heritage:** Traditional food, craft, or service businesses must communicate mastery and authenticity without appearing outdated or unhygienic.
+* **Modern Refinement:** Combine heritage cues drawn from the brand's own heritage with contemporary structure and a sharp typographic hierarchy to project professional reliability.
