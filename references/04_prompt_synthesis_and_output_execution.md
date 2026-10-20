@@ -28,6 +28,8 @@ SPATIAL RELATIONSHIPS  (position, proportion, hierarchy, containment)
 * **Specify decisions, not judgments:** Every statement names what something is, where it sits, and how it relates to its neighbors. A statement that only assesses quality gives the model nothing to execute.
 * **Terminology from the discipline:** Draw on the full breadth of professional design, typography, art-historical, and print-production knowledge, and choose the term that most exactly names the intended decision. Compose the wording fresh for each brief; never reuse stock phrasing across briefs.
 * **Cover every layer:** Layout structure, typography, color roles, and rendering technique each carry a concrete decision in the prompt.
+* **Directive only:** Every phrase is a visual directive. The prompt carries decisions, never the rationale, justification, or intent behind them.
+* **English with literal contents:** The prompt is written in English. Only literal hard content (brand name, copy, prices, contact details, addresses, other supplied strings) stays verbatim in its original language, in quotation marks.
 
 ---
 
@@ -73,7 +75,7 @@ When generating the final prompt output, assemble the deconstructed design decis
 
 ### Execution Protocol Steps
 
-1. **Header Block Assembly:** State aspect ratio, physical media type, full brand name, the brand theme and personality, selected design movement, and the palette's roles, hues, and proportions.
+1. **Header Block Assembly:** State aspect ratio, physical media type, full brand name, the brand theme and personality as a direct visual directive, selected design movement, and the palette's roles, hues, and proportions.
 2. **Primary Logo Mark & Branding:** Detail the emblem/wordmark geometry, how it embodies the theme and personality, typography style, descriptor, and structural isolation mechanics.
 3. **Composition & Layout Zoning:** Map the physical canvas into distinct spatial zones derived from its dominant axis, visibility, and content groups, aligned to the target reading distance. Place every element, including the tagline, by attention tier and balance, with relative sizes calibrated to the physical scale.
 4. **Visual Elements & Rendering Technique:** Detail product displays, hero visuals, the representation mode and expressive character of each visual layer, and line-weight parameters.
@@ -89,6 +91,8 @@ Before emitting the final expanded prompt, execute a final cognitive audit:
 * [ ] **Hard Copy Fidelity:** Is every brand name, menu item, price, phone number, address, and trust badge from the brief explicitly included in the prompt text without alterations?
 * [ ] **Zero Added Hallucinations:** Did you avoid inserting extra menu items, fake prices, or unrequested social handles?
 * [ ] **Open Choice:** Were the design movement, mark architecture, and layout derived from the brief's principles, rather than from the first conventional fit or a listed category?
+* [ ] **Contextual Fit:** Does the aesthetic register (finish, formality, realism, production character) belong natively in the placement context, with positioning expressed through signals that setting can carry and distinction coming from a differentiator within its range?
+* [ ] **Language & Directness:** Is the entire prompt in English except literal hard content, and is every phrase, including the theme line, a direct visual directive with no rationale?
 * [ ] **Theme Coherence:** Is one specific theme and personality stated, embodied first and most fully in the logo mark, and traceable through every other layer at an intensity set by its tier, without altering hard content?
 * [ ] **Semantic Density:** Are all visual instructions expressed in professional design, art history, and print production terminology?
 * [ ] **Attention Balance:** Does visual weight follow the attention tiers across every dimension (scale, color relationship, placement, isolation), with ornament and lower-tier elements recessive in color and position rather than sharing the hero's, weight distributed across the canvas rather than clustered, and the tagline and contact information placed by role rather than by habit?

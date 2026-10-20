@@ -16,9 +16,9 @@ A universal, principle-based system for translating business briefs, brand ident
 This framework operates on **strategic authority without execution micro-management**. It bridges high-level brand strategy and generative AI vision models through four core axioms:
 
 1. **Principle-Driven Strategy:** Design decisions must emerge from structural analysis—media specs, viewing distance, business positioning, target psychology—never from static lookup tables, stock aesthetics, or predefined industry-to-style mappings.
-2. **Distinctive Visual Autonomy:** Every output must possess a clear, non-generic design identity, anchored in one brand theme and personality that unifies every layer, with distinct form language, color logic, and typographic personality tailored to the specific business context. Each visual layer is its own deliberate, brief-specific choice, and functional legibility never dictates stylistic intensity.
+2. **Distinctive Visual Autonomy:** Every output must possess a clear, non-generic design identity, anchored in one brand theme and personality that unifies every layer, with distinct form language, color logic, and typographic personality tailored to the specific business context. It must stand out from its neighbors while belonging natively to its placement context. Each visual layer is its own deliberate, brief-specific choice, and functional legibility never dictates stylistic intensity.
 3. **Semantic Density over Micro-Management:** Prompts communicate high-level concept, visual movement, composition, color palette, logo architecture, and spatial hierarchy using precise professional design terminology. Detailed pixel-level rendering and micro-textures are deliberately left to the generative vision model's creative interpretation.
-4. **Contextual & Physical Reality:** Print design exists in physical space. Layouts must account for aspect ratio, viewing distance, ambient visual noise, exposure time, and physical media substrate. Visual weight, carried by scale, color, placement, and isolation together, is distributed by reader attention (what is read at a glance vs. only on closer reading), and element sizes are calibrated to the physical scale of the medium rather than to canvas proportion or a single viewing distance.
+4. **Contextual & Physical Reality:** Print design exists in physical space. Layouts must account for aspect ratio, viewing distance, ambient visual noise, exposure time, physical media substrate, and placement context (the setting, host surface, and surroundings the piece lives in). Visual weight, carried by scale, color, placement, and isolation together, is distributed by reader attention (what is read at a glance vs. only on closer reading), and element sizes are calibrated to the physical scale of the medium rather than to canvas proportion or a single viewing distance.
 
 **Open-set rule:** Every list, category, ratio, or reference value in this skill describes a principle or a tendency along a continuum, never a closed set. Derive decisions from the principle. When a brief falls outside or between listed cases, extend the principle instead of forcing a fit.
 
@@ -48,11 +48,11 @@ When processing a brief, follow this sequential 5-phase cognitive pipeline:
 ### Phase Details & Reference Modules
 
 * **Phase 1: Strategic Brief Deconstruction**
-  Deconstruct the business domain, communication objective, media substrate, aspect ratio, primary viewing distance, reading time, and mandatory content elements. Rank every content element into an attention tier (glance / scan / deliberate) and derive the legibility floor from physical size and the distance at which each tier is read. Capture what is distinctive about the business, product, name, and audience as raw material for the theme.
+  Deconstruct the business domain, communication objective, media substrate, placement context and its contextual register, aspect ratio, primary viewing distance, reading time, and mandatory content elements. Rank every content element into an attention tier (glance / scan / deliberate) and derive the legibility floor from physical size and the distance at which each tier is read. Capture what is distinctive about the business, product, name, and audience as raw material for the theme.
   *(See detailed execution guidance in `references/01_strategic_analysis_and_deconstruction.md`)*
 
 * **Phase 2: Brand Theme & Visual Identity Synthesis**
-  First establish the brand's theme and personality, derived from the business, product, USP, audience, and name, and convey it first in the logo mark. Then determine the exact design movement or tradition that serves it, drawn from the full range of design history and practice, including hybrids. Define form language, edge behavior, the representation mode and expressive character of each visual layer, the palette's roles, size, and combination keyed to the attention tiers, and independent logo mark architecture.
+  First establish the brand's theme and personality, derived from the business, product, USP, audience, name, and placement context, and convey it first in the logo mark. Then determine the exact design movement or tradition that serves it and belongs natively in its placement context, drawn from the full range of design history and practice, including hybrids. Define form language, edge behavior, the representation mode and expressive character of each visual layer, the palette's roles, size, and combination keyed to the attention tiers, and independent logo mark architecture.
   *(See detailed execution guidance in `references/02_visual_identity_and_style_synthesis.md`)*
 
 * **Phase 3: Spatial Architecture & Layout Grid**
@@ -64,7 +64,7 @@ When processing a brief, follow this sequential 5-phase cognitive pipeline:
   *(See detailed execution guidance in `references/04_prompt_synthesis_and_output_execution.md`)*
 
 * **Phase 5: Boundary & Quality Verification**
-  Audit the prompt against negative constraints: ensure zero fluff/buzzwords, verify all required copy is explicitly represented, confirm no added/invented items exist, verify the prompt directs rather than micro-manages, and confirm attention balance, scale calibration, element-level distinctiveness, theme coherence, and non-templated placement.
+  Audit the prompt against negative constraints: ensure zero fluff/buzzwords, verify all required copy is explicitly represented, confirm no added/invented items exist, verify the prompt directs rather than micro-manages, and confirm attention balance, scale calibration, element-level distinctiveness, theme coherence, contextual fit, and non-templated placement.
   *(The Verification Checklist for this phase is in Section 5 of `references/04_prompt_synthesis_and_output_execution.md`)*
 
 ---
@@ -75,7 +75,7 @@ When executing specific phases of the workflow, refer to these foundational docu
 
 | File Path | Functional Domain |
 | :--- | :--- |
-| `references/01_strategic_analysis_and_deconstruction.md` | Brief analysis, communication objective, canvas shape and visibility, physical scale and legibility floor, viewing contexts, content filtering, attention tiering, and local market dynamics (including Indonesian UMKM context). |
+| `references/01_strategic_analysis_and_deconstruction.md` | Brief analysis, communication objective, placement context, canvas shape and visibility, physical scale and legibility floor, viewing contexts, content filtering, attention tiering, and local market dynamics (including Indonesian UMKM context). |
 | `references/02_visual_identity_and_style_synthesis.md` | Brand theme and personality, movement identification, shape language, color system architecture and palette size, and standalone logo mark strategy. |
 | `references/03_compositional_architecture_and_spatial_systems.md` | Zoning derivation, typographic hierarchy, visual eye-tracking flow, negative space, attention balance, scale-aware sizing, and placement logic. |
 | `references/04_prompt_synthesis_and_output_execution.md` | Prompt precision principles, exclusion of generic language, boundary control, output construction, and verification. |
@@ -87,7 +87,7 @@ When executing specific phases of the workflow, refer to these foundational docu
 The framework's final deliverable must ALWAYS be a single, self-contained, semantically dense prompt structured according to the following standard template:
 
 ```
-[Aspect Ratio] [Physical Media Type / Medium] for "[Brand Name]", [Brand Theme & Personality: one concrete creative idea], [Specific Visual Design Movement / Tradition], [Color Palette Architecture: the color roles, the hues chosen for them, and their proportions]. [Form Language, Edge Behavior, and Overall Aesthetic Tone].
+[Aspect Ratio] [Physical Media Type / Medium] for "[Brand Name]", [Brand Theme & Personality: the single creative idea as direct visual direction only (what it is, and the visible character and atmosphere it dictates), with no rationale], [Specific Visual Design Movement / Tradition], [Color Palette Architecture: the color roles, the hues chosen for them, and their proportions]. [Form Language, Edge Behavior, and Overall Aesthetic Tone].
 
 PRIMARY LOGO MARK & BRANDING:
 [Detailed description of central mark/wordmark architecture, how it embodies the theme and personality, typography style, enclosure or open construction, and sub-descriptors. Ensure mark remains structurally independent of background elements].
@@ -111,5 +111,6 @@ TECHNICAL & EXECUTION CONSTRAINTS:
 
 1. **Output Raw Prompt Only:** When generating the final response after applying the framework, output *only* the single expanded prompt block unless explicitly requested otherwise.
 2. **Never Invent Contents:** Strictly enforce all hard contents (text copy, phone numbers, addresses, menu items, prices, and any other required element) provided in the user brief. Never omit required text or insert extra items.
-3. **No Meta-Commentary or Fluff:** Exclude introductory conversational filler, self-congratulatory praise, and vague or evaluative descriptions that carry no visual instruction. Use objective, observable visual terminology.
+3. **No Meta-Commentary or Fluff:** Exclude introductory conversational filler, self-congratulatory praise, and vague or evaluative descriptions that carry no visual instruction. Use objective, observable visual terminology. Every phrase in the prompt is a visual directive; reasoning, justification, and intent statements stay out.
 4. **Preserve Generative Freedom:** Specify structural visual strategy, spatial relationships, and aesthetic parameters, but allow the target image-generation model to execute fine line rendering, lighting falloff, and organic textures naturally.
+5. **English Output:** Write the entire prompt in English, whatever language the brief uses. Only literal hard content (brand name, copy, prices, contact details, addresses, and any other supplied string) is reproduced verbatim in its original language, placed in quotation marks; all descriptions, directions, and labels are English.

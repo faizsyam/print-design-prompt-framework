@@ -35,7 +35,7 @@ Every print design brief contains structural variables that govern visual priori
 ```
 
 ### 1. Business Domain, Market Positioning & Objective
-* **Positioning:** Positioning is a spectrum across several axes (price accessibility, exclusivity, formality, audience, emotional register), not a fixed set of tiers; most brands sit between or across them. Resolve where the brand sits on each axis from the brief. The more price or value is the audience's decision driver, the more immediate price visibility and strong contrast are required. The more perceived quality, craft, or exclusivity is the driver, the more restraint, negative space, refined scale, subtle texture, and material authenticity carry the message. Intermediate positions blend these.
+* **Positioning:** Positioning is a spectrum across several axes (price accessibility, exclusivity, formality, audience, emotional register), not a fixed set of tiers; most brands sit between or across them. Resolve where the brand sits on each axis from the brief. The more price or value is the audience's decision driver, the more immediate price visibility and strong contrast are required. The more perceived quality, craft, or exclusivity is the driver, the more restraint, negative space, refined scale, subtle texture, and material authenticity carry the message. Intermediate positions blend these. Positioning is expressed through signals the setting can credibly carry (see Placement Context & Contextual Register), not through the visual register of a different setting.
 * **Communication Objective:** Identify the single outcome the piece exists to produce in the reader, as implied by the brief. The objective, not the business category, decides which content is primary and whether conversion elements (price hooks, calls to action) belong in the hierarchy at all.
 * **Core Value Proposition (USP):** Isolate the single visual or message anchor that differentiates the business from competitors.
 * **Distinctive Substance:** Capture what is distinctive about the business, product, brand name, and audience (origin, craft, sensory qualities, meaning, identity). This is the raw material for the brand theme in Phase 2 (`02`, Section 1).
@@ -62,6 +62,16 @@ Aspect ratio describes shape; physical dimensions and viewing distance determine
 * **Distance Belongs to the Tier:** Viewing distance does not apply equally to every element. The farthest distance sets the size demanded by Tier 1 only. Tier 2 is read while approaching. Tier 3 is read by a reader who has chosen to engage, at the distance that reader then adopts.
 * **Scale Relationship:** Compare the floor-sized content footprint to the canvas. On large media the floor is far below what the canvas can hold, so lower-tier elements can sit near their floors without losing function, and the headroom belongs to Tier 1 scale and negative space. On small media the floor binds, so every element must remain readable at its floor and content is constrained.
 * **Distance Layering:** Large media are often read at more than one distance. Size each element for the distance at which it is meant to be read.
+
+### Placement Context & Contextual Register
+A piece lives in a place. The setting determines what looks native and what looks out of place, so read the setting before choosing any direction:
+* **Setting:** The kind of place the business occupies, its formality, and what a visitor expects of it.
+* **Host & Surroundings:** What the piece is mounted on or in front of (material, color, form, condition), the neighboring signage, architecture, and competing media, and the ambient light and the times it is viewed.
+* **Audience State:** What the viewer is doing, how fast, and in what frame of mind when the piece is encountered, and the cultural and local codes through which they read it.
+* **Production & Lifespan:** The print process, substrate, finish, weather exposure, expected durability, and whether the piece is permanent or temporary. The design must look right as produced on that substrate, not only as imagined.
+* **Adjacent Touchpoints:** Other brand surfaces the piece sits beside or must align with.
+* **Contextual Register:** From the above, derive the range of finish, formality, realism, and production character that looks native in this setting. Positioning, theme, and style are expressed inside that range. Perceived quality is carried by restraint, craft, clarity, and consistency, which work in any register, whereas cues imported from another setting read as out of place even when they look refined.
+* **Belonging and Distinction:** The piece must belong to its setting and stand apart from its neighbors. Distinction comes from a clear differentiator within the setting's range (idea, color relationship, form, or voice), never from adopting a register the setting does not carry.
 
 ---
 

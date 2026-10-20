@@ -15,9 +15,9 @@ A theme is a single, concrete creative idea that gives the brand an ownable iden
 
 ### 2. Deriving the Theme
 Build it from the understanding gathered in Phase 1 rather than choosing it from a menu:
-* **Raw material:** What is distinctive in the business (origin, craft, process, place), the product (essence and sensory qualities), the USP, the brand name (its meaning, sound, and anything it contains), the audience (who they are, what they identify with and respond to), and the local and cultural context.
+* **Raw material:** What is distinctive in the business (origin, craft, process, place), the product (essence and sensory qualities), the USP, the brand name (its meaning, sound, and anything it contains), the audience (who they are, what they identify with and respond to), the local and cultural context, and the placement context and its contextual register (`01`).
 * **Intersection:** Find the point where these overlap that only this brand can claim. An idea any competitor could adopt unchanged is not ownable.
-* **Statement:** Express the result as one core idea plus a personality, specific enough to settle later questions about this brand's typography, decoration, color, and boundaries.
+* **Statement:** Express the result as one core idea plus a personality, specific enough to settle later questions about this brand's typography, decoration, color, and boundaries. In the prompt it appears only as direct visual direction (what it is, and the visible character and atmosphere it dictates), never as rationale.
 
 ### 3. Embodiment & Cascade
 * **The mark first:** The logo mark is the purest and fullest statement of the theme. It conveys the theme and personality before any other element does.
@@ -25,7 +25,7 @@ Build it from the understanding gathered in Phase 1 rather than choosing it from
 * **Visual language only:** The theme shapes how things look. It never adds, removes, or alters hard content.
 
 ### 4. Tests
-A theme is accepted when it is **Specific** (no competitor could adopt it unchanged), **Derived** (traceable to the brief), **Generative** (it settles later choices instead of leaving them open), **Singular** (one dominant idea, with any supporting facets clearly subordinate), and **Fitting** (it serves the objective, the audience, and legibility at the medium's distances).
+A theme is accepted when it is **Specific** (no competitor could adopt it unchanged), **Derived** (traceable to the brief), **Generative** (it settles later choices instead of leaving them open), **Singular** (one dominant idea, with any supporting facets clearly subordinate), and **Fitting** (it serves the objective, the audience, and legibility at the medium's distances, belongs natively in its placement context, and stands apart from its neighbors).
 
 ---
 
@@ -49,9 +49,9 @@ Rather than using generic aesthetic labels, visual style selection requires iden
 ```
 
 ### 1. Evaluating Design Movements
-The selectable range is the full breadth of design history and contemporary practice: named movements, regional and vernacular traditions, craft and print techniques, period styles, and coherent hybrids or invented directions. No part of that range is reserved for a type of business. Derive the choice from the theme and personality (Section 1) first, then from the intersection of the brand's positioning, the communication objective, the audience, the medium's reading distance and exposure, and the physical environment.
+The selectable range is the full breadth of design history and contemporary practice: named movements, regional and vernacular traditions, craft and print techniques, period styles, and coherent hybrids or invented directions. No part of that range is reserved for a type of business. Derive the choice from the theme and personality (Section 1) first, then from the intersection of the brand's positioning, the communication objective, the audience, the medium's reading distance and exposure, and the placement context and its contextual register (`01`).
 * **Diverge before converging:** Consider several candidates that differ meaningfully before settling. Do not default to the most conventional pairing of business type and style.
-* **Test each candidate:** It must serve the theme, fit the brief, be distinctive to this brand, remain effective at the medium's reading distances, and be specifiable in concrete, observable traits.
+* **Test each candidate:** It must serve the theme, fit the brief, belong natively in its placement context, be distinctive to this brand among its neighbors, remain effective at the medium's reading distances, and be specifiable in concrete, observable traits.
 * **Combine only with a dominant voice:** A hybrid is valid when the result is coherent and one tradition clearly leads.
 
 ### 2. Defining Observable Visual Characteristics
@@ -63,8 +63,8 @@ Once a movement is selected, articulate its execution through four concrete visu
 
 ### 3. Per-Layer Expression & Representation Spectrum
 A style is not one setting applied to the whole piece. Decide each visual layer separately (the primary visual, typography, ornament and decoration, background, the treatment of edges and boundaries, and any other layer present) and for each decide:
-* **Representation Mode:** Its position on the continuum from literal capture to full abstraction. Layers may sit at different positions, and hybrids are valid when the result reads as one intentional voice.
-* **Expressive Character:** Its intensity, energy, finish, and polish, across the full range from restrained to loud, derived from the brand and the objective.
+* **Representation Mode:** Its position on the continuum from literal capture to full abstraction. Layers may sit at different positions, and hybrids are valid when the result reads as one intentional voice. Positioning does not fix the mode; any positioning can be expressed at any point on the continuum that suits the placement context.
+* **Expressive Character:** Its intensity, energy, finish, and polish, across the full range from restrained to loud, derived from the brand, the objective, and the placement context.
 * **Coherence:** Layers are unified by the theme and personality (Section 1) and the movement's underlying logic, not by identical treatment. Each layer interprets the theme at an intensity set by its tier.
 * **Legibility vs. Character:** Legibility is a functional requirement met through size, value contrast, and shape clarity. It does not require heavy linework, saturation, or illustrative boldness, and it never dictates stylistic character.
 
