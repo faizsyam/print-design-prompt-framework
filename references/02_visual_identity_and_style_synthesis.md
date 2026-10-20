@@ -20,8 +20,8 @@ Build it from the understanding gathered in Phase 1 rather than choosing it from
 * **Statement:** Express the result as one core idea plus a personality, specific enough to settle later questions about this brand's typography, decoration, color, and boundaries. In the prompt it appears only as direct visual direction (what it is, and the visible character and atmosphere it dictates), never as rationale.
 
 ### 3. Embodiment & Cascade
-* **The mark first:** The logo mark is the purest and fullest statement of the theme. It conveys the theme and personality before any other element does.
-* **Cascade by tier:** Every other layer (primary visual, typography, color, ornament, grouping and boundary treatment, background) interprets the theme at an intensity set by its attention tier. Tier 1 carries it most fully; lower tiers carry it more quietly and never compete with the mark's statement.
+* **The mark as canon:** The logo mark is the most concentrated and canonical statement of the theme, in its design rather than its size. Its scale and prominence are set by its tier like any element. When the mark is not Tier 1, the layers that carry Tier 1 carry the theme's atmosphere and the mark stays consistent with it.
+* **Cascade by tier:** Every other layer (any primary visual, typography, color, ornament, grouping and boundary treatment, background) interprets the theme at an intensity set by its attention tier. Tier 1 carries it most fully; lower tiers carry it more quietly and never compete with higher tiers.
 * **Visual language only:** The theme shapes how things look. It never adds, removes, or alters hard content.
 
 ### 4. Tests
@@ -62,11 +62,19 @@ Once a movement is selected, articulate its execution through four concrete visu
 4. **Texture & Print Material Fidelity:** Define paper and print characteristics that suit the substrate and the reading distance.
 
 ### 3. Per-Layer Expression & Representation Spectrum
-A style is not one setting applied to the whole piece. Decide each visual layer separately (the primary visual, typography, ornament and decoration, background, the treatment of edges and boundaries, and any other layer present) and for each decide:
+A style is not one setting applied to the whole piece. Decide each visual layer separately (the primary visual if one is used, typography, ornament and decoration, background, the treatment of edges and boundaries, and any other layer present) and for each decide:
 * **Representation Mode:** Its position on the continuum from literal capture to full abstraction. Layers may sit at different positions, and hybrids are valid when the result reads as one intentional voice. Positioning does not fix the mode; any positioning can be expressed at any point on the continuum that suits the placement context.
 * **Expressive Character:** Its intensity, energy, finish, and polish, across the full range from restrained to loud, derived from the brand, the objective, and the placement context.
 * **Coherence:** Layers are unified by the theme and personality (Section 1) and the movement's underlying logic, not by identical treatment. Each layer interprets the theme at an intensity set by its tier.
 * **Legibility vs. Character:** Legibility is a functional requirement met through size, value contrast, and shape clarity. It does not require heavy linework, saturation, or illustrative boldness, and it never dictates stylistic character.
+
+### 4. Pictorial Subject Design
+Applies only when Phase 1 admitted a pictorial subject (`01`, Section 3.5). Decide in this order:
+1. **Subject:** What it depicts, derived from the theme and the brief's supplied content. It never implies offers or items the brief does not supply.
+2. **Complexity:** Its detail, element count, and rendering depth, set by its role, its reading distance, and the information load it shares the canvas with. The lower its tier or the heavier the content load, the simpler it is; the more it stands as the sole focus and is read from afar, the more it can carry while still resolving as one clear form. Detail that cannot be resolved at its reading distance is noise.
+3. **Style:** Chosen to work at that level of complexity and to serve the theme, the representation mode of the other layers (Section 2.3), and the contextual register of the placement context (`01`). A simple subject needs a style that holds at low detail; a complex one needs a style that stays coherent at high detail.
+
+Role, scale, and placement follow in Phase 3 (`03`, Section 5.4).
 
 ---
 
@@ -115,12 +123,12 @@ The **60-30-10 structural color ratio** is the baseline proportion hierarchy for
 
 ## 4. Brand Mark Strategy & Visual Autonomy
 
-The primary logo mark is the central anchor of brand identity. It must maintain **structural autonomy**—standing apart as a distinct visual asset while harmonizing with the overall print composition.
+The primary logo mark is the canonical anchor of brand identity; its prominence on the piece is a tier decision, from dominant to minimal. It must maintain **structural autonomy**—standing apart as a distinct visual asset while harmonizing with the overall print composition.
 
 ### 1. Autonomy & Independence Principle
 * **Context Isolation:** The main logo mark must never depend on product illustrations, background photography, or seasonal props to be recognizable.
 * **Iconographic Independence:** Avoid literal visual duplication between the logo and specific product offerings. The logo represents the *institution*, not a single product variant.
-* **Theme Embodiment:** The mark is the first and fullest statement of the brand theme and personality (Section 1), carrying it independently of any product illustration.
+* **Theme Embodiment:** The mark is the most concentrated statement of the brand theme and personality (Section 1), carrying it independently of any product illustration and of its scale on the piece.
 
 ### 2. Structural Mark Architectures
 Derive the logo lockup from three decisions, in light of the theme and the medium's reading distance:
@@ -135,4 +143,4 @@ Organize the logo mark into two clear internal visual tiers:
 1. **Primary Brand Wordmark:** The dominant element of the mark by scale and presence, with weight and contrast as the chosen movement expresses them.
 2. **Category Descriptor:** Clean, highly legible secondary text directly below or framed within the brand mark.
 
-**Tagline / Quality Statement (independent element):** The tagline is not a fixed third tier of the mark. It is a supporting element whose placement is decided in Phase 3 by compositional balance. It may attach to the mark when the mark needs more weight or the format is compact; otherwise it is placed in another zone where it counterweights the mark and supports the hero.
+**Tagline / Quality Statement (independent element):** The tagline is not a fixed third tier of the mark. It is a supporting element whose placement is decided in Phase 3 by compositional balance. It may attach to the mark when the mark needs more weight or the format is compact; otherwise it is placed in another zone where it supports the reading path and the balance around the focal anchor.

@@ -76,9 +76,9 @@ When generating the final prompt output, assemble the deconstructed design decis
 ### Execution Protocol Steps
 
 1. **Header Block Assembly:** State aspect ratio, physical media type, full brand name, the brand theme and personality as a direct visual directive, selected design movement, and the palette's roles, hues, and proportions.
-2. **Primary Logo Mark & Branding:** Detail the emblem/wordmark geometry, how it embodies the theme and personality, typography style, descriptor, and structural isolation mechanics.
+2. **Primary Logo Mark & Branding:** Detail the emblem/wordmark geometry, its role and scale in the hierarchy, how it embodies the theme and personality, typography style, descriptor, and structural isolation mechanics.
 3. **Composition & Layout Zoning:** Map the physical canvas into distinct spatial zones derived from its dominant axis, visibility, and content groups, aligned to the target reading distance. Place every element, including the tagline, by attention tier and balance, with relative sizes calibrated to the physical scale.
-4. **Visual Elements & Rendering Technique:** Detail product displays, hero visuals, the representation mode and expressive character of each visual layer, and line-weight parameters.
+4. **Visual Elements & Rendering Technique:** Detail each pictorial subject admitted (subject, complexity, style, role, scale), or state that none is used, plus the representation mode and expressive character of each visual layer and line-weight parameters.
 5. **Background, Borders & Finish:** Define substrate textures, borders or their deliberate absence, decorative accents, or background pattern density.
 6. **Technical & Execution Constraints:** Enforce the layout and rendering rules suited to the medium and style, the legibility distance of each tier, and strict hard-content fidelity.
 
@@ -93,11 +93,13 @@ Before emitting the final expanded prompt, execute a final cognitive audit:
 * [ ] **Open Choice:** Were the design movement, mark architecture, and layout derived from the brief's principles, rather than from the first conventional fit or a listed category?
 * [ ] **Contextual Fit:** Does the aesthetic register (finish, formality, realism, production character) belong natively in the placement context, with positioning expressed through signals that setting can carry and distinction coming from a differentiator within its range?
 * [ ] **Language & Directness:** Is the entire prompt in English except literal hard content, and is every phrase, including the theme line, a direct visual directive with no rationale?
-* [ ] **Theme Coherence:** Is one specific theme and personality stated, embodied first and most fully in the logo mark, and traceable through every other layer at an intensity set by its tier, without altering hard content?
+* [ ] **Theme Coherence:** Is one specific theme and personality stated, embodied in the logo mark as its canonical statement, and traceable through every other layer at an intensity set by its tier, without altering hard content?
 * [ ] **Semantic Density:** Are all visual instructions expressed in professional design, art history, and print production terminology?
-* [ ] **Attention Balance:** Does visual weight follow the attention tiers across every dimension (scale, color relationship, placement, isolation), with ornament and lower-tier elements recessive in color and position rather than sharing the hero's, weight distributed across the canvas rather than clustered, and the tagline and contact information placed by role rather than by habit?
+* [ ] **Hierarchy Derivation:** Is the primary focus determined from the objective, reader's task, engagement mode, content structure, recognition already supplied, and style direction, with the logo mark's prominence (like every element's) set by its tier rather than assumed?
+* [ ] **Attention Balance:** Does visual weight follow the attention tiers across every dimension (scale, color relationship, placement, isolation), with ornament and lower-tier elements recessive in color and position rather than sharing the focal anchor's, weight distributed across the canvas rather than clustered, and the tagline and contact information placed by role rather than by habit?
 * [ ] **Deliberate Devices:** Is each grouping or separation device, representation mode, expressive character, and typographic and decorative voice a specific choice for this brief, including the choice of no boundary where none is needed?
+* [ ] **Pictorial Decision:** Is the pictorial subject justified by need (or deliberately absent), with its subject, complexity, style, role, scale, and placement derived from the content load, theme, tier, and placement context rather than assumed?
 * [ ] **Placement Logic:** Is every placement and group form (including contact information) derived from function, relationship, and counterweight, rather than repeated from a template?
-* [ ] **Scale Calibration:** Is each element sized within the band set by its legibility floor and its tier, with surplus canvas given to hero scale and negative space rather than to enlarged secondary content, and with Tier 3 information kept legible but unboosted?
+* [ ] **Scale Calibration:** Is each element sized within the band set by its legibility floor and its tier, with surplus canvas given to Tier 1 scale and negative space rather than to enlarged secondary content, and with Tier 3 information kept legible but unboosted?
 * [ ] **Distinctiveness:** Would any sentence in the prompt survive unchanged in a prompt for a different business? If so, rewrite it.
 * [ ] **Template Integrity:** Does the output strictly adhere to the universal template structure defined in `SKILL.md`?

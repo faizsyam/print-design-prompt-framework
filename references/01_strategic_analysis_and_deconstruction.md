@@ -98,16 +98,24 @@ Brief inputs combine non-negotiable requirements with soft preferences. The desi
 
 3. **Content Density Management:**
    * High copy volume in constrained spaces requires grouping related data (see `03`, Section 3) rather than shrinking text below its legibility floor.
+   * Space is allocated to required content at its legibility floor first. Anything beyond content (imagery, ornament) receives only the space that remains.
 
 4. **Attention Tiering (Reading Priority):**
    * After categorizing, rank every content element by *when the reader needs it*, not by what type of element it is:
-     * **Tier 1 — Glance:** What must register at full viewing distance within the available reading time: the primary identity and the single message anchor that serves the objective.
+     * **Tier 1 — Glance:** What must register first, at full viewing distance within the available reading time, for the piece to achieve its objective. The element that fills this role is determined, never assumed; the brand identity is Tier 1 only when establishing recognition is what the piece must do.
      * **Tier 2 — Scan:** Supporting content that builds interest while the reader approaches.
      * **Tier 3 — Deliberate:** Reference details needed only after the reader has decided to engage or act.
+   * *Rule (Focus Determination):* Decide the primary focus from the objective and the reader's task; the reader's mode of engagement and duration with the medium; the structure of the content (whether the content itself is the offering the reader must scan); how much recognition the setting and the audience's familiarity with the brand already supply (the more is supplied, the more identity can recede); and the weight distribution native to the chosen style direction. Set the tiering here and confirm it in Phase 3, once the theme, style, and pictorial decisions are known.
    * *Rule:* Tier is decided by an element's role in this brief's decision path, not by its category. Visual weight (scale, contrast, chroma, area) is a budget allocated in descending order by tier; a lower tier never out-weighs a higher one, and raising one element's weight is paid for by others. Weight is carried by several independent dimensions (scale, area, value contrast, hue and chroma distinctiveness, placement on the reading path, isolation by surrounding space, and detail density). Hierarchy must hold across them together: an element that is small but shares a higher tier's color, or occupies a prime position, still competes.
    * *Rule:* Purely ornamental elements carry no content tier. They rank below all content in weight and never compete with any tier.
    * *Rule:* Tier 3 content must be legible, not noticeable. It is never boosted for recognition at a glance.
    * *Rule:* The reading time from Section 1 limits how many Tier 2 elements can be carried; surplus Tier 2 content is grouped or demoted.
+
+5. **Pictorial Need (Optional Visual Subject):**
+   * A pictorial subject (product imagery, illustration, photography, or any depicted subject) is optional and never assumed. A piece can be carried entirely by typography, the mark, pattern, color, and composition.
+   * *Rule:* Admit one only when depicting the subject does work the other layers cannot (recognition, desire, comprehension, or atmosphere) within the reading time, and when the content load leaves room for it after required content is placed at its legibility floor.
+   * *Rule:* A pictorial subject is ranked like any content element, by its role in the decision path: it may be the Tier 1 anchor, a supporting Tier 2 element, ornament, or absent. The focal anchor is whichever Tier 1 element serves the objective, never the pictorial subject by default.
+   * *Rule:* The more information the piece must carry, the smaller or simpler the pictorial subject becomes, down to absent.
 
 ---
 

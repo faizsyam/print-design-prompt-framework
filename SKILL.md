@@ -48,15 +48,15 @@ When processing a brief, follow this sequential 5-phase cognitive pipeline:
 ### Phase Details & Reference Modules
 
 * **Phase 1: Strategic Brief Deconstruction**
-  Deconstruct the business domain, communication objective, media substrate, placement context and its contextual register, aspect ratio, primary viewing distance, reading time, and mandatory content elements. Rank every content element into an attention tier (glance / scan / deliberate) and derive the legibility floor from physical size and the distance at which each tier is read. Capture what is distinctive about the business, product, name, and audience as raw material for the theme.
+  Deconstruct the business domain, communication objective, media substrate, placement context and its contextual register, aspect ratio, primary viewing distance, reading time, and mandatory content elements. Rank every content element into an attention tier (glance / scan / deliberate), determining the primary focus from the objective, the reader's task, usage, content structure, and recognition already supplied (never assuming it), and derive the legibility floor from physical size and the distance at which each tier is read. Capture what is distinctive about the business, product, name, and audience as raw material for the theme. Assess whether the piece needs a pictorial subject at all, given the objective, content load, and reading time.
   *(See detailed execution guidance in `references/01_strategic_analysis_and_deconstruction.md`)*
 
 * **Phase 2: Brand Theme & Visual Identity Synthesis**
-  First establish the brand's theme and personality, derived from the business, product, USP, audience, name, and placement context, and convey it first in the logo mark. Then determine the exact design movement or tradition that serves it and belongs natively in its placement context, drawn from the full range of design history and practice, including hybrids. Define form language, edge behavior, the representation mode and expressive character of each visual layer, the palette's roles, size, and combination keyed to the attention tiers, and independent logo mark architecture.
+  First establish the brand's theme and personality, derived from the business, product, USP, audience, name, and placement context, and make the logo mark its canonical statement. Then determine the exact design movement or tradition that serves it and belongs natively in its placement context, drawn from the full range of design history and practice, including hybrids. Define form language, edge behavior, the representation mode and expressive character of each visual layer, the subject, complexity, and style of any pictorial subject admitted, the palette's roles, size, and combination keyed to the attention tiers, and independent logo mark architecture.
   *(See detailed execution guidance in `references/02_visual_identity_and_style_synthesis.md`)*
 
 * **Phase 3: Spatial Architecture & Layout Grid**
-  Divide physical canvas space into functional zones derived from the canvas's dominant axis, visibility, and content groups. Establish scale contrast ratios (>2:1), typographic hierarchy, visual anchors, and breathing room. Place each element (including the tagline) by attention tier and compositional balance, deriving every placement and group form from function, relationship, and counterweight instead of a template; express the hierarchy across every weight dimension (scale, color, placement, isolation), and size elements within the band set by their legibility floor and their tier.
+  Divide physical canvas space into functional zones derived from the canvas's dominant axis, visibility, and content groups. Establish scale contrast ratios (>2:1), typographic hierarchy, visual anchors, and breathing room. Confirm the tiering against the chosen style and pictorial decisions. Place each element (including the tagline) by attention tier and compositional balance, deriving every placement and group form from function, relationship, and counterweight instead of a template; express the hierarchy across every weight dimension (scale, color, placement, isolation), size elements within the band set by their legibility floor and their tier, and set the role, scale, and placement of any pictorial subject.
   *(See detailed execution guidance in `references/03_compositional_architecture_and_spatial_systems.md`)*
 
 * **Phase 4: Semantic Prompt Synthesis**
@@ -64,7 +64,7 @@ When processing a brief, follow this sequential 5-phase cognitive pipeline:
   *(See detailed execution guidance in `references/04_prompt_synthesis_and_output_execution.md`)*
 
 * **Phase 5: Boundary & Quality Verification**
-  Audit the prompt against negative constraints: ensure zero fluff/buzzwords, verify all required copy is explicitly represented, confirm no added/invented items exist, verify the prompt directs rather than micro-manages, and confirm attention balance, scale calibration, element-level distinctiveness, theme coherence, contextual fit, and non-templated placement.
+  Audit the prompt against negative constraints: ensure zero fluff/buzzwords, verify all required copy is explicitly represented, confirm no added/invented items exist, verify the prompt directs rather than micro-manages, and confirm attention balance, scale calibration, element-level distinctiveness, theme coherence, hierarchy derivation, contextual fit, pictorial-subject necessity, and non-templated placement.
   *(The Verification Checklist for this phase is in Section 5 of `references/04_prompt_synthesis_and_output_execution.md`)*
 
 ---
@@ -75,9 +75,9 @@ When executing specific phases of the workflow, refer to these foundational docu
 
 | File Path | Functional Domain |
 | :--- | :--- |
-| `references/01_strategic_analysis_and_deconstruction.md` | Brief analysis, communication objective, placement context, canvas shape and visibility, physical scale and legibility floor, viewing contexts, content filtering, attention tiering, and local market dynamics (including Indonesian UMKM context). |
-| `references/02_visual_identity_and_style_synthesis.md` | Brand theme and personality, movement identification, shape language, color system architecture and palette size, and standalone logo mark strategy. |
-| `references/03_compositional_architecture_and_spatial_systems.md` | Zoning derivation, typographic hierarchy, visual eye-tracking flow, negative space, attention balance, scale-aware sizing, and placement logic. |
+| `references/01_strategic_analysis_and_deconstruction.md` | Brief analysis, communication objective, placement context, canvas shape and visibility, physical scale and legibility floor, viewing contexts, content filtering, attention tiering, pictorial need, and local market dynamics (including Indonesian UMKM context). |
+| `references/02_visual_identity_and_style_synthesis.md` | Brand theme and personality, movement identification, shape language, color system architecture and palette size, pictorial subject design, and standalone logo mark strategy. |
+| `references/03_compositional_architecture_and_spatial_systems.md` | Zoning derivation, typographic hierarchy, visual eye-tracking flow, negative space, attention balance, scale-aware sizing, placement logic, and pictorial subject role, scale, and placement. |
 | `references/04_prompt_synthesis_and_output_execution.md` | Prompt precision principles, exclusion of generic language, boundary control, output construction, and verification. |
 
 ---
@@ -90,13 +90,13 @@ The framework's final deliverable must ALWAYS be a single, self-contained, seman
 [Aspect Ratio] [Physical Media Type / Medium] for "[Brand Name]", [Brand Theme & Personality: the single creative idea as direct visual direction only (what it is, and the visible character and atmosphere it dictates), with no rationale], [Specific Visual Design Movement / Tradition], [Color Palette Architecture: the color roles, the hues chosen for them, and their proportions]. [Form Language, Edge Behavior, and Overall Aesthetic Tone].
 
 PRIMARY LOGO MARK & BRANDING:
-[Detailed description of central mark/wordmark architecture, how it embodies the theme and personality, typography style, enclosure or open construction, and sub-descriptors. Ensure mark remains structurally independent of background elements].
+[Detailed description of mark/wordmark architecture, its role and relative scale in the hierarchy, how it embodies the theme and personality, typography style, enclosure or open construction, and sub-descriptors. Ensure mark remains structurally independent of background elements].
 
 COMPOSITION & LAYOUT ZONING:
-[Zonal structural breakdown derived from the canvas's dominant axis, visibility, and content groups. Define precise locations and relative scale for focal hook, product displays, tagline, information blocks, and action badges, assigned by attention tier and balance].
+[Zonal structural breakdown derived from the canvas's dominant axis, visibility, and content groups. Define precise locations and relative scale for focal anchor, any pictorial subject, tagline, information blocks, and action badges, assigned by attention tier and balance].
 
 VISUAL ELEMENTS & RENDERING TECHNIQUE:
-[Specific description of key visual/product offerings, the representation mode and expressive character chosen for each visual layer (primary visual, typography, decoration), shading or depth technique, line weight, and emphasis of key features where the concept calls for it].
+[Each pictorial subject admitted (subject, complexity, role), or a statement that none is used and the piece is carried by type, mark, and layout; the representation mode and expressive character chosen for each visual layer (primary visual, typography, decoration), shading or depth technique, line weight, and emphasis of key features where the concept calls for it].
 
 BACKGROUND, BORDERS & FINISH:
 [Background texture, borders or their deliberate absence, decorative motifs, pattern work, and edge treatments].
