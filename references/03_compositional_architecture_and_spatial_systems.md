@@ -32,9 +32,9 @@ Print readability depends on extreme scale contrast and disciplined font pairing
 ### 1. The Scale Contrast Ratio Principle (>2:1 Scale Jump)
 To create immediate visual order from a distance, the primary headline must maintain a **minimum 2:1 scale ratio** (ideally wider) over the next level, and every level steps down from the one above with clear contrast. Ratios are minimums that set relationships between levels; they are not size targets:
 * **Primary Display Headline / Brand Wordmark:** The top of the scale, sized for the farthest distance at which Tier 1 is read.
-* **Secondary Headers / Category Labels:** A clear step below the headline (bold, high-contrast, framed in containers or uppercase rules).
+* **Secondary Headers / Category Labels:** A clear step below the headline, in the weight and treatment the movement calls for.
 * **Body Copy / Detailed Descriptions:** Sized from its legibility floor (Section 5), in clean, high-legibility type with generous tracking. The ratio to the headline widens as the medium grows, because the headline scales with distance while body copy does not.
-* **Prices & Special Highlights:** Scaled independently by their tier, using priority color or solid containers.
+* **Prices & Special Highlights:** Scaled independently by their tier.
 
 ### 2. Typographic Personality Pairing Logic
 Never pair fonts with identical visual weight or personality traits. Enforce strict functional contrast:
@@ -67,9 +67,10 @@ Direct the viewer's eye sequentially through deliberate visual anchors and struc
 * **Z-Pattern Reading Flow:** The eye enters at top-left (Primary Brand), moves right to top-right (Key Badge), cuts diagonally down-left across the center hero visual, and terminates at bottom-right (Contact CTA).
 * **Focal Hub & Spoke Flow:** The eye lands first on the center hero graphic/emblem (Hub), then radiates outward to perimeter information modules (Spokes).
 
-### 2. Structural Information Containers
-* **Visual Framing & Color Blocking:** Group complex data into distinct containers whose form follows the movement's form language.
-* **Divider Rules & Ornamental Accents:** Separate information tiers with the lightest device that does the job, without creating visual clutter.
+### 2. Grouping & Separation of Information
+* **Group by relationship:** Related information is grouped through relationship cues: proximity, similarity, alignment, continuity, and common region. Enclosure is only one of these, and the heaviest.
+* **Lightest sufficient device:** Use the weakest cue that achieves the grouping or separation against the background and competing content. Every added device (enclosure, rule, field) adds weight that the tier budget must pay for, so none is applied by habit.
+* **Form follows concept:** Where a boundary is warranted, its form (edge, corner behavior, line quality, shape, or a change of field or texture) is derived from the movement's form language and the brand, never from a default shape. Absence of any boundary is a valid choice.
 
 ---
 
@@ -78,7 +79,7 @@ Direct the viewer's eye sequentially through deliberate visual anchors and struc
 Negative space is a structural design tool that ensures legibility and elevates brand perception.
 
 * **Macro Negative Space (Canvas Boundaries):** Maintain a margin buffer around outer edges, proportional to the canvas and sized to protect against trim, mounting, folds, and edge crowding. Never crowd text or critical logos against canvas borders.
-* **Micro Negative Space (Content Padding):** Maintain generous internal padding within containers, price badges, and textual blocks to prevent visual compression.
+* **Micro Negative Space (Content Padding):** Maintain generous internal padding within groups, badges, and textual blocks to prevent visual compression.
 * **Allocation Principle:** Total negative space is a continuous variable, not a category. It rises with quieter positioning, longer reading time, and surplus canvas relative to floor-sized content. It falls with fast-read, value-driven, high-density contexts and with small canvases where the floor binds. Derive it from these factors in combination, not from business type alone.
 * **Scale Modifier:** When floor-sized content leaves surplus canvas, the surplus becomes negative space and hero/Tier 1 scale, never larger secondary content.
 
@@ -91,10 +92,11 @@ Zones and ratios are only a skeleton. Final layout is resolved by the Attention 
 ### 1. Balance by Attention, Not by Element Type
 * **Tier 1** forms the dominant anchor(s). **Tier 2** elements are distributed to support and counterweight the anchor and to carry the eye along the reading pathway (Section 3), rather than being stacked beside it. **Tier 3** is consolidated into one compact, quiet block.
 * **Distribute weight:** Visual weight (mass, contrast, chroma) is balanced around the focal anchor across the canvas. Clustering many text elements into one zone creates a text dump and leaves other zones inert. Elements that belong together by meaning (such as the logo mark and its descriptor) stay together; elements that are merely the same kind of content do not have to.
-* **Weight ordering:** No element out-scales, out-contrasts, or out-chromas an element of a higher tier.
+* **Weight dimensions:** Scale is only one carrier of weight. Color relationship, placement on the reading path, proximity to the focal anchor, isolation, and detail density each transfer attention. A lower-tier element must be quieter than higher-tier elements across the dimensions in play; sharing a higher-tier element's color relationship or occupying a prime position competes with it unless other dimensions clearly subordinate it.
+* **Ornament:** Ornament has no content tier. It ranks below all content in weight, and its color relationships, scale, and placement stay recessive, supporting the composition without drawing the eye off the reading path.
 
 ### 2. Scale-Aware Sizing
 * **Size is a band, not a point:** Each element's size is bounded below by its legibility floor (at the distance its tier is actually read) and above by its tier (it never out-weighs a higher tier). Choose within the band by hierarchy and balance. Viewing distance never requires going above the floor for an element whose tier does not call for it.
 * **Large media:** The floor is small relative to the canvas, so lower-tier elements sit near their floors and stay compact. Tier 1 takes the scale its distance demands, and the headroom becomes negative space and hero presence. No element is enlarged merely because the canvas is large. Crowded layouts on a large canvas indicate sizing from canvas proportion instead of from the floor.
-* **Small media:** The floor binds. Keep every element readable at its floor, reduce element count, and group related content into containers instead of shrinking below the floor.
+* **Small media:** The floor binds. Keep every element readable at its floor, reduce element count, and group related content instead of shrinking below the floor.
 * **Tier 3 information:** It serves readers who have chosen to engage, so it needs legibility, not recognition. It is never scaled up to compete for attention.

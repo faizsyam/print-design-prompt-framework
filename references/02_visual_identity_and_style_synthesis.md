@@ -38,6 +38,13 @@ Once a movement is selected, articulate its execution through four concrete visu
 3. **Rendering & Shading Technique:** Define how depth and surface are rendered, including whether depth is present at all.
 4. **Texture & Print Material Fidelity:** Define paper and print characteristics that suit the substrate and the reading distance.
 
+### 3. Per-Layer Expression & Representation Spectrum
+A style is not one setting applied to the whole piece. Decide each visual layer separately (the primary visual, typography, ornament and decoration, background, the treatment of edges and boundaries, and any other layer present) and for each decide:
+* **Representation Mode:** Its position on the continuum from literal capture to full abstraction. Layers may sit at different positions, and hybrids are valid when the result reads as one intentional voice.
+* **Expressive Character:** Its intensity, energy, finish, and polish, across the full range from restrained to loud, derived from the brand and the objective.
+* **Coherence:** Layers are unified by the concept and the movement's underlying logic, not by identical treatment.
+* **Legibility vs. Character:** Legibility is a functional requirement met through size, value contrast, and shape clarity. It does not require heavy linework, saturation, or illustrative boldness, and it never dictates stylistic character.
+
 ---
 
 ## 2. Color System Architecture (60-30-10 Rule)
@@ -48,7 +55,7 @@ Color systems in print design must enforce structural readability, psychological
 +-------------------------------------------------------------------------+
 |                                                                         |
 |                       DOMINANT TONE (60%)                               |
-|        Backgrounds, Large Surface Containers, Overall Base Atmosphere   |
+|        Backgrounds, Large Surface Fields, Overall Base Atmosphere       |
 |                                                                         |
 |               +-----------------------------------------+               |
 |               |                                         |               |
@@ -65,12 +72,13 @@ Color systems in print design must enforce structural readability, psychological
 
 ### 1. Structural Palette Allocation
 * **Dominant Tone (60%):** Establishes the primary visual substrate and atmospheric baseline. Provides high contrast against both secondary copy elements and external ambient environments.
-* **Secondary Structural Tone (30%):** Defines organizational grid containers, major visual framing, body typography, and structural graphic elements.
-* **Accent / Action Tone (10%):** High-chroma, high-visibility color reserved strictly for the elements the Attention Hierarchy (`01`) ranks highest, such as price hooks, primary callouts, and key brand accents. Accent follows priority, not a content category. Never dilute accent colors by using them in large background areas.
+* **Secondary Structural Tone (30%):** Defines organizational grid structure, major visual framing, body typography, and structural graphic elements.
+* **Accent / Action Tone (10%):** The most conspicuous color role against the palette, reserved strictly for the elements the Attention Hierarchy (`01`) ranks highest, such as price hooks, primary callouts, and key brand accents. Accent follows priority, not a content category. Never dilute accent colors by using them in large background areas.
 
 ### 2. Contrast & Environmental Logic
 * **Color Relationships:** Choose temperature, value, and saturation relationships for psychological alignment with the brand and for contrast against the environment. Balance opposing qualities so the palette carries both the energy and the stability the concept requires.
-* **Print Chromaticity:** Account for substrate physics. Colors conceived in light must be translated into saturated equivalents that the print process can actually achieve.
+* **Print Chromaticity:** Account for substrate physics. Colors conceived in light must be translated into equivalents that the print process can actually achieve.
+* **Role-to-Tier Assignment:** Color roles are assigned to elements by attention tier (`01`), not by element type. The strongest, most distinctive color relationships belong to Tier 1; supporting tiers take progressively quieter relationships (less contrast against their ground, less distinct hue or chroma); Tier 3 and ornament take recessive relationships. Reusing a Tier 1 element's color relationship on a lower-tier element transfers its attention.
 
 ---
 
@@ -92,7 +100,7 @@ Any architecture that satisfies autonomy and recognizability is valid; the range
 
 ### 3. Sub-Branding Hierarchy within the Logo
 Organize the logo mark into two clear internal visual tiers:
-1. **Primary Brand Wordmark:** Largest typographic scale, boldest weight, highest contrast color.
+1. **Primary Brand Wordmark:** The dominant element of the mark by scale and presence, with weight and contrast as the chosen movement expresses them.
 2. **Category Descriptor:** Clean, highly legible secondary text directly below or framed within the brand mark.
 
 **Tagline / Quality Statement (independent element):** The tagline is not a fixed third tier of the mark. It is a supporting element whose placement is decided in Phase 3 by compositional balance. It may attach to the mark when the mark needs more weight or the format is compact; otherwise it is placed in another zone where it counterweights the mark and supports the hero.
