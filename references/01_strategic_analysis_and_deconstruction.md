@@ -1,6 +1,6 @@
 # Strategic Analysis & Brief Deconstruction
 
-*Used in Phase 1 of `SKILL.md`.*
+*Used in Phase 1 of `SKILL.md`. Every decision here follows the Decision Protocol in `SKILL.md`, Section 2, and Phase 1 findings are compiled into the Decision Context.*
 
 This reference guide establishes the principles and analytical methods for deconstructing a business brief, physical media substrate, and operating context into actionable design constraints before synthesized visual direction occurs.
 
@@ -21,9 +21,9 @@ Every print design brief contains structural variables that govern visual priori
         ┌─────────────────────────────┼─────────────────────────────┐
         │                             │                             │
 ┌───────┴─────────────────┐           │           ┌─────────────────┴───────┐
-│     MEDIA SUBSTRATE     │           │           │    TARGET PSYCHOLOGY    │
+│    MEDIA & PLACEMENT    │           │           │    TARGET PSYCHOLOGY    │
 │ Dimensions, Aspect Ratio│           │           │ Decision Speed, Trigger │
-│ Material & Lighting     │           │           │ Points, Trust Signals   │
+│ Material, Setting, Light│           │           │ Points, Trust Signals   │
 └───────┬─────────────────┘           │           └─────────────────┬───────┘
         │                             │                             │
         └─────────────────────────────┼─────────────────────────────┘
@@ -44,6 +44,9 @@ Every print design brief contains structural variables that govern visual priori
 * **Reading Time & Decision Speed:** Reading time is continuous. It is set by how the reader encounters the piece: in motion or stationary, by choice or incidentally, and how much else competes for attention. The shorter the exposure, the fewer hierarchy levels and focal points the piece can carry (at the shortest exposures: a single focal point and roughly three levels or fewer, high contrast, large display scale). Longer exposure allows structured blocks, secondary features, sub-branding, fine typography, and detailed information.
 * **Environmental Noise & Viewing Distance:** Distance is also continuous and differs per element (see Physical Scale below). The farther an element is read from, the more its legibility depends on size, value contrast, and shape clarity; how these are achieved remains a stylistic decision. The closer it is read from, the more tactile textures, delicate detail, secondary copy, and subtle pattern become effective.
 
+### 3. Gaps in the Brief
+When the brief leaves a parameter unstated or ambiguous (dimensions, setting, audience, objective, or any other), infer the most plausible value from the remaining parameters and the placement context, and proceed. An inferred parameter never adds or alters hard content.
+
 ---
 
 ## 2. Media Substrate & Physical Mechanics
@@ -59,9 +62,8 @@ Print designs exist in physical space. Physical constraints dictate spatial zoni
 ### Physical Scale & Legibility Floor
 Aspect ratio describes shape; physical dimensions and viewing distance determine how large content must actually be.
 * **Legibility Floor (a lower bound, never a target):** Each element has a minimum physical size below which it stops being readable at the distance from which it is actually read. Derive it from the physical dimensions and that distance, never from canvas proportion. Any size at or above the floor is functionally legible; where within that range an element sits is decided by hierarchy and balance.
-* **Distance Belongs to the Tier:** Viewing distance does not apply equally to every element. The farthest distance sets the size demanded by Tier 1 only. Tier 2 is read while approaching. Tier 3 is read by a reader who has chosen to engage, at the distance that reader then adopts.
+* **Distance Belongs to the Tier:** Viewing distance does not apply equally to every element. The farthest distance sets the size demanded by Tier 1 only. Tier 2 is read while approaching. Tier 3 is read by a reader who has chosen to engage, at the distance that reader then adopts. Large media are often read at more than one distance, so each element is sized for the distance at which it is meant to be read.
 * **Scale Relationship:** Compare the floor-sized content footprint to the canvas. On large media the floor is far below what the canvas can hold, so lower-tier elements can sit near their floors without losing function, and the headroom belongs to Tier 1 scale and negative space. On small media the floor binds, so every element must remain readable at its floor and content is constrained.
-* **Distance Layering:** Large media are often read at more than one distance. Size each element for the distance at which it is meant to be read.
 
 ### Placement Context & Contextual Register
 A piece lives in a place. The setting determines what looks native and what looks out of place, so read the setting before choosing any direction:
@@ -71,7 +73,7 @@ A piece lives in a place. The setting determines what looks native and what look
 * **Production & Lifespan:** The print process, substrate, finish, weather exposure, expected durability, and whether the piece is permanent or temporary. The design must look right as produced on that substrate, not only as imagined.
 * **Adjacent Touchpoints:** Other brand surfaces the piece sits beside or must align with.
 * **Contextual Register:** From the above, derive the range of finish, formality, realism, and production character that looks native in this setting. Positioning, theme, and style are expressed inside that range. Perceived quality is carried by restraint, craft, clarity, and consistency, which work in any register, whereas cues imported from another setting read as out of place even when they look refined.
-* **Belonging and Distinction:** The piece must belong to its setting and stand apart from its neighbors. Distinction comes from a clear differentiator within the setting's range (idea, color relationship, form, or voice), never from adopting a register the setting does not carry.
+* **Belonging and Distinction:** The piece must belong to its setting and stand apart from its neighbors. Distinction comes from a clear differentiator within the setting's range (idea, color relationship, form, or voice), never from adopting a register the setting does not carry or from intensity alone.
 
 ---
 
@@ -90,7 +92,8 @@ Brief inputs combine non-negotiable requirements with soft preferences. The desi
    * Exact Contact Details (Phone, WhatsApp, Instagram, Physical Address)
    * Explicit Badges or Trust Claims
    * Any other copy or element the brief supplies or designates as required
-   * *Rule:* Every piece of hard content provided in the brief MUST appear in the final prompt logic. Never drop, truncate, or alter hard copy unless reformatting for visual density.
+   * *Rule:* Every piece of hard content provided in the brief MUST appear in the final prompt. Never drop, truncate, or reword hard copy; only its layout (line breaks, grouping) may be adapted for visual density.
+   * *Rule:* Descriptive detail attached to a listed item (composition, ingredients, specifications) is hard content when the brief lists it among the required contents, and is visual reference only when the brief frames it that way. When ambiguous, treat it as hard content and tier it by its role.
 
 2. **Soft Preferences (Directional Guidance):**
    * Suggested colors, mood descriptors, style ideas.
@@ -105,8 +108,8 @@ Brief inputs combine non-negotiable requirements with soft preferences. The desi
      * **Tier 1 — Glance:** What must register first, at full viewing distance within the available reading time, for the piece to achieve its objective. The element that fills this role is determined, never assumed; the brand identity is Tier 1 only when establishing recognition is what the piece must do.
      * **Tier 2 — Scan:** Supporting content that builds interest while the reader approaches.
      * **Tier 3 — Deliberate:** Reference details needed only after the reader has decided to engage or act.
-   * *Rule (Focus Determination):* Decide the primary focus from the objective and the reader's task; the reader's mode of engagement and duration with the medium; the structure of the content (whether the content itself is the offering the reader must scan); how much recognition the setting and the audience's familiarity with the brand already supply (the more is supplied, the more identity can recede); and the weight distribution native to the chosen style direction. Set the tiering here and confirm it in Phase 3, once the theme, style, and pictorial decisions are known.
-   * *Rule:* Tier is decided by an element's role in this brief's decision path, not by its category. Visual weight (scale, contrast, chroma, area) is a budget allocated in descending order by tier; a lower tier never out-weighs a higher one, and raising one element's weight is paid for by others. Weight is carried by several independent dimensions (scale, area, value contrast, hue and chroma distinctiveness, placement on the reading path, isolation by surrounding space, and detail density). Hierarchy must hold across them together: an element that is small but shares a higher tier's color, or occupies a prime position, still competes.
+   * *Rule (Focus Determination):* Decide the primary focus from the objective and the reader's task; the reader's mode of engagement and duration with the medium; the structure of the content (whether the content itself is the offering the reader must scan); how much recognition the setting and the audience's familiarity with the brand already supply (the more is supplied, the more identity can recede); and the weight distribution native to the chosen style direction. Set the tiering here and confirm it in Phase 3, once the theme, style, and pictorial decisions are known. The element that fills Tier 1 is the primary focus and forms the focal anchor of the composition.
+   * *Rule:* Tier is decided by an element's role in this brief's decision path, not by its category. Visual weight is a budget allocated in descending order by tier; a lower tier never out-weighs a higher one, and raising one element's weight is paid for by others. Weight is carried by several independent dimensions (scale, area, value contrast, hue and chroma distinctiveness, placement on the reading path, isolation by surrounding space, and detail density). Hierarchy must hold across them together: an element that is small but shares a higher tier's color, or occupies a prime position, still competes.
    * *Rule:* Purely ornamental elements carry no content tier. They rank below all content in weight and never compete with any tier.
    * *Rule:* Tier 3 content must be legible, not noticeable. It is never boosted for recognition at a glance.
    * *Rule:* The reading time from Section 1 limits how many Tier 2 elements can be carried; surplus Tier 2 content is grouped or demoted.
@@ -129,9 +132,9 @@ When designing for local micro, small, and medium enterprises (UMKM) and vibrant
 
 ### 2. Value Communication & Trust Signals
 * **Price Anchoring:** Where price is a decision driver for the local audience, price hooks operate as primary visual hooks rather than secondary details. Where it is not, they follow their tier.
-* **Trust & Quality Signals:** Trust and quality claims supplied by the brief need a distinct treatment so they read instantly as claims of authenticity. Their weight follows their tier.
-* **Direct Mobile Action:** WhatsApp handles and Instagram usernames serve as primary conversion channels and must be grouped with recognizable icons. They are used after the hook has landed, so they are sized to the legibility floor and kept subordinate in weight unless contact itself is the brief's message anchor.
+* **Trust & Quality Signals:** Trust and quality claims supplied by the brief take the treatment their tier and the audience's need for credibility call for. Their weight follows their tier.
+* **Direct Mobile Action:** WhatsApp handles and Instagram usernames serve as conversion channels that the reader uses after the hook has landed. Their recognition aids, size, and weight follow their tier: sized to the legibility floor and kept subordinate unless contact itself is the brief's primary focus.
 
 ### 3. Cultural Authenticity vs. Modern Polish
 * **Preserving Heritage:** Traditional food, craft, or service businesses must communicate mastery and authenticity without appearing outdated or unhygienic.
-* **Modern Refinement:** Combine heritage cues drawn from the brand's own heritage with contemporary structure and a sharp typographic hierarchy to project professional reliability.
+* **Modern Refinement:** Combine heritage cues drawn from the brand's own heritage (applied as idea or structure, per `02`, Section 1) with contemporary structure and a sharp typographic hierarchy to project professional reliability.

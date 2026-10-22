@@ -1,6 +1,6 @@
 # Visual Identity & Style Synthesis
 
-*Used in Phase 2 of `SKILL.md`.*
+*Used in Phase 2 of `SKILL.md`. Every decision here follows the Decision Protocol in `SKILL.md`, Section 2, and the theme and style direction extend the Decision Context.*
 
 This reference guide establishes the principles and systematic methods for establishing a brand theme and personality, selecting design movements, defining visual form language, orchestrating color systems, and architecting standalone brand marks without relying on static terminology banks or lookup tables.
 
@@ -17,15 +17,16 @@ A theme is a single, concrete creative idea that gives the brand an ownable iden
 Build it from the understanding gathered in Phase 1 rather than choosing it from a menu:
 * **Raw material:** What is distinctive in the business (origin, craft, process, place), the product (essence and sensory qualities), the USP, the brand name (its meaning, sound, and anything it contains), the audience (who they are, what they identify with and respond to), the local and cultural context, and the placement context and its contextual register (`01`).
 * **Intersection:** Find the point where these overlap that only this brand can claim. An idea any competitor could adopt unchanged is not ownable.
-* **Statement:** Express the result as one core idea plus a personality, specific enough to settle later questions about this brand's typography, decoration, color, and boundaries. In the prompt it appears only as direct visual direction (what it is, and the visible character and atmosphere it dictates), never as rationale.
+* **Depth:** The first association a name, product, or category offers is the one every competitor reaches first. Treat it as the baseline, find what it is about (the feeling, behavior, or relationship behind it), and express that in a fresh form. Reference material (cultural, historical, or subject) enters as an idea or structure, never as a pasted surface motif.
+* **Statement:** Express the result as one core idea plus a personality, specific enough to settle later questions about this brand's typography, decoration, color, and boundaries. Express the personality through visible behavior (how forms, type, and color act), not adjective strings. In the prompt it appears only as direct visual direction (what it is, and the visible character and atmosphere it dictates), never as rationale.
 
 ### 3. Embodiment & Cascade
 * **The mark as canon:** The logo mark is the most concentrated and canonical statement of the theme, in its design rather than its size. Its scale and prominence are set by its tier like any element. When the mark is not Tier 1, the layers that carry Tier 1 carry the theme's atmosphere and the mark stays consistent with it.
-* **Cascade by tier:** Every other layer (any primary visual, typography, color, ornament, grouping and boundary treatment, background) interprets the theme at an intensity set by its attention tier. Tier 1 carries it most fully; lower tiers carry it more quietly and never compete with higher tiers.
+* **Carriers, not coverage:** Visible theme expression is concentrated in a few carriers chosen by tier (the mark first, then the layers that hold Tier 1). Every other layer stays quiet and consistent with the theme and does not repeat its motifs.
 * **Visual language only:** The theme shapes how things look. It never adds, removes, or alters hard content.
 
 ### 4. Tests
-A theme is accepted when it is **Specific** (no competitor could adopt it unchanged), **Derived** (traceable to the brief), **Generative** (it settles later choices instead of leaving them open), **Singular** (one dominant idea, with any supporting facets clearly subordinate), and **Fitting** (it serves the objective, the audience, and legibility at the medium's distances, belongs natively in its placement context, and stands apart from its neighbors).
+A theme is accepted when it is **Specific** (no competitor could adopt it unchanged), **Non-obvious** (it goes beyond the first, most literal association the name, product, or category offers), **Derived** (traceable to the brief), **Generative** (it settles later choices instead of leaving them open), **Singular** (one dominant idea, with any supporting facets clearly subordinate), and **Fitting** (it serves the objective, the audience, and legibility at the medium's distances, belongs natively in its placement context, and stands apart from its neighbors).
 
 ---
 
@@ -34,23 +35,22 @@ A theme is accepted when it is **Specific** (no competitor could adopt it unchan
 Rather than using generic aesthetic labels, visual style selection requires identifying an established design movement, visual tradition, or structural style defined by concrete, observable traits, chosen to serve the theme.
 
 ```
-┌─────────────────────────────────────────────────────────────────────────┐
-│                     DESIGN MOVEMENT & TRADITION                         │
-│        (named, specific, and defined by concrete observable traits)     │
-└────────────────────────────────────┬────────────────────────────────────┘
-                                     │
-        ┌────────────────────────────┼────────────────────────────┐
-        │                            │                            │
-┌───────┴───────────────┐  ┌─────────┴───────────────┐  ┌─────────┴───────────────┐
-│     FORM LANGUAGE     │  │  LINEWORK & RENDERING   │  │   SURFACE & TEXTURE     │
-│ Shape vocabulary and  │  │ Line quality and depth  │  │ Substrate and print     │
-│ boundary behavior     │  │ technique               │  │ character               │
-└───────────────────────┘  └─────────────────────────┘  └─────────────────────────┘
+┌─────────────────────────────────────────────────────────────────────┐
+│                     DESIGN MOVEMENT & TRADITION                     │
+│    (named, specific, and defined by concrete observable traits)     │
+└──────────────────────────────────┬──────────────────────────────────┘
+                                   │
+        ┌─────────────────┬────────┴────────┬─────────────────┐        
+┌───────┴───────┐ ┌───────┴───────┐ ┌───────┴───────┐ ┌───────┴───────┐
+│ FORM LANGUAGE │ │  LINEWORK &   │ │  RENDERING &  │ │TEXTURE & PRINT│
+│    & SHAPE    │ │     EDGE      │ │    SHADING    │ │   MATERIAL    │
+│  VOCABULARY   │ │   BEHAVIOR    │ │   TECHNIQUE   │ │   FIDELITY    │
+└───────────────┘ └───────────────┘ └───────────────┘ └───────────────┘
 ```
 
 ### 1. Evaluating Design Movements
 The selectable range is the full breadth of design history and contemporary practice: named movements, regional and vernacular traditions, craft and print techniques, period styles, and coherent hybrids or invented directions. No part of that range is reserved for a type of business. Derive the choice from the theme and personality (Section 1) first, then from the intersection of the brand's positioning, the communication objective, the audience, the medium's reading distance and exposure, and the placement context and its contextual register (`01`).
-* **Diverge before converging:** Consider several candidates that differ meaningfully before settling. Do not default to the most conventional pairing of business type and style.
+* **Diverge before converging:** Consider several candidates that differ meaningfully, including the prototype for this kind of brief and medium (the choice most briefs would default to). Select the prototype only when it is the strongest fit.
 * **Test each candidate:** It must serve the theme, fit the brief, belong natively in its placement context, be distinctive to this brand among its neighbors, remain effective at the medium's reading distances, and be specifiable in concrete, observable traits.
 * **Combine only with a dominant voice:** A hybrid is valid when the result is coherent and one tradition clearly leads.
 
@@ -64,17 +64,26 @@ Once a movement is selected, articulate its execution through four concrete visu
 ### 3. Per-Layer Expression & Representation Spectrum
 A style is not one setting applied to the whole piece. Decide each visual layer separately (the primary visual if one is used, typography, ornament and decoration, background, the treatment of edges and boundaries, and any other layer present) and for each decide:
 * **Representation Mode:** Its position on the continuum from literal capture to full abstraction. Layers may sit at different positions, and hybrids are valid when the result reads as one intentional voice. Positioning does not fix the mode; any positioning can be expressed at any point on the continuum that suits the placement context.
-* **Expressive Character:** Its intensity, energy, finish, and polish, across the full range from restrained to loud, derived from the brand, the objective, and the placement context.
-* **Coherence:** Layers are unified by the theme and personality (Section 1) and the movement's underlying logic, not by identical treatment. Each layer interprets the theme at an intensity set by its tier.
+* **Expressive Character:** Its intensity, energy, finish, and polish, across the full range from restrained to loud, derived from the brand, the objective, and the placement context. Loudness is one setting among many, never the means of standing out.
+* **Style Axes:** Within each layer, style is a combination of independent choices: line behavior, shape logic, detail density, color and shading treatment, surface or medium character, spatial depth and proportion, and cultural or era lineage. Choose each axis for the theme; a stock style package is a prototype, not a choice.
+* **Coherence:** Layers are unified by the theme and personality (Section 1) and the movement's underlying logic, not by identical treatment.
 * **Legibility vs. Character:** Legibility is a functional requirement met through size, value contrast, and shape clarity. It does not require heavy linework, saturation, or illustrative boldness, and it never dictates stylistic character.
 
 ### 4. Pictorial Subject Design
-Applies only when Phase 1 admitted a pictorial subject (`01`, Section 3.5). Decide in this order:
+Applies only when Phase 1 admitted a pictorial subject (`01`, Section 3, item 5). Decide in this order:
 1. **Subject:** What it depicts, derived from the theme and the brief's supplied content. It never implies offers or items the brief does not supply.
 2. **Complexity:** Its detail, element count, and rendering depth, set by its role, its reading distance, and the information load it shares the canvas with. The lower its tier or the heavier the content load, the simpler it is; the more it stands as the sole focus and is read from afar, the more it can carry while still resolving as one clear form. Detail that cannot be resolved at its reading distance is noise.
-3. **Style:** Chosen to work at that level of complexity and to serve the theme, the representation mode of the other layers (Section 2.3), and the contextual register of the placement context (`01`). A simple subject needs a style that holds at low detail; a complex one needs a style that stays coherent at high detail.
+3. **Style:** Chosen along the style axes (Section 2.3) to work at that level of complexity and to serve the theme, the representation mode of the other layers (Section 2.3), and the contextual register of the placement context (`01`). A simple subject needs a style that holds at low detail; a complex one needs a style that stays coherent at high detail.
 
 Role, scale, and placement follow in Phase 3 (`03`, Section 5.4).
+
+### 5. Ornament & Decoration (Optional)
+Backgrounds, borders, patterns, flourishes, and accents all count as ornament unless they do structural work.
+* **Optional:** Layout, type, color, and subject can carry a piece entirely. Zero ornament is valid.
+* **Earns its place:** Ornament is admitted only when it does a job (organizes, directs the eye, builds atmosphere, or states identity) that layout, color, and type cannot do as well. Test: what is lost if it is removed.
+* **Budget:** Its quantity and complexity fall as the information load grows and the reading time shortens, and it never competes with content (`01`, `03`).
+* **One language, few carriers:** Ornament shares one visual language drawn from the theme and does not repeat the same motif across layers. A motif used everywhere becomes noise.
+* **Discipline:** Ornament never overlaps or intrudes on text, and sits where it supports the reading path.
 
 ---
 
@@ -93,11 +102,11 @@ The **60-30-10 structural color ratio** is the baseline proportion hierarchy for
 |               +-----------------------------------------+               |
 |               |                                         |               |
 |               |       SECONDARY STRUCTURE (30%)         |               |
-|               |  Text Blocks, Major Grid Lines, Framing |               |
+|               |  Supporting Content, Structure, Framing |               |
 |               |                                         |               |
 |               |         +-----------------------+       |               |
 |               |         | ACCENT / ACTION (10%) |       |               |
-|               |         | Badges, CTAs, Hooks   |       |               |
+|               |         | Highest-Priority Items|       |               |
 |               |         +-----------------------+       |               |
 |               +-----------------------------------------+               |
 +-------------------------------------------------------------------------+
@@ -105,8 +114,8 @@ The **60-30-10 structural color ratio** is the baseline proportion hierarchy for
 
 ### 1. Structural Palette Allocation (Baseline)
 * **Dominant Tone (60%):** Establishes the primary visual substrate and atmospheric baseline. Provides high contrast against both secondary copy elements and external ambient environments.
-* **Secondary Structural Tone (30%):** Defines organizational grid structure, major visual framing, body typography, and structural graphic elements.
-* **Accent / Action Tone (10%):** The most conspicuous color role against the palette, reserved strictly for the elements the Attention Hierarchy (`01`) ranks highest, such as price hooks, primary callouts, and key brand accents. Accent follows priority, not a content category. Never dilute accent colors by using them in large background areas.
+* **Secondary Structural Tone (30%):** Defines organizational structure, major visual framing, supporting content, and structural graphic elements.
+* **Accent / Action Tone (10%):** The most conspicuous color role against the palette, reserved strictly for the elements the attention tiers (`01`) rank highest. Accent follows priority, not a content category. Never dilute accent colors by using them in large background areas.
 
 ### 2. Contrast & Environmental Logic
 * **Color Relationships:** Choose temperature, value, and saturation relationships for psychological alignment with the theme and personality and for contrast against the environment. Balance opposing qualities so the palette carries both the energy and the stability the concept requires.
@@ -118,6 +127,8 @@ The **60-30-10 structural color ratio** is the baseline proportion hierarchy for
 * **Count follows roles:** One role can be served by several tints or shades of a single hue, several roles can share one hue, and one role can call for several hues when the theme demands it. A palette may be as restrained as a single hue with a range of values or as rich as the theme requires, provided hierarchy and unity hold. A color with no distinct role is noise.
 * **Combination follows theme:** Hue, temperature, value, and saturation relationships come from the theme and personality and from the contrast pairs each tier needs for legibility. A palette with many hues needs one organizing logic (a governing relationship among hues, or a shared range of value or saturation) so it reads as one system.
 * **Constraints are part of the palette:** The substrate's own color, the print process's gamut and color count, and any photographic content (which brings its own colors that the palette must govern or absorb) are members of the palette.
+* **Subject colors:** The colors of a depicted subject belong to the subject. They inform the palette only where the theme calls for it and are never copied into the structural palette by default. The palette is judged by the feeling it gives the brand and the contrast pairs it needs.
+* **Palette audit:** Judge the assembled palette as a whole. Roles must be clearly distinct from one another, the highest-tier elements must carry the most alive and distinctive relationships and never the most muted, and no role may read as dull or muddy against its neighbors. Dark structural colors are chosen deliberately, with hue and saturation that support the palette's energy, never defaulted to a neutral dark.
 
 ---
 
@@ -131,16 +142,16 @@ The primary logo mark is the canonical anchor of brand identity; its prominence 
 * **Theme Embodiment:** The mark is the most concentrated statement of the brand theme and personality (Section 1), carrying it independently of any product illustration and of its scale on the piece.
 
 ### 2. Structural Mark Architectures
-Derive the logo lockup from three decisions, in light of the theme and the medium's reading distance:
-* **Enclosure:** Whether the mark is contained within a boundary or open, judged by how much it must separate itself from its surroundings.
+Derive the logo lockup from three decisions, each judged across every dimension and never by a single criterion:
+* **Enclosure:** Whether the mark is contained or open and, if contained, the form of the boundary, which is itself a design variable that can carry the theme. Judge from the theme and personality (what a boundary or its absence says), the mark's role and scale in the hierarchy, the contexts it must survive (reduction, busy or varied grounds, distance), the distinctiveness of its silhouette, the length and structure of the name, and how the piece's other boundaries behave. Open construction is one candidate, never the default: consider at least one contained and one open candidate before committing. Enclosure of a mark is an identity decision, not a grouping device, so the lightest-device rule in `03` does not apply to it.
 * **Composition of Elements:** Whether the mark is typographic, symbolic, or a combination, and how its parts relate in scale, position, and hierarchy.
 * **Isolation Strategy:** How the mark separates from the background and remains recognizable when reduced or viewed from a distance.
 
 Any architecture that satisfies autonomy and recognizability is valid; the range is not limited to conventional lockup types.
 
 ### 3. Sub-Branding Hierarchy within the Logo
-Organize the logo mark into two clear internal visual tiers:
+Organize the logo mark into two clear internal levels:
 1. **Primary Brand Wordmark:** The dominant element of the mark by scale and presence, with weight and contrast as the chosen movement expresses them.
-2. **Category Descriptor:** Clean, highly legible secondary text directly below or framed within the brand mark.
+2. **Category Descriptor:** Clean, highly legible secondary text, usually directly below or framed within the brand mark, and placed elsewhere when the hierarchy and balance call for it.
 
 **Tagline / Quality Statement (independent element):** The tagline is not a fixed third tier of the mark. It is a supporting element whose placement is decided in Phase 3 by compositional balance. It may attach to the mark when the mark needs more weight or the format is compact; otherwise it is placed in another zone where it supports the reading path and the balance around the focal anchor.
