@@ -84,6 +84,7 @@ A piece lives in a place. The setting determines what looks native and what look
 * **Adjacent Touchpoints:** Other brand surfaces the piece sits beside or must align with.
 * **Contextual Register:** From the above, derive the range of finish, formality, realism, and production character that looks native in this setting. Positioning, theme, and style are expressed inside that range. Perceived quality is carried by restraint, craft, clarity, and consistency, which work in any register, whereas cues imported from another setting read as out of place even when they look refined.
 * **Belonging and Distinction:** The piece must belong to its setting and stand apart from its neighbors. Distinction comes from a clear differentiator within the setting's range (idea, color relationship, form, or voice), never from adopting a register the setting does not carry or from intensity alone.
+* **Fit, Not Content:** Placement supplies constraints on register, legibility, and separation (what looks native, what the audience can read, what stands out). It does not supply the brand's identity: place, setting, and local codes become design content only when the brand's own identity connects them to its personality (`02`, Section 1).
 
 ---
 
@@ -149,5 +150,5 @@ When designing for local micro, small, and medium enterprises (UMKM) and vibrant
 * **Direct Mobile Action:** WhatsApp handles and Instagram usernames serve as conversion channels that the reader uses after the hook has landed. Their recognition aids, size, and weight follow their tier: sized to the legibility floor and kept subordinate unless contact itself is the brief's primary focus.
 
 ### 3. Cultural Authenticity vs. Modern Polish
-* **Preserving Heritage:** Traditional food, craft, or service businesses must communicate mastery and authenticity without appearing outdated or unhygienic.
+* **Preserving Heritage:** Traditional food, craft, or service businesses must communicate mastery and authenticity without appearing outdated or unhygienic. Heritage and regional cues apply only where the brand's own identity claims that heritage (`02`, Section 1, relevance gate), never because of where the business is located.
 * **Modern Refinement:** Combine heritage cues drawn from the brand's own heritage (applied as idea or structure, per `02`, Section 1) with contemporary structure and a sharp typographic hierarchy to project professional reliability.

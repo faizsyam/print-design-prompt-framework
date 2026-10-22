@@ -70,8 +70,8 @@ Direct the viewer's eye sequentially through deliberate visual anchors and struc
 ### 2. Grouping & Separation of Information
 * **Group by relationship:** Related information is grouped through relationship cues: proximity, similarity, alignment, continuity, and common region. Enclosure is only one of these, and the heaviest.
 * **Lightest sufficient device:** Use the weakest cue that achieves the grouping or separation against the background and competing content. Every added device (enclosure, rule, field) adds weight that the tier budget must pay for, so none is applied by habit.
-* **Form follows concept:** Where a boundary is warranted, its form (edge, corner behavior, line quality, shape, or a change of field or texture) is derived from the movement's form language and the brand's theme, never from a default shape. Absence of any boundary is a valid choice.
-* **Single items:** A device around one item is ornament, not grouping, and must pass the ornament test (`02`, Section 2.5). Text sits directly on its ground by default.
+* **Form follows concept:** Where a boundary is warranted, its form (edge, corner behavior, line quality, shape, or a change of field or texture) is derived from the movement's form language and the brand's theme, never from a default shape. Absence of any boundary is a valid choice. Every device that exists, including labels, badges, rules, and dividers, takes its shape, corner and edge behavior, and line quality from the theme's form language; a stock-shaped container is a default.
+* **Single items:** A device around one item is ornament, not grouping, and must pass the ornament test (`02`, Section 2.5). Text sits directly on its ground unless the theme's form language gives a container an expressive job.
 * **Device economy:** The piece uses one device language, and the number of distinct device types is kept to what the hierarchy requires.
 
 ---
@@ -96,6 +96,7 @@ Zones and ratios are only a skeleton. Final layout is resolved by the Attention 
 * **Weight dimensions:** Hierarchy is judged across every weight dimension defined in `01` (Section 3, item 4), not scale alone. A lower-tier element must be quieter than higher-tier elements across the dimensions in play; sharing a higher-tier element's color relationship or occupying a prime position competes with it unless other dimensions clearly subordinate it.
 * **Area is the last dimension spent:** Area is zero-sum with content and breathing room, so build the hierarchy first with contrast, isolation, placement, and color, and add area only where those cannot achieve the tier. An element can hold a high tier at modest area, and no element is owed area by its category or role.
 * **Weight audit:** Once attributes are set, assess the weight each element actually produces (area, value contrast against its ground, chroma, detail density, isolation, position) and compare the resulting order with the tier order. Large-area elements (grounds, bands, borders, fields) carry weight through area alone, so they stay tonally close to their ground or small enough to remain below the content they frame. Any element that outweighs its tier is reduced or removed. A hierarchy declared in words does not substitute for one the attributes produce.
+* **Expression audit:** The counterpart of the weight audit is a check for bareness. Layers (ground, type, containers, edges, secondary elements) that sit at default without the theme calling for stillness are given the theme's character at a volume their tier allows.
 * **Ornament:** It ranks below all content (`01`), and its color relationships, scale, and placement stay recessive, supporting the composition without drawing the eye off the reading path.
 
 ### 2. Scale-Aware Sizing
@@ -123,6 +124,7 @@ Tier says when an element is read; purpose says what it does for the reader. Bot
 * **Purpose:** Judge what the element is for: to be understood, to attract or persuade, to organize, or only to shape atmosphere. Elements to be understood are treated for clarity first and voice second; elements that attract or persuade carry the theme at their tier's full strength; atmospheric elements support the mood at reduced weight and compete with neither.
 * **Presence is a continuum:** Whether an element exists, and how visible it is if it does, ranges from absent through barely perceptible and supporting to prominent. Purpose and tier set the degree together, at the lowest visibility at which the element still does its job.
 * **Serving the foundation:** Every attribute of an element (size within its band, position, color relationship, type voice, rendering, finish, complexity) is derived from the foundational decisions it must express or stay subordinate to, then from its tier and purpose. An attribute that cannot be traced this way is a default.
+* **Voice persists across tiers:** Tier sets an element's volume (scale, contrast, complexity, position), never its voice. Every element that exists, down to the smallest label, carries the theme's form language and typographic character at its own volume; a default-styled element is a gap, not restraint.
 * **Sibling consistency:** Elements of the same tier and purpose share a treatment unless their relationship demands otherwise; elements that differ in purpose differ in treatment by exactly that difference.
 
 ### 6. No Category Defaults
