@@ -1,17 +1,17 @@
-# Strategic Analysis & Design Problem
+# Strategic Understanding & Design Problem
 
 *Used in Phase 1 of `SKILL.md`. Findings are compiled into the Decision Context.*
 
-Phase 1 turns a brief into a design problem. Deconstruction yields parameters; synthesis yields the problem and the insight that opens it. Complete both before any foundational decision.
+Phase 1 turns a brief into understanding, then into a design problem. Deconstruction reads what the brief states; the subject model supplies what it does not; synthesis yields the problem, the insight, and the brand core. Complete all three before any foundational decision.
 
 ---
 
-## 1. Deconstructing the Brief
+## 1. Deconstructing the Stated Brief
 
 ### Business
 * **Positioning:** A spectrum across several axes (price accessibility, exclusivity, formality, audience, emotional register), not a tier. Resolve where the brand sits on each. The more price or value drives the decision, the more immediate and high-contrast it must be. The more perceived quality or craft drives it, the more restraint, space, and material authenticity carry the message. Positioning is expressed through signals the placement can credibly carry.
 * **Background:** History, scale, maturity, ambition, and relationship to locale and audience. It decides how much recognition already exists and how much credibility must still be earned.
-* **Distinctive Substance:** What is distinctive in the business, product, name, and audience (origin, craft, behavior, meaning, sensory qualities, attitude). Read the name for everything it contains, including parts the brief does not emphasize. Emphasis shows what the client wants said, not necessarily the richest material.
+* **Name & Stated Substance:** What the brief says is distinctive in the business, product, name, and audience. Read the name for everything it contains, including parts the brief does not emphasize. Emphasis shows what the client wants said, not necessarily the richest material.
 * **Message Inventory:** The messages the piece must carry (what the brand is, what it offers, how it should feel, what to do), and which of them the hard content and any pictorial subject will already carry. The rest is the work of the identity layers.
 
 ### Objective & Reader
@@ -28,22 +28,30 @@ Phase 1 turns a brief into a design problem. Deconstruction yields parameters; s
 * **Contextual register:** From the above, derive the range of finish, formality, realism, and production character that looks native in this setting. Positioning, concept, and style are expressed inside that range. Cues imported from another setting read as out of place even when refined.
 * **Belonging and distinction:** The piece belongs to its setting and differs from its neighbors. Distinction comes from a differentiating idea, relationship, form, or voice within the register's range, never from adopting an alien register or from intensity alone.
 
-### Gaps
-Where a parameter is unstated, infer the most plausible value from the others and proceed. Inferences are hypotheses: build the insight from supplied facts first, and let inferred parameters fill only what the supplied facts leave open. An inferred parameter never adds or alters hard content.
+---
+
+## 2. Understanding the Subject Beyond the Brief
+
+Build a working model of the business as its owner and a domain expert would hold it, in three layers: what the brief states, what must be true for the brief to make sense (implied), and how this kind of business actually operates and is experienced (domain knowledge). Stated facts outrank inferences. Inferences are hypotheses: build the insight from supplied facts first, let inferred parameters fill only what they leave open, and never let an inference add or alter hard content. The model covers:
+* **The subject's reality:** What the product or service is in lived terms: how it is made or delivered, its materials, process, sensory qualities, scale, the people involved, and where and how it is met and used. This is the raw material of authentic imagery and of the concept.
+* **The USP as lived difference:** Translate the claimed advantage into what the customer experiences or gains that alternatives do not, the evidence for it, and which part can be seen or felt versus which must be stated. An advantage that cannot be made perceptible is left to copy.
+* **The real customer decision:** Who actually decides, what triggers and what tips the choice, what doubts and risks they carry, what they compare against, and which cues (including local and cultural codes) they use to judge quality and trust.
+* **The category field:** How this category presents itself in this placement and locale: its grammar (the conventions of presentation), what each convention is doing for the audience, where competitors cluster, and where open space remains. Sort each convention as a *signal of belonging* the audience relies on (legitimacy, category membership, price level, trust), a *habit* nobody examined, or a *cliché* that makes competitors indistinguishable. This sorting sets the baseline the design must beat and the position it takes (`02`, Section 1).
 
 ---
 
-## 2. Synthesis: From Parameters to Problem
+## 3. Synthesis: From Understanding to Problem
 
 1. **Weights:** Judge how much each parameter governs in this brief. Dominant parameters set decisions; the rest constrain them. Separate fixed constraints (physics, substrate, supplied content) from flexible ones (preferences, conventions); design finds its room in the flexible ones.
 2. **Interactions:** Read the parameters in pairs and groups, not as a list. For each strongest pair, ask how one changes the meaning, cost, or risk of the other. Interactions are where design problems come from.
 3. **Tensions:** Name where serving one parameter strains another. A foundational decision that resolves no tension is probably the prototype.
 4. **Design Problem:** State it in one sentence: what this piece must achieve, for whom, under which conditions, against which strain.
-5. **Insight:** State the non-obvious truth the interactions reveal: something about what the reader wants, assumes, or overlooks at the moment of encounter, set against what only this brand can offer. It is a truth, not a slogan or a style. Test: it holds for this brand in this context and would not survive a change of business, audience, or placement. The concept (`02`, Section 1) is the insight made visible.
+5. **Insight:** State the non-obvious truth the interactions and the subject model reveal: something about what the reader wants, assumes, or overlooks at the moment of encounter, set against what only this brand can offer. It is a truth, not a slogan or a style. Test: it holds for this brand in this context and would not survive a change of business, audience, or placement.
+6. **Brand core:** Derive what the brand is to its customer in a clause, its character (the temperament and manner it would show as a person), and its ownable territory (the meaning it can credibly claim that the field leaves open). Derive it from the lived USP, the subject's reality, and the insight. Where a brand identity already exists, interpret and respect it rather than replace it. The concept (`02`, Section 1) is the insight, grounded in the brand core, made visible.
 
 ---
 
-## 3. Content Filtering & Structural Hierarchy
+## 4. Content Filtering & Structural Hierarchy
 
 ### Content Categories
 1. **Hard Content (inviolable):** Brand name, descriptor, copy and taglines, listed items and variants (with supplied names and ingredients), prices, contact details, badges and claims, and anything else the brief supplies or designates as required.
@@ -70,7 +78,7 @@ A pictorial subject is optional. A piece can be carried by type, mark, pattern, 
 
 ---
 
-## 4. Local Market Context (UMKM and Street-Level Commerce)
+## 5. Local Market Context (UMKM and Street-Level Commerce)
 
 Apply only where it holds for the brief.
 * **Visual competition:** Dense commercial surroundings reward clear structure and value contrast. Separation comes from a distinct idea and relationship, not from loudness.

@@ -13,23 +13,25 @@ A principle-based system for turning a business brief into one precise image-gen
 
 ## 1. Principles
 
-1. **Problem before style.** Design starts from a design problem: the strain that appears where the brand's truth, the audience's state, the objective, the medium, and the placement meet. Style, imagery, color, and type are answers to that problem, never starting points. Context dimensions are read through their interactions, because the same attribute means different things to different audiences, placements, and distances. No dimension is interpreted alone.
-2. **Insight before concept.** A distinctive idea comes from an insight: a non-obvious truth about this brand, for this reader, at this moment of encounter, that the piece can make felt. The concept is that insight made visible as a specific world, device, structure, or behavior, concrete enough to settle later choices. A mood adjective or style label is not a concept.
-3. **Associations are hypotheses.** The first association a name, product, category, or place offers is the baseline every competitor shares. Trace it to what it is actually about, keep it only if the brand itself earns it, and express it as this brand's own form of that idea. A fact merely adjacent to the brand constrains fit until the brand's identity connects it to the personality.
-4. **Range, not a single note.** A piece is one-dimensional when every layer states the same thing the same way. A distinctive piece has one governing concept carried with range: a personality made of qualities held in productive tension, a payoff at each distance from which the piece is actually read, and layers that each contribute what no other layer does.
-5. **Approach follows the job.** Each visual layer receives a kind of making (captured, drawn, constructed, typographic, or a hybrid) according to the kind of truth it must deliver, and an execution style according to the stance the piece takes toward its subject and viewer. Neither is a default and neither is set by category.
-6. **Divided labor.** A piece carries several messages (what the brand is, what it offers, how it should feel, what to do). Each goes to the layer best placed to carry it, once. Layers that already carry a message free the others to carry what they alone can.
-7. **Physical reality.** Aspect ratio, physical size, viewing distance, exposure time, substrate, and placement set what can be read and what looks native. Weight comes from scale, color, placement, isolation, and detail together, distributed by reader attention. Canvas area is the last dimension spent. Size is bounded below by the legibility floor and above by tier.
-8. **Deliberation proportional to leverage.** What governs more is explored more widely, tested, and locked first. What is governed is derived, not reinvented.
-9. **Voice at every volume.** Tier sets an element's volume, never its voice. Restraint lowers intensity and complexity before it removes character, and a plain layer is a choice the concept must call for.
-10. **Open set.** Every list, ratio, or reference in this skill is a tendency along a continuum. Where a brief falls outside it, extend the principle. Hard-content fidelity, the output template, and the execution rules are fixed.
+1. **Understand before deciding.** The brief states a fraction of what determines good design. Build a working model of the business as its owner and a domain expert would hold it: how the subject is made, delivered, met, and judged; what its advantage means in lived terms; how the customer actually decides; how the category presents itself. Every later decision draws on this model, not on the brief's words.
+2. **Problem before style.** Design starts from a design problem: the strain that appears where the brand's truth, the audience's state, the objective, the medium, and the placement meet. Style, imagery, color, and type are answers to that problem, never starting points. Context dimensions are read through their interactions, because the same attribute means different things to different audiences, placements, and distances. No dimension is interpreted alone.
+3. **Insight before concept.** A distinctive idea comes from an insight: a non-obvious truth about this brand, for this reader, at this moment of encounter, that the piece can make felt. The concept is that insight, grounded in the brand's core (what it is to its customer, how it behaves, what territory it can credibly own), made visible as a specific world, device, structure, or behavior, concrete enough to settle later choices. A mood adjective or style label is not a concept.
+4. **Associations are hypotheses.** The first association a name, product, category, or place offers is the baseline every competitor shares. Trace it to what it is actually about, keep it only if the brand itself earns it, and express it as this brand's own form of that idea. A fact merely adjacent to the brand constrains fit until the brand's identity connects it to the personality.
+5. **Position within the field.** Every category has a grammar of presentation. Conventions that signal belonging (legitimacy, category, price level, trust) are kept and executed in the brand's own way; habits are questioned; clichés that make competitors indistinguishable are replaced. The design is placed in the possibility space on purpose: authentic to its category and place, distinct from its field by idea rather than by volume.
+6. **Range, and difference by role.** A piece is one-dimensional when every layer states the same thing the same way or receives the same treatment. A distinctive piece has one governing concept carried with range: a personality made of qualities held in productive tension, a payoff at each distance from which the piece is actually read, and layers whose attributes derive from their own roles. Coherence comes from a shared logic, not shared values. Tier sets an element's volume, never its voice, and restraint lowers intensity before it removes character.
+7. **Approach follows the job.** Each visual layer receives a kind of making (captured, drawn, constructed, typographic, or a hybrid) according to the kind of truth it must deliver about the subject's reality, and an execution style according to the stance the piece takes toward its subject and viewer. Neither is a default and neither is set by category.
+8. **Divided labor.** A piece carries several messages (what the brand is, what it offers, how it should feel, what to do). Each goes to the layer best placed to carry it, once. Layers that already carry a message free the others to carry what they alone can.
+9. **Physical reality.** Aspect ratio, physical size, viewing distance, exposure time, substrate, and placement set what can be read and what looks native. Weight comes from scale, color, placement, isolation, and detail together, distributed by reader attention. Canvas area is the last dimension spent. Size is bounded below by the legibility floor and above by tier.
+10. **Deliberation proportional to leverage.** What governs more is explored more widely, tested, and locked first. What is governed is derived, not reinvented.
+
+Every list, ratio, or reference in this skill is a tendency along a continuum; where a brief falls outside it, extend the principle. Hard-content fidelity, the output template, and the execution rules are fixed.
 
 ---
 
 ## 2. Master Decision Flow
 
 ```
-[Phase 1: Design Problem]      Read the brief, weigh the context, find its interactions and tensions, state the insight.
+[Phase 1: Understanding]       Read the brief, model the subject and its field, find interactions and tensions, state the insight and brand core.
    ▼
 [Phase 2: Concept & Identity]  Concept, message allocation, visual approach per layer, movement, color, type, mark. Lock as one system.
    ▼
@@ -40,13 +42,14 @@ A principle-based system for turning a business brief into one precise image-gen
 [Phase 5: Verification]        Audit, trace each failure to its upstream cause, re-derive.
 ```
 
-* **Phase 1: Design Problem** (`references/01_strategic_analysis_and_deconstruction.md`)
-  * Deconstruct the business, objective and intended reader response, audience and moment of encounter, medium, placement and its contextual register, content, and reading time.
+* **Phase 1: Understanding & Design Problem** (`references/01_strategic_analysis_and_deconstruction.md`)
+  * Deconstruct the stated brief: business, objective and intended response, audience and moment of encounter, medium, placement and register, content, and reading time.
+  * Build the subject model beyond the brief: the subject's reality, the USP as lived difference, the real customer decision, and the category field and its grammar.
   * Tier content by when the reader needs it, determine the primary focus, derive legibility floors, and set the reception balance and a provisional pictorial ceiling.
-  * Weigh the parameters, read how they interact, name the tensions, and state the design problem and the insight it opens.
+  * Weigh the parameters, read how they interact, name the tensions, and state the design problem, the insight, and the brand core.
 * **Phase 2: Concept & Identity** (`references/02_visual_identity_and_style_synthesis.md`)
-  * Derive the concept, personality, and mood from the insight, drawing on identity first and then on what other layers will not carry, and allocate each message to its carrier.
-  * Assign each visual layer its kind of making by the job it does and resolve its execution style from the stance the piece takes. Confirm or revise the pictorial commitment with these decisions.
+  * Position the piece within the category field, derive the concept, personality, and mood from the insight and brand core, and allocate each message to its carrier.
+  * Brief each visual layer from its job and the subject's truth, assign its kind of making, and resolve its execution style from the stance the piece takes. Confirm or revise the pictorial commitment with these decisions.
   * Choose movement, form language, color logic, typographic voice, any ornament, and the mark. Check all of it as one system and lock it.
 * **Phase 3: Composition** (`references/03_compositional_architecture_and_spatial_systems.md`)
   * Confirm the tiering and primary focus against the locked identity decisions, then lock a composition strategy that carries the concept through structure.
@@ -59,17 +62,17 @@ A principle-based system for turning a business brief into one precise image-gen
 
 ### Decision Context & Decision Protocol
 
-**Decision Context:** Compiled in Phase 1, extended in Phase 2, consulted by every later decision. It holds: business and positioning; objective, reader task, and intended response; audience and moment of encounter; medium and physical scale; placement and register; content load, tiers, and primary focus; parameter weights, interactions, and tensions; the design problem and insight; then concept, personality, mood, approach per layer, and style direction.
+**Decision Context:** Compiled in Phase 1, extended in Phase 2, consulted by every later decision. It holds: business and positioning; objective, reader task, and intended response; audience and moment of encounter; medium and physical scale; placement and register; the subject model (reality, lived USP, customer decision, category field); content load, tiers, and primary focus; parameter weights, interactions, and tensions; the design problem, insight, and brand core; then field position, concept, personality, mood, approach per layer, and style direction.
 
 **Foundational decisions** govern all others: primary focus, message allocation, concept and personality, mood, kind of making and execution style per layer, pictorial commitment, movement, palette architecture, typographic voice, mark architecture, and composition strategy. Each is made in full:
 1. **Frame:** State the job of the decision and which context parameters, and which interactions among them, bear on it.
-2. **Diverge:** Generate candidates that differ in underlying idea, building them from different dominant context dimensions or interactions so they are genuinely distinct, at three depths: the apparent (what proximity, category, or the prototype suggests), the underlying (what that is about), and the personal (what this brand's character would choose). The apparent is the baseline to beat and is chosen only when it is the strongest fit.
+2. **Diverge:** Map the possibility space for the decision (the axes along which answers can genuinely vary), then generate candidates that sit apart on those axes and differ in underlying idea, each built from a different dominant context dimension or interaction and stated as concrete visible behavior so it can be judged. Include three depths: the apparent (what proximity, category grammar, or the prototype suggests), the underlying (what that is about), and the personal (what this brand's character would choose). The first coherent candidate is usually the nearest one, so the search continues past it. The apparent is the baseline to beat and is chosen only when it is the strongest fit.
 3. **Test:**
    * *Tailoring:* would it change if the business, audience, medium, or placement changed? If not, it is generic.
    * *Earned connection:* every context fact it draws on is connected to the brand's own identity, claim, or audience, not merely nearby.
    * *Resolution:* it resolves a tension of this brief.
    * *Range:* it carries something other layers do not, and it holds a tension rather than one note.
-   * *Belonging and distinction:* it looks native in the placement and differs from neighbors by idea, not by volume.
+   * *Belonging and distinction:* it keeps the field's signals of belonging so it looks native in its category and placement, and differs from its neighbors by idea, not by volume.
    * *Function:* it is legible at the medium's distances and settles downstream choices.
    * *Coherence:* it agrees with the foundational decisions already made.
 4. **Specify:** Resolve it to a level that discriminates (`02`, Section 5).
@@ -87,8 +90,8 @@ A principle-based system for turning a business brief into one precise image-gen
 
 | File Path | Functional Domain |
 | :--- | :--- |
-| `references/01_strategic_analysis_and_deconstruction.md` | Context deconstruction, interactions, tensions, design problem and insight, physical scale and legibility, placement register, content filtering, attention tiering, pictorial commitment, local market context. |
-| `references/02_visual_identity_and_style_synthesis.md` | Concept derivation, personality, mood, range, message allocation, visual approach and execution style per layer, movement, color, typographic voice, specificity, ornament, mark. |
+| `references/01_strategic_analysis_and_deconstruction.md` | Brief deconstruction, subject model (reality, lived USP, customer decision, category field), interactions, tensions, design problem, insight and brand core, physical scale and legibility, placement register, content filtering, attention tiering, pictorial commitment, local market context. |
+| `references/02_visual_identity_and_style_synthesis.md` | Concept derivation, field position, personality, mood, range, message allocation, layer briefs, kind of making and execution style, movement, color, typographic voice, specificity, ornament, mark. |
 | `references/03_compositional_architecture_and_spatial_systems.md` | Composition strategy, zoning, typographic hierarchy, grouping, negative space, weight balance, sizing, placement, pictorial role, presence. |
 | `references/04_prompt_synthesis_and_output_execution.md` | Prompt precision, genericness control, boundary control, output construction, verification checklist. |
 

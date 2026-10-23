@@ -2,22 +2,23 @@
 
 *Used in Phase 2 of `SKILL.md`. Every decision follows the Decision Protocol in `SKILL.md`, Section 2, and extends the Decision Context.*
 
-Phase 2 turns the design problem and insight into a concept, then into a coherent set of visual decisions: what kind of making each layer uses, how it is executed, and how movement, color, type, ornament, and mark carry the concept.
+Phase 2 turns the design problem, insight, and brand core into a concept positioned within its category field, then into a coherent set of visual decisions: what kind of making each layer uses, how it is executed, and how movement, color, type, ornament, and mark carry the concept.
 
 ---
 
 ## 1. Concept, Personality & Mood
 
 ### What They Are
-The **concept** is the insight from Phase 1 made visible: a specific world, device, structure, or behavior that gives the brand an ownable identity and generates decisions. The **personality** is the temperament it implies, expressed as visible behavior (how forms, type, and color act), not as adjectives. The **mood** is the felt response the piece is designed to produce, derived backward from the intended reader response and carried by the same visible behavior. A concept is not a style label, a mood, or a category convention. In the prompt, all three appear only as direct visual direction.
+The **concept** is the insight from Phase 1, grounded in the brand core, made visible: a specific world, device, structure, or behavior that gives the brand an ownable identity and generates decisions. The **personality** is the brand core's character as the design behaves, expressed as visible behavior (how forms, type, and color act), not as adjectives. The **mood** is the felt response the piece is designed to produce, derived backward from the intended reader response and carried by the same visible behavior. A concept is not a style label, a mood, or a category convention. In the prompt, all three appear only as direct visual direction.
 
 ### Deriving the Concept
-1. **Start from the insight and the tensions,** not from the product or the category.
+1. **Start from the brand core, insight, and tensions,** not from the product or the category.
 2. **Source from identity first:** the name (every part of its meaning, sound, and persona), character, heritage, audience identity, and world. A name that carries a clear idea is the strongest seed because the audience already holds it; originality then comes from the specific world and treatment the idea is given, never from replacing it.
-3. **Then from the unsaid:** product attributes and the USP are usually carried by the copy and any pictorial subject. They enter the concept only when no other layer can carry them.
+3. **Then from the subject's reality and the unsaid:** the materials, process, and lived qualities in the subject model (`01`, Section 2) give the concept a world no competitor shares. Product attributes and the USP that copy or a pictorial subject already carry enter the concept only when no other layer can carry them.
 4. **Treat associations as hypotheses.** Take the first association as the baseline, name what it is actually about (the feeling, behavior, or relationship beneath it), and consider that underlying idea and the personal idea this brand's character would choose. Reference material (cultural, historical, subject) enters as an idea or structure, never as a pasted motif.
 5. **Relevance gate:** A fact about the situation (place, category, origin, era, demographic, surrounding culture) becomes concept content only when the brand's own name, claim, heritage, or audience affinity connects it to the personality. Proximity is not relevance. Otherwise it constrains register and fit.
-6. **Message allocation:** Assign each message in the inventory (`01`) to the layer best placed to carry it, once. Copy and any pictorial subject carry what they carry already; the concept adds what they do not, through the mark, type, color, composition, and ornament.
+6. **Position within the field:** Take each convention of the category's grammar (`01`, Section 2) and decide to keep it, question it, or replace it. Signals of belonging stay, executed in this brand's own voice; habits are kept only if they serve the problem; clichés go. The concept occupies territory the brand can credibly own and the field leaves open. Test: someone inside the category recognizes it as belonging, and someone outside it feels its specificity.
+7. **Message allocation:** Assign each message in the inventory (`01`) to the layer best placed to carry it, once. Copy and any pictorial subject carry what they carry already; the concept adds what they do not, through the mark, type, color, composition, and ornament.
 
 ### Range
 A concept that produces one note is the main cause of flat design. Give it range deliberately:
@@ -34,20 +35,26 @@ Beyond the protocol tests, a concept must be **Derived** (traceable to the insig
 
 ## 2. Visual Approach
 
-Decide each visual layer separately (primary visual if any, typography, ornament, ground, edges, containers). Every visual layer has a kind of making and a stance.
+Decide each visual layer separately (primary visual if any, typography, ornament, ground, edges, containers).
 
-### 2.1 Kind of Making: Chosen by the Truth the Layer Must Deliver
+### 2.1 Layer Brief
+For each layer, settle in this order:
+1. **Job:** What only this layer does for the reader (prove, evoke, explain, identify, organize, set atmosphere).
+2. **Subject truth:** From the subject model (`01`, Section 2): how the subject is actually met in life (its use, material, process, setting, human presence), which facet makes it credible or desirable to this audience, and what the piece must show or imply of it.
+3. **Kind of making** (2.2), then **stance** (2.3), then **integration** with the other layers (2.5).
+
+### 2.2 Kind of Making: Chosen by the Truth the Layer Must Deliver
 Each kind of making delivers something the others cannot, and carries a risk:
 * **Captured** (photographic or other record of a real subject) delivers evidence, presence, and sensory desire: the claim that the subject exists and is as shown. Its risk is the shared look of stock imagery, loss of ownability, dependence on resolved detail, and a register that may not suit the placement or substrate.
 * **Drawn or painted** (an invented rendering by a hand or hand-like process) delivers character, simplification, authorship, and clarity at distance: the claim that the idea matters more than the record. Its risk is lost proof where credibility depends on seeing the real thing.
 * **Constructed** (geometry, pattern, color field, structure) delivers rhythm, order, scalability, and immediate clarity. Its risk is coldness or anonymity unless the concept gives it a world.
 * **Typographic** delivers direct voice and information, and can carry identity entirely when letterform is the concept.
-* **Hybrid** is warranted when layers have different jobs that call for different strengths. It is justified by function, never by novelty.
+* **Hybrid** is warranted when layers, or facets of one subject, have different jobs that call for different strengths. It is justified by function, never by novelty.
 
-Choose by weighing: the kind of truth the layer must deliver (proof of the real, or conveyance of an idea); what counts as credible, appetizing, or desirable to this audience; what the reading distance and exposure reward; what the substrate and print process preserve; what the concept requires; the placement register; and what neighbors already do. Positioning does not fix the kind of making, and none is the default for a category of business. Any layer may use any kind, and no layer must match another merely for consistency.
+Choose by weighing: whether the layer must prove the real or convey an idea; what counts as credible, appetizing, or desirable to this audience; what the reading distance and exposure reward; what the substrate and print process preserve; what the concept requires; the placement register; and what the field already does. Positioning does not fix the kind of making, and none is the default for a category of business. Any layer may use any kind, and no layer must match another merely for consistency.
 
-### 2.2 Execution Style: Chosen by Stance
-Stance is the viewpoint and attitude the piece gives the reader toward a subject or form. Decide stance first, then render it as observable properties. Its dimensions, each decided from the concept, audience, claim, distance, and register:
+### 2.3 Execution Style: Chosen by Stance
+Stance is the viewpoint and attitude the piece gives the reader toward a subject or form. Decide it from the subject truth and the concept, then test it against the field's usual stance: keep the usual only where it is a signal of belonging the audience needs. Render stance as observable properties. Its dimensions, each decided from the concept, audience, claim, distance, and register:
 * **Viewpoint:** How near or far the viewer stands and what role the piece gives the viewer.
 * **Authorship:** How visible the making is, from invisible record to declared construction or personal hand.
 * **State:** How finished or idealized the subject is, from as-found to perfected, and what that says about the brand's claim.
@@ -55,7 +62,7 @@ Stance is the viewpoint and attitude the piece gives the reader toward a subject
 * **Material and finish:** How tactile or flat the surface reads.
 * **Simplification:** How much is resolved, and whether form is built from detail or from silhouette.
 * **Intensity:** Energy and polish across the full range from restrained to loud. Loudness is never the means of standing out.
-* **Lineage:** The tradition, era, region, or school whose logic the work follows. It must belong to the movement or be bound to it (2.3).
+* **Lineage:** The tradition, era, region, or school whose logic the work follows. It must belong to the movement or be bound to it (2.4).
 
 Render stance by kind of making:
 * *Captured:* vantage and proximity, depth behavior, light character, subject state and styling, tonal and color grade, and crop.
@@ -64,20 +71,20 @@ Render stance by kind of making:
 
 One subject can say very different things under different stances, so the stance, not the subject, is the decision. Typography takes its stance through its voice (Section 4).
 
-### 2.3 Movement & Form Language
+### 2.4 Movement & Form Language
 Choose a design movement, vernacular, craft tradition, or coherent hybrid from the full range of design history and practice. No part of that range is reserved for a type of business. Derive it from the concept and personality first, then from positioning, objective, audience, distance, and placement register. It is the tradition under which the layers' lineages unify, so it must be able to host the chosen kinds of making; if none can, revise the movement or the kinds of making through the conflict rule.
 * **Diverge first:** Consider candidates that differ in idea and structure, including the prototype for this kind of brief. Choose the prototype only when it is the strongest fit.
 * **Combine only with a dominant voice.**
 * **Resolve it** into four observable properties: form and shape vocabulary, linework and edge behavior, rendering and depth (including whether depth exists), and texture and print material fidelity suited to the substrate.
 
-### 2.4 Integration
+### 2.5 Integration
 In a hybrid, one layer leads and sets the voice. The other layers are bound to it through shared properties (color logic, tonal range, edge and surface character, light or flatness, spatial logic, print finish) so the piece reads as one authored voice. Deliberate collage is valid only when it is the chosen movement. Layers are unified by the concept and the movement's logic, not by identical treatment; lower-tier layers are quieter in scale, contrast, and complexity but keep the form language. Personality is carried by whichever layers carry it at the least cost to legibility, and legibility never dictates stylistic intensity.
 
-### 2.5 Pictorial Subject Design
-Applies only when a pictorial subject is admitted (`01`, Section 3). Decide in this order:
-1. **Subject:** What it depicts, derived from the concept and supplied content. It never implies items the brief does not supply.
+### 2.6 Pictorial Subject Design
+Applies only when a pictorial subject is admitted (`01`, Section 4). Decide in this order:
+1. **Subject:** What it depicts, derived from the subject truth, the concept, and supplied content. It never implies items the brief does not supply.
 2. **Complexity:** Its detail, element count, and rendering depth, set by its role, reading distance, and the information load it shares the canvas with. The lower its tier or the heavier the content load, the simpler; the more it is the sole focus read from afar, the more it can carry while resolving as one clear form. Detail that cannot resolve at its reading distance is noise.
-3. **Style:** Its kind of making and stance (2.1, 2.2), suited to that complexity, the other layers, and the placement register.
+3. **Style:** Its kind of making and stance (2.2, 2.3), suited to that complexity, the other layers, and the placement register.
 
 Role, scale, and placement follow in Phase 3 (`03`, Section 5.4).
 
