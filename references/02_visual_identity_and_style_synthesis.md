@@ -29,7 +29,7 @@ A concept that produces one note is the main cause of flat design. Give it range
 ### Embodiment & Acceptance
 The mark is the concept's most concentrated statement in design, not necessarily in size. When the mark is not Tier 1, the layers that carry Tier 1 carry the concept's atmosphere and the mark stays consistent with it. The concept shapes how things look and never adds, removes, or alters hard content.
 
-Beyond the protocol tests, a concept must be **Derived** (traceable to the insight), **Singular** (one dominant idea, with facets clearly subordinate), **Generative** (it settles later choices), and **Ranged** (tension and payoff as above).
+Beyond the protocol tests, a concept must be **Derived** (traceable to the insight and brand core), **Singular** (one dominant idea, with facets clearly subordinate), and **Generative** (it settles later choices).
 
 ---
 
@@ -128,7 +128,7 @@ Backgrounds, borders, patterns, flourishes, and accents are ornament unless they
 
 ## 7. Brand Mark
 
-The mark is the canonical anchor of identity, and its prominence is a tier decision. It must be structurally autonomous.
+The mark is the canonical anchor of identity, and its prominence is a tier decision. It must be structurally autonomous. When the brief supplies a mark, it is reproduced as supplied; the decisions below then govern its role, scale, isolation, and surroundings.
 * **Independence:** It never depends on product imagery, background, or seasonal props to be recognized, and it represents the institution, not one product.
 * **Enclosure:** Contained or open, and if contained, the form of the boundary, which can itself carry the concept. Judge from what a boundary or its absence says, the mark's role and scale, the grounds and reductions it must survive, silhouette distinctiveness, name length, and how the piece's other boundaries behave. Consider at least one contained and one open candidate before committing.
 * **Composition:** Typographic, symbolic, or combined, and how the parts relate in scale and hierarchy. Any architecture that satisfies autonomy and recognition is valid.

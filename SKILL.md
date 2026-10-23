@@ -31,7 +31,7 @@ Every list, ratio, or reference in this skill is a tendency along a continuum; w
 ## 2. Master Decision Flow
 
 ```
-[Phase 1: Understanding]       Read the brief, model the subject and its field, find interactions and tensions, state the insight and brand core.
+[Phase 1: Understanding]       Read the brief, model the subject and its field, find interactions and tensions, state the problem, insight, and brand core.
    ▼
 [Phase 2: Concept & Identity]  Concept, message allocation, visual approach per layer, movement, color, type, mark. Lock as one system.
    ▼
@@ -64,7 +64,7 @@ Every list, ratio, or reference in this skill is a tendency along a continuum; w
 
 **Decision Context:** Compiled in Phase 1, extended in Phase 2, consulted by every later decision. It holds: business and positioning; objective, reader task, and intended response; audience and moment of encounter; medium and physical scale; placement and register; the subject model (reality, lived USP, customer decision, category field); content load, tiers, and primary focus; parameter weights, interactions, and tensions; the design problem, insight, and brand core; then field position, concept, personality, mood, approach per layer, and style direction.
 
-**Foundational decisions** govern all others: primary focus, message allocation, concept and personality, mood, kind of making and execution style per layer, pictorial commitment, movement, palette architecture, typographic voice, mark architecture, and composition strategy. Each is made in full:
+**Foundational decisions** govern all others: primary focus, message allocation, concept and personality, mood, kind of making and execution style per layer, pictorial commitment, movement, palette architecture, typographic voice, mark architecture, and composition strategy. Each follows these steps, with divergence widest for the decisions that govern the most:
 1. **Frame:** State the job of the decision and which context parameters, and which interactions among them, bear on it.
 2. **Diverge:** Map the possibility space for the decision (the axes along which answers can genuinely vary), then generate candidates that sit apart on those axes and differ in underlying idea, each built from a different dominant context dimension or interaction and stated as concrete visible behavior so it can be judged. Include three depths: the apparent (what proximity, category grammar, or the prototype suggests), the underlying (what that is about), and the personal (what this brand's character would choose). The first coherent candidate is usually the nearest one, so the search continues past it. The apparent is the baseline to beat and is chosen only when it is the strongest fit.
 3. **Test:**
@@ -82,7 +82,7 @@ Every list, ratio, or reference in this skill is a tendency along a continuum; w
 
 **Conflict rule:** When a derived decision cannot satisfy its governing decisions without breaking hierarchy or legibility, trace the conflict to its cause, revise the foundational decision, and re-derive what it governs. Never patch downstream.
 
-**Working discipline:** Deliberation is internal but never abbreviated. Each foundational decision is explored separately and in full before any prompt text is drafted. Only committed directives appear in the prompt.
+**Working discipline:** Deliberation is internal. Each foundational decision is explored separately before any prompt text is drafted, and only committed directives appear in the prompt.
 
 ---
 
@@ -111,7 +111,7 @@ COMPOSITION & LAYOUT ZONING:
 [Zonal structure derived from the canvas's dominant axis, visibility, and content groups. Specific placement and relative scale, expressed as relationships, for the focal anchor, any pictorial subject, tagline, information blocks, and action badges. Every hard-content string appears verbatim, in quotation marks, at its placed position].
 
 VISUAL ELEMENTS & RENDERING TECHNIQUE:
-[Each pictorial subject admitted (subject, complexity, role, relative scale) or a statement that none is used; for each visual layer, its kind of making, its execution style resolved to observable properties (vantage, light, depth, subject state, and grade for captured work; lineage, medium, line, and simplification for drawn work; geometric logic and rhythm for constructed work), and its expressive character; which layer leads and what binds the layers when they differ].
+[Each pictorial subject admitted (subject, complexity, role, relative scale) or a statement that none is used; for each visual layer, its kind of making, its execution style resolved to observable properties (vantage, light, depth, subject state, and grade for captured work; lineage, medium, line, and simplification for drawn work; geometric logic and rhythm for constructed work), and its intensity; which layer leads and what binds the layers when they differ].
 
 BACKGROUND, BORDERS & FINISH:
 [Ground character and surface treatment, borders, decorative motifs, and edge treatments, each carrying the concept's character at the visibility its purpose needs, or a statement that a layer is deliberately plain].

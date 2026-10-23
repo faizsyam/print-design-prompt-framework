@@ -56,7 +56,7 @@ Assemble the decisions into the template in `SKILL.md`, Section 4, leaving no sl
 1. **Header:** aspect ratio, medium, full brand name, concept as direct visual direction, movement resolved to traits, palette roles, hues, and proportions, form language and tone.
 2. **Mark:** geometry, role and scale, embodiment of the concept, typography, descriptor, isolation.
 3. **Composition:** zones by axis, visibility, and content groups; placement by tier and balance, with relative sizes calibrated to physical scale; every hard-content string verbatim, in quotation marks, at its placed position.
-4. **Visual elements:** each pictorial subject (or its deliberate absence); for each layer, kind of making, execution style, expressive character, leading layer, and binding properties.
+4. **Visual elements:** each pictorial subject (or its deliberate absence); for each layer, kind of making, execution style, intensity, leading layer, and binding properties.
 5. **Background, borders, finish:** substrate, borders or deliberate absence, accents, and pattern density at the visibility their purpose needs.
 6. **Technical constraints:** layout and rendering rules suited to the medium and style, legibility intent per level, and strict hard-content fidelity.
 

@@ -2,7 +2,7 @@
 
 *Used in Phase 3 of `SKILL.md`. Every decision follows the Decision Protocol in `SKILL.md`, Section 2.*
 
-Composition is not a container for the concept; it is one of its carriers. Phase 3 confirms the tiering against the locked identity decisions, locks a composition strategy that expresses the concept, then derives every element's zone, position, size, and presence from tier, purpose, and the foundational decisions.
+Composition is not a container for the concept; it is one of its carriers. Phase 3 confirms the tiering and primary focus against the locked identity decisions (a change returns through the conflict rule), locks a composition strategy that expresses the concept, then derives every element's zone, position, size, and presence from tier, purpose, and the foundational decisions.
 
 ---
 
