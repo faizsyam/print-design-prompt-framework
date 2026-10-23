@@ -18,7 +18,7 @@ Space is a designed layer, decided before content is placed. Content is fitted i
 4. **State space as composition:** the margins, the separations between groups, the regions left empty, and the fraction of the canvas the content envelope occupies are decisions of the composition, directed in the prompt (`04`).
 
 ### Zoning
-1. **Read the canvas:** dominant axis and visibility map (`01`).
+1. **Read the canvas:** dominant axis, visibility map, and the surroundings it is seen in (`01`), so the composition works as a figure against its ground.
 2. **Form zones from content groups:** the number of zones is the number of groups the brief has, not a fixed count.
 3. **Size zones by tier:** area follows attention weight, and lower-tier zones stay compact or merge.
 4. **Set the path:** the reading path is a consequence of weight gradients and directional cues, designed for the canvas and its anchor.

@@ -81,7 +81,8 @@ Run internally and revise until every item passes. None of it appears in the out
 * [ ] Would each foundational decision change if the business, audience, medium, or placement changed, and does it resolve a tension of this brief?
 * [ ] Does each message have one best-placed carrier, with the mark, type, color, composition, and ornament carrying what the content and imagery do not already carry?
 * [ ] Does the piece have range: a personality with productive tension, a payoff at each distance from which it is read, and layers that carry different things rather than one note repeated?
-* [ ] Does the aesthetic register belong natively in the placement, with distinction coming from an idea within its range?
+* [ ] Does the aesthetic register belong natively in the placement and its surroundings, with distinction coming from an idea within its range?
+* [ ] Does each positioning quality take the form this audience, price level, place, and field call for, and do the signals match what the business actually is and delivers (model, premises, means, customer expectations), so the real encounter confirms the promise?
 
 **Approach**
 * [ ] Is each visual layer's kind of making matched to the truth it must deliver, with hybrids justified by function, led by one layer, and bound by shared properties?
