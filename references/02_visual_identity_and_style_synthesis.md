@@ -1,170 +1,129 @@
-# Visual Identity & Style Synthesis
+# Concept & Visual Identity Synthesis
 
-*Used in Phase 2 of `SKILL.md`. Every decision here follows the Decision Protocol in `SKILL.md`, Section 2, and the theme and style direction extend the Decision Context.*
+*Used in Phase 2 of `SKILL.md`. Every decision follows the Decision Protocol in `SKILL.md`, Section 2, and extends the Decision Context.*
 
-This reference guide establishes the principles and systematic methods for establishing a brand theme and personality, selecting design movements, defining visual form language, orchestrating color systems, and architecting standalone brand marks without relying on static terminology banks or lookup tables.
-
----
-
-## 1. Brand Theme & Personality Direction
-
-Before any detailed design choice, establish one unifying theme and personality for the brand. This is the first act of Phase 2 and the reason behind every later decision.
-
-### 1. What a Theme & Personality Is
-A theme is a single, concrete creative idea that gives the brand an ownable identity: an identifiable world, subject, voice, or device that makes the brand recognizable and unlike others in its category. The personality is the temperament this idea implies, meaning how the brand would present itself if it were a person (its energy, tone, and attitude). Together they form the unified language from which every visual layer is derived. A theme is not a style label, a mood adjective, or a category convention; it must be specific enough to generate decisions. Its embodiment is open: any subject, character, setting, material, narrative, device, or abstraction that carries the idea, including ideas drawn from the brand's own name.
-
-### 2. Deriving the Theme
-Build it from the understanding gathered in Phase 1 rather than choosing it from a menu:
-* **Raw material:** What is distinctive in the business (origin, craft, process, place), the product (essence and sensory qualities), the USP, the brand name (its meaning, sound, and anything it contains), the audience (who they are, what they identify with and respond to), the local and cultural context (admitted only through the relevance gate below), the placement context and its contextual register, the intended reader response, and the tensions found in context synthesis (`01`).
-* **Source from identity, then from the unsaid:** Build the theme first from what the brand is: its name (read for the meaning, persona, and associations of every part, including parts the brief does not emphasize), character, heritage, audience identity, and world. Product attributes and the USP are messages the copy and any pictorial subject usually carry already; they enter the theme only when no other layer can carry them. A name that carries a clear idea is the strongest seed, because the audience already holds it.
-* **Complementarity:** The theme adds what the other layers do not already say. A theme that restates what the content and imagery communicate wastes the identity layers; the mark, type, color, and ornament exist to carry the identity the product cannot.
-* **Relevance gate:** A fact about the brand's situation (its place, category, product origin, era, audience demographic, or surrounding culture) becomes theme content only when the brand's own name, claim, heritage, or audience affinity connects it to the personality. Otherwise it constrains register and fit, not identity. Proximity is not relevance: the nearest cultural or category signifier is the apparent choice every neighbor reaches for. Where a connection exists, test whether the personality is best served by the reference, by the idea beneath it, or by a different idea entirely.
-* **Intersection:** Find the point where these overlap that only this brand can claim. An idea any competitor could adopt unchanged is not ownable.
-* **Depth:** The first association a name, product, or category offers is the one every competitor reaches first. Treat it as the baseline, find what it is about (the feeling, behavior, or relationship behind it), and express that in a fresh form. When the name itself carries a clear idea, that idea stays the seed: originality comes from the specific world, form, and treatment the idea is given, never from replacing it with an unrelated one. Reference material (cultural, historical, or subject) enters as an idea or structure, never as a pasted surface motif.
-* **Statement:** Express the result as one core idea plus a personality, specific enough to settle later questions about this brand's typography, decoration, color, and boundaries. Express the personality through visible behavior (how forms, type, and color act), not adjective strings. The mood, meaning the felt response the piece is designed to produce, is derived backward from the intended reader response and carried by the same visible behavior. In the prompt it appears only as direct visual direction (what it is, and the visible character and atmosphere it dictates), never as rationale.
-
-### 3. Embodiment & Cascade
-* **The mark as canon:** The logo mark is the most concentrated and canonical statement of the theme, in its design rather than its size. Its scale and prominence are set by its tier like any element. When the mark is not Tier 1, the layers that carry Tier 1 carry the theme's atmosphere and the mark stays consistent with it.
-* **Carriers, not coverage:** Visible theme expression is concentrated in a few carriers chosen by their capacity to carry it: the mark first, the layers that hold Tier 1, and any ornament admitted, which is the theme's world made visible at low weight. Every other layer stays quiet and consistent with the theme. No carrier repeats another's motif.
-* **Visual language only:** The theme shapes how things look. It never adds, removes, or alters hard content.
-
-### 4. Tests
-A theme is accepted when it is **Specific** (no competitor could adopt it unchanged), **Non-obvious** (its expression goes beyond the first, most literal rendering of the association the name, product, or category offers), **Derived** (traceable to the brief), **Sensitive** (it would change if the business, audience, medium, or placement changed), **Complementary** (it carries what the content and imagery do not already carry), **Generative** (it settles later choices instead of leaving them open), **Singular** (one dominant idea, with any supporting facets clearly subordinate), and **Fitting** (it serves the objective, the audience, and legibility at the medium's distances, belongs natively in its placement context, and stands apart from its neighbors).
+Phase 2 turns the design problem and insight into a concept, then into a coherent set of visual decisions: what kind of making each layer uses, how it is executed, and how movement, color, type, ornament, and mark carry the concept.
 
 ---
 
-## 2. Visual Movement & Style Selection Strategy
+## 1. Concept, Personality & Mood
 
-Rather than using generic aesthetic labels, visual style selection requires identifying an established design movement, visual tradition, or structural style defined by concrete, observable traits, chosen to serve the theme.
+### What They Are
+The **concept** is the insight from Phase 1 made visible: a specific world, device, structure, or behavior that gives the brand an ownable identity and generates decisions. The **personality** is the temperament it implies, expressed as visible behavior (how forms, type, and color act), not as adjectives. The **mood** is the felt response the piece is designed to produce, derived backward from the intended reader response and carried by the same visible behavior. A concept is not a style label, a mood, or a category convention. In the prompt, all three appear only as direct visual direction.
 
-```
-┌─────────────────────────────────────────────────────────────────────┐
-│                     DESIGN MOVEMENT & TRADITION                     │
-│    (named, specific, and defined by concrete observable traits)     │
-└──────────────────────────────────┬──────────────────────────────────┘
-                                   │
-        ┌─────────────────┬────────┴────────┬─────────────────┐        
-┌───────┴───────┐ ┌───────┴───────┐ ┌───────┴───────┐ ┌───────┴───────┐
-│ FORM LANGUAGE │ │  LINEWORK &   │ │  RENDERING &  │ │TEXTURE & PRINT│
-│    & SHAPE    │ │     EDGE      │ │    SHADING    │ │   MATERIAL    │
-│  VOCABULARY   │ │   BEHAVIOR    │ │   TECHNIQUE   │ │   FIDELITY    │
-└───────────────┘ └───────────────┘ └───────────────┘ └───────────────┘
-```
+### Deriving the Concept
+1. **Start from the insight and the tensions,** not from the product or the category.
+2. **Source from identity first:** the name (every part of its meaning, sound, and persona), character, heritage, audience identity, and world. A name that carries a clear idea is the strongest seed because the audience already holds it; originality then comes from the specific world and treatment the idea is given, never from replacing it.
+3. **Then from the unsaid:** product attributes and the USP are usually carried by the copy and any pictorial subject. They enter the concept only when no other layer can carry them.
+4. **Treat associations as hypotheses.** Take the first association as the baseline, name what it is actually about (the feeling, behavior, or relationship beneath it), and consider that underlying idea and the personal idea this brand's character would choose. Reference material (cultural, historical, subject) enters as an idea or structure, never as a pasted motif.
+5. **Relevance gate:** A fact about the situation (place, category, origin, era, demographic, surrounding culture) becomes concept content only when the brand's own name, claim, heritage, or audience affinity connects it to the personality. Proximity is not relevance. Otherwise it constrains register and fit.
+6. **Message allocation:** Assign each message in the inventory (`01`) to the layer best placed to carry it, once. Copy and any pictorial subject carry what they carry already; the concept adds what they do not, through the mark, type, color, composition, and ornament.
 
-### 1. Evaluating Design Movements
-The selectable range is the full breadth of design history and contemporary practice: named movements, regional and vernacular traditions, craft and print techniques, period styles, and coherent hybrids or invented directions. No part of that range is reserved for a type of business. Derive the choice from the theme and personality (Section 1) first, then from the intersection of the brand's positioning, the communication objective, the audience, the medium's reading distance and exposure, and the placement context and its contextual register (`01`).
-* **Diverge before converging:** Consider several candidates that differ in idea and structure, not only in label, including the prototype for this kind of brief and medium (the choice most briefs would default to). Select the prototype only when it is the strongest fit.
-* **Test each candidate:** It must serve the theme, fit the brief, belong natively in its placement context, be distinctive to this brand among its neighbors, remain effective at the medium's reading distances, and be specifiable in concrete, observable traits.
-* **Combine only with a dominant voice:** A hybrid is valid when the result is coherent and one tradition clearly leads.
+### Range
+A concept that produces one note is the main cause of flat design. Give it range deliberately:
+* **Productive tension:** Build the personality from two or more qualities that pull against each other and are resolved in the design. Qualities that merely agree produce a mood, not a character.
+* **Payoff per distance:** For each distance from which the piece is actually read, decide what it offers: at far range (silhouette, color relationship, one clear shape), while approaching (structure, voice, rhythm), up close (craft, material, detail). Do not invent distances the piece is not read from.
+* **Concentrated carriers:** Concept expression is concentrated in a few carriers chosen for their capacity to carry it (the mark first, the layers that hold Tier 1, and any ornament). Every other layer keeps the concept's form language at lower volume, and no carrier repeats another's motif.
 
-### 2. Defining Observable Visual Characteristics & Specificity
-Once a movement is selected, articulate its execution through four concrete visual pillars:
-1. **Form Language & Shape Vocabulary:** Specify boundary behaviors and the shape logic that carries the concept.
-2. **Linework & Edge Behavior:** Define line quality, weight, and stroke behavior.
-3. **Rendering & Shading Technique:** Define how depth and surface are rendered, including whether depth is present at all.
-4. **Texture & Print Material Fidelity:** Define paper and print characteristics that suit the substrate and the reading distance.
+### Embodiment & Acceptance
+The mark is the concept's most concentrated statement in design, not necessarily in size. When the mark is not Tier 1, the layers that carry Tier 1 carry the concept's atmosphere and the mark stays consistent with it. The concept shapes how things look and never adds, removes, or alters hard content.
 
-**Specificity resolution:** A style choice is complete only when it is resolved down its levels (family of representation, technique and medium, tradition or school with its era or region, distinguishing traits) to the point where a practitioner could execute it without asking what kind. Test: does the term exclude most of its own category? If other styles in the category could answer to the same words, descend further. This applies equally to typography, drawn and captured imagery (resolved by treatment, not by category), rendering, ornament, and any other stylistic choice.
+Beyond the protocol tests, a concept must be **Derived** (traceable to the insight), **Singular** (one dominant idea, with facets clearly subordinate), **Generative** (it settles later choices), and **Ranged** (tension and payoff as above).
 
-### 3. Per-Layer Expression & Representation Spectrum
-A style is not one setting applied to the whole piece. Decide each visual layer separately (the primary visual if one is used, typography, ornament and decoration, background, the treatment of edges and boundaries, and any other layer present) and for each decide:
-* **Representation Mode, chosen by job:** Its position on the continuum from literal capture to full abstraction, and the kind of making it implies. Each mode delivers something the others cannot (evidence and sensory immediacy, ownable character and controlled simplification, structure and rhythm, direct voice), so each layer is assigned the mode whose strength its job needs most. Positioning does not fix the mode; any positioning can be expressed at any point on the continuum that suits the placement context.
-* **Single or Hybrid:** One mode throughout when one mode can do every layer's job; a hybrid when the jobs call for different strengths. Hybrid is justified by function, never by novelty, and no layer must match another's mode merely for consistency.
-* **Hybrid Integration:** One layer leads and sets the voice. The others are bound to it through shared properties (color logic, tonal range, edge and surface character, light or flatness, spatial logic, print finish) so the piece reads as one authored voice rather than assembled parts. Deliberate collage is valid only when it is the chosen movement.
-* **Tone is Independent of Mode:** Personality and mood are carried by whichever layers carry them at the least cost to legibility and with the most distinction (type, color, composition, rendering, or subject). A given temperament does not require every layer, or any pictorial layer, to adopt one mode.
-* **Expressive Character:** Its intensity, energy, finish, and polish, across the full range from restrained to loud, derived from the brand, the objective, and the placement context. Loudness is one setting among many, never the means of standing out. Restrained means lower intensity, not absent character.
-* **Style Axes:** Within each layer, style is a combination of independent choices: line behavior, shape logic, detail density, color and shading treatment, surface or medium character, spatial depth and proportion, and cultural or era lineage. Choose each axis for the theme and resolve it as Section 2.2 requires; a stock style package is a prototype, not a choice.
-* **Coherence:** Layers are unified by the theme and personality (Section 1) and the movement's underlying logic, not by identical treatment. Tier governs a layer's volume, not its voice: lower-tier layers are quieter in scale, contrast, and complexity while keeping the theme's form language, so no layer is neutral by default.
-* **Legibility vs. Character:** Legibility is a functional requirement met through size, value contrast, and shape clarity. It does not require heavy linework, saturation, or illustrative boldness, and it never dictates stylistic character.
+---
 
-### 4. Pictorial Subject Design
-Applies only when Phase 1 admitted a pictorial subject (`01`, Section 3, item 5). Decide in this order:
-1. **Subject:** What it depicts, derived from the theme and the brief's supplied content. It never implies offers or items the brief does not supply.
-2. **Complexity:** Its detail, element count, and rendering depth, set by its role, its reading distance, and the information load it shares the canvas with. The lower its tier or the heavier the content load, the simpler it is; the more it stands as the sole focus and is read from afar, the more it can carry while still resolving as one clear form. Detail that cannot be resolved at its reading distance is noise.
-3. **Style:** Chosen along the style axes (Section 2.3) and resolved per Section 2.2, to work at that level of complexity and to serve the theme, the representation mode of the other layers (Section 2.3), and the contextual register of the placement context (`01`). A simple subject needs a style that holds at low detail; a complex one needs a style that stays coherent at high detail.
+## 2. Visual Approach
+
+Decide each visual layer separately (primary visual if any, typography, ornament, ground, edges, containers). Every visual layer has a kind of making and a stance.
+
+### 2.1 Kind of Making: Chosen by the Truth the Layer Must Deliver
+Each kind of making delivers something the others cannot, and carries a risk:
+* **Captured** (photographic or other record of a real subject) delivers evidence, presence, and sensory desire: the claim that the subject exists and is as shown. Its risk is the shared look of stock imagery, loss of ownability, dependence on resolved detail, and a register that may not suit the placement or substrate.
+* **Drawn or painted** (an invented rendering by a hand or hand-like process) delivers character, simplification, authorship, and clarity at distance: the claim that the idea matters more than the record. Its risk is lost proof where credibility depends on seeing the real thing.
+* **Constructed** (geometry, pattern, color field, structure) delivers rhythm, order, scalability, and immediate clarity. Its risk is coldness or anonymity unless the concept gives it a world.
+* **Typographic** delivers direct voice and information, and can carry identity entirely when letterform is the concept.
+* **Hybrid** is warranted when layers have different jobs that call for different strengths. It is justified by function, never by novelty.
+
+Choose by weighing: the kind of truth the layer must deliver (proof of the real, or conveyance of an idea); what counts as credible, appetizing, or desirable to this audience; what the reading distance and exposure reward; what the substrate and print process preserve; what the concept requires; the placement register; and what neighbors already do. Positioning does not fix the kind of making, and none is the default for a category of business. Any layer may use any kind, and no layer must match another merely for consistency.
+
+### 2.2 Execution Style: Chosen by Stance
+Stance is the viewpoint and attitude the piece gives the reader toward a subject or form. Decide stance first, then render it as observable properties. Its dimensions, each decided from the concept, audience, claim, distance, and register:
+* **Viewpoint:** How near or far the viewer stands and what role the piece gives the viewer.
+* **Authorship:** How visible the making is, from invisible record to declared construction or personal hand.
+* **State:** How finished or idealized the subject is, from as-found to perfected, and what that says about the brand's claim.
+* **Light, time, and atmosphere:** The illumination, moment, and air the concept implies.
+* **Material and finish:** How tactile or flat the surface reads.
+* **Simplification:** How much is resolved, and whether form is built from detail or from silhouette.
+* **Intensity:** Energy and polish across the full range from restrained to loud. Loudness is never the means of standing out.
+* **Lineage:** The tradition, era, region, or school whose logic the work follows. It must belong to the movement or be bound to it (2.3).
+
+Render stance by kind of making:
+* *Captured:* vantage and proximity, depth behavior, light character, subject state and styling, tonal and color grade, and crop.
+* *Drawn:* lineage, medium and tool character, line behavior, level of simplification, and color treatment.
+* *Constructed:* geometric logic, repetition and scale rhythm, edge behavior, and density.
+
+One subject can say very different things under different stances, so the stance, not the subject, is the decision. Typography takes its stance through its voice (Section 4).
+
+### 2.3 Movement & Form Language
+Choose a design movement, vernacular, craft tradition, or coherent hybrid from the full range of design history and practice. No part of that range is reserved for a type of business. Derive it from the concept and personality first, then from positioning, objective, audience, distance, and placement register. It is the tradition under which the layers' lineages unify, so it must be able to host the chosen kinds of making; if none can, revise the movement or the kinds of making through the conflict rule.
+* **Diverge first:** Consider candidates that differ in idea and structure, including the prototype for this kind of brief. Choose the prototype only when it is the strongest fit.
+* **Combine only with a dominant voice.**
+* **Resolve it** into four observable properties: form and shape vocabulary, linework and edge behavior, rendering and depth (including whether depth exists), and texture and print material fidelity suited to the substrate.
+
+### 2.4 Integration
+In a hybrid, one layer leads and sets the voice. The other layers are bound to it through shared properties (color logic, tonal range, edge and surface character, light or flatness, spatial logic, print finish) so the piece reads as one authored voice. Deliberate collage is valid only when it is the chosen movement. Layers are unified by the concept and the movement's logic, not by identical treatment; lower-tier layers are quieter in scale, contrast, and complexity but keep the form language. Personality is carried by whichever layers carry it at the least cost to legibility, and legibility never dictates stylistic intensity.
+
+### 2.5 Pictorial Subject Design
+Applies only when a pictorial subject is admitted (`01`, Section 3). Decide in this order:
+1. **Subject:** What it depicts, derived from the concept and supplied content. It never implies items the brief does not supply.
+2. **Complexity:** Its detail, element count, and rendering depth, set by its role, reading distance, and the information load it shares the canvas with. The lower its tier or the heavier the content load, the simpler; the more it is the sole focus read from afar, the more it can carry while resolving as one clear form. Detail that cannot resolve at its reading distance is noise.
+3. **Style:** Its kind of making and stance (2.1, 2.2), suited to that complexity, the other layers, and the placement register.
 
 Role, scale, and placement follow in Phase 3 (`03`, Section 5.4).
 
-### 5. Ornament & Decoration (Optional)
-Backgrounds, borders, patterns, flourishes, and accents all count as ornament unless they do structural work.
-* **Optional, never a vacuum:** Separate ornament may be absent only when the theme's character is already carried at full strength by the form of the other layers (letterforms, ground, shapes, edges, rhythm) and the theme itself calls for stillness. Otherwise ornament exists and is calibrated.
-* **Earns its place:** Ornament is admitted only when it does a job (organizes, directs the eye, builds atmosphere, or states identity) that layout, color, and type cannot do as well. Test: what is lost if it is removed, including the brand's character and distinctiveness, not only function.
-* **Budget:** Its weight, quantity, and complexity fall as the information load grows and the reading time shortens, and it never competes with content (`01`, `03`). It is calibrated down in steps (simpler, tonal, integrated into the ground, confined to edges or accents) before it is removed; a heavy load lowers its volume, not its presence.
-* **Drawn from the theme's world:** When admitted, ornament's subject, form, and rendering come from the world the theme establishes (its objects, structures, patterns, materials, and heritage), specified in the movement's own vocabulary and held at the weight its tier allows. It carries the identity and atmosphere the product imagery cannot and does not echo what imagery and copy already say. Generic filler, or ornament derived from the product instead of the theme, is a prototype.
-* **One language, few carriers:** Ornament shares one visual language drawn from the theme and does not repeat the same motif across layers. A motif used everywhere becomes noise.
-* **Discipline:** Ornament never overlaps or intrudes on text, and sits where it supports the reading path.
-* **Visibility:** Its degree of presence follows its purpose and tier (`03`, Section 5.5).
+---
+
+## 3. Color System
+
+Derive the palette from the concept and personality, mood, audience color codes, moment of encounter, environment, objective, tiers, and print constraints, in this order:
+1. **Roles before hues:** Decide the functional roles the piece needs (ground, content, emphasis, ornament, anything the concept demands).
+2. **Logic before hue:** Translate personality into value key, temperature relationship, saturation behavior, contrast structure, and harmony type. Weigh palettes that differ in logic, not only in hue. Logic is the primary carrier of character.
+3. **Hue last:** Treat the concept's world, audience associations, the environment's colors, and the relationship to any depicted subject as tests, not votes: consensus yields the safe, expected hue. Choose the hue the personality calls for that passes those tests. A hue chosen by its commonly assumed meaning is the apparent choice, to be earned by fit or replaced.
+4. **Count and proportion follow roles.** One hue in a range of values can serve several roles, and one role can call for several hues. The most conspicuous role is the smallest and belongs to the highest tier. Many-hue palettes need one organizing relationship.
+5. **Tier assignment:** The strongest, most distinctive relationships belong to Tier 1. Supporting tiers take quieter relationships, and Tier 3 and ornament take recessive ones. Reusing a Tier 1 color relationship on a lower-tier element transfers its attention.
+6. **Constraints are palette members:** The substrate's color, the print process's gamut, and photographic content are part of the palette.
+7. **Subject colors** belong to the subject. The palette frames them through a chosen relationship (agreement, complement, contrast, or neutrality) rather than reproducing them.
+8. **Audit:** Roles must be clearly distinct, top-tier elements must carry the most alive relationships, dark structural colors are chosen deliberately and never defaulted to neutral, and the palette separates from category and neighbor conventions through relationship, not intensity.
 
 ---
 
-## 3. Color System Architecture (60-30-10 Baseline)
+## 4. Typographic Voice
 
-Color systems in print design must enforce structural readability, psychological alignment, and environmental contrast. Derive the palette from the theme and personality (Section 1), the intended mood and reader response, the audience's color codes, the occasion and moment of encounter, the environment, the objective, the attention tiers (`01`), and the print constraints: decide the roles the piece needs, then the color logic the personality implies, then how many hues serve them and which, then how those hues combine. The number of colors is an outcome of this derivation, never a fixed input.
-
-The **60-30-10 structural color ratio** is the baseline proportion hierarchy for a palette of three roles. Adjust the proportions, or the number of roles, when the concept demands it, provided the most conspicuous role remains the smallest and highest-priority:
-
-```
-+-------------------------------------------------------------------------+
-|                                                                         |
-|                       DOMINANT TONE (60%)                               |
-|        Backgrounds, Large Surface Fields, Overall Base Atmosphere       |
-|                                                                         |
-|               +-----------------------------------------+               |
-|               |                                         |               |
-|               |       SECONDARY STRUCTURE (30%)         |               |
-|               |  Supporting Content, Structure, Framing |               |
-|               |                                         |               |
-|               |         +-----------------------+       |               |
-|               |         | ACCENT / ACTION (10%) |       |               |
-|               |         | Highest-Priority Items|       |               |
-|               |         +-----------------------+       |               |
-|               +-----------------------------------------+               |
-+-------------------------------------------------------------------------+
-```
-
-### 1. Structural Palette Allocation (Baseline)
-* **Dominant Tone (60%):** Establishes the primary visual substrate and atmospheric baseline. Provides high contrast against both secondary copy elements and external ambient environments.
-* **Secondary Structural Tone (30%):** Defines organizational structure, major visual framing, supporting content, and structural graphic elements.
-* **Accent / Action Tone (10%):** The most conspicuous color role against the palette, reserved strictly for the elements the attention tiers (`01`) rank highest. Accent follows priority, not a content category. Never dilute accent colors by using them in large background areas.
-
-### 2. Contrast & Environmental Logic
-* **Color Relationships:** Choose temperature, value, and saturation relationships for psychological alignment with the theme and personality and for contrast against the environment. Balance opposing qualities so the palette carries both the energy and the stability the concept requires.
-* **Print Chromaticity:** Account for substrate physics. Colors conceived in light must be translated into equivalents that the print process can actually achieve.
-* **Role-to-Tier Assignment:** Color roles are assigned to elements by attention tier (`01`), not by element type. The strongest, most distinctive color relationships belong to Tier 1; supporting tiers take progressively quieter relationships (less contrast against their ground, less distinct hue or chroma); Tier 3 and ornament take recessive relationships. Reusing a Tier 1 element's color relationship on a lower-tier element transfers its attention.
-
-### 3. Palette Size & Combination
-* **Roles before hues:** Determine the functional roles the piece needs (ground, content, emphasis, ornament, and any role the concept demands) before choosing any hue.
-* **Count follows roles:** One role can be served by several tints or shades of a single hue, several roles can share one hue, and one role can call for several hues when the theme demands it. A palette may be as restrained as a single hue with a range of values or as rich as the theme requires, provided hierarchy and unity hold. A color with no distinct role is noise.
-* **Color logic before hue:** Translate the personality and mood into color behavior first: value key, temperature relationship, saturation behavior, contrast structure, and harmony type. Weigh several palettes that differ in logic, not only in hue, and treat the logic as the primary carrier of character; hue is the last variable chosen.
-* **Hue sourcing:** Within the chosen logic, treat the context dimensions (the theme's world, the audience's codes and associations, the occasion and moment of encounter, the environment's colors, the objective, and the relationship to any depicted subject) as constraints and tests, not votes: consensus among them yields the safe, expected hue. Choose the hue the personality calls for that passes those tests. A hue picked by its commonly assumed meaning or by one literal association is the apparent choice, to be earned by fit or replaced.
-* **Combination follows theme:** Hue, temperature, value, and saturation relationships come from the theme and personality and from the contrast pairs each tier needs for legibility. A palette with many hues needs one organizing logic (a governing relationship among hues, or a shared range of value or saturation) so it reads as one system.
-* **Constraints are part of the palette:** The substrate's own color, the print process's gamut and color count, and any photographic content (which brings its own colors that the palette must govern or absorb) are members of the palette.
-* **Hue specificity:** Each hue is specified by family, value, saturation character, and temperament, at the level that separates it from its near neighbors; a bare hue name leaves the model its most common version.
-* **Subject colors:** The colors of a depicted subject belong to the subject, which already supplies them, so the palette frames the subject through a chosen relationship (agreement, complement, contrast, or neutrality) instead of reproducing it. Subject colors inform the palette only where the theme calls for it and are never copied into the structural palette by default. The palette is judged by the feeling it gives the brand and the contrast pairs it needs.
-* **Palette audit:** Judge the assembled palette as a whole. Roles must be clearly distinct from one another, the highest-tier elements must carry the most alive and distinctive relationships and never the most muted, and no role may read as dull or muddy against its neighbors. Dark structural colors are chosen deliberately, with hue and saturation that support the palette's energy, never defaulted to a neutral dark. **Ownability:** the palette separates from the conventional colors of its category and the neighbors in its environment through relationship and treatment rather than intensity; a palette that could belong to a typical competitor is the prototype.
+Typography is a visual layer with its own job. Derive the display voice from the concept, movement, and the distance of the tier it serves, and the supporting voice from the information it carries. The voices must differ in weight, structure, or personality, and neither may compromise legibility at its tier's floor. Where letterform itself can carry the concept, it is a primary carrier.
 
 ---
 
-## 4. Brand Mark Strategy & Visual Autonomy
+## 5. Specificity Resolution
 
-The primary logo mark is the canonical anchor of brand identity; its prominence on the piece is a tier decision, from dominant to minimal. It must maintain **structural autonomy**—standing apart as a distinct visual asset while harmonizing with the overall print composition.
+A stylistic choice is complete only when it is resolved through its levels (family of representation, technique and medium, tradition with era or region, distinguishing traits) to where a practitioner could execute it without asking what kind. Test: does the term exclude most of its own category? If other styles in the category could answer to the same words, descend further. This applies to typography (resolved to structural traits such as proportion, contrast, terminals, and rhythm), imagery, rendering, ornament, and hues (resolved by family, value, saturation character, and temperament) alike.
 
-### 1. Autonomy & Independence Principle
-* **Context Isolation:** The main logo mark must never depend on product illustrations, background photography, or seasonal props to be recognizable.
-* **Iconographic Independence:** Avoid literal visual duplication between the logo and specific product offerings. The logo represents the *institution*, not a single product variant.
-* **Theme Embodiment:** The mark is the most concentrated statement of the brand theme and personality (Section 1), carrying it independently of any product illustration and of its scale on the piece.
+---
 
-### 2. Structural Mark Architectures
-Derive the logo lockup from three decisions, each judged across every dimension and never by a single criterion:
-* **Enclosure:** Whether the mark is contained or open and, if contained, the form of the boundary, which is itself a design variable that can carry the theme. Judge from the theme and personality (what a boundary or its absence says), the mark's role and scale in the hierarchy, the contexts it must survive (reduction, busy or varied grounds, distance), the distinctiveness of its silhouette, the length and structure of the name, and how the piece's other boundaries behave. Open construction is one candidate, never the default: consider at least one contained and one open candidate before committing. Enclosure of a mark is an identity decision, not a grouping device, so the lightest-device rule in `03` does not apply to it.
-* **Composition of Elements:** Whether the mark is typographic, symbolic, or a combination, and how its parts relate in scale, position, and hierarchy.
-* **Isolation Strategy:** How the mark separates from the background and remains recognizable when reduced or viewed from a distance.
+## 6. Ornament & Decoration
 
-Any architecture that satisfies autonomy and recognizability is valid; the range is not limited to conventional lockup types.
+Backgrounds, borders, patterns, flourishes, and accents are ornament unless they do structural work.
+* **Earns its place:** It does a job (organizes, directs, builds atmosphere, states identity) that layout, color, and type cannot do as well. Test what is lost without it, including the character.
+* **Absent only by call of the concept:** Separate ornament may be omitted only when the concept's character is already carried at full strength by other layers and the concept calls for stillness there.
+* **Budget:** Weight, quantity, and complexity fall as information load grows and reading time shortens. Calibrate it down in steps (simpler, tonal, integrated into the ground, confined to edges) before removing it.
+* **Source:** Its subject, form, and rendering come from the world the concept establishes, in the movement's own vocabulary, at the weight its tier allows. It does not echo the product or what copy already says. One visual language, few carriers, never overlapping text.
 
-### 3. Sub-Branding Hierarchy within the Logo
-Organize the logo mark into two clear internal levels:
-1. **Primary Brand Wordmark:** The dominant element of the mark by scale and presence, with weight and contrast as the chosen movement expresses them and letterform character resolved to specific structural traits (Section 2.2).
-2. **Category Descriptor:** Clean, highly legible secondary text, usually directly below or framed within the brand mark, and placed elsewhere when the hierarchy and balance call for it.
+---
 
-**Tagline / Quality Statement (independent element):** The tagline is not a fixed third tier of the mark. It is a supporting element whose placement is decided in Phase 3 by compositional balance. It may attach to the mark when the mark needs more weight or the format is compact; otherwise it is placed in another zone where it supports the reading path and the balance around the focal anchor.
+## 7. Brand Mark
+
+The mark is the canonical anchor of identity, and its prominence is a tier decision. It must be structurally autonomous.
+* **Independence:** It never depends on product imagery, background, or seasonal props to be recognized, and it represents the institution, not one product.
+* **Enclosure:** Contained or open, and if contained, the form of the boundary, which can itself carry the concept. Judge from what a boundary or its absence says, the mark's role and scale, the grounds and reductions it must survive, silhouette distinctiveness, name length, and how the piece's other boundaries behave. Consider at least one contained and one open candidate before committing.
+* **Composition:** Typographic, symbolic, or combined, and how the parts relate in scale and hierarchy. Any architecture that satisfies autonomy and recognition is valid.
+* **Isolation:** How it separates from the ground and survives reduction and distance.
+* **Internal levels:** A primary wordmark, dominant within the mark, with letterform character resolved to structural traits, and a category descriptor that is clean and highly legible. The tagline is a separate supporting element whose placement is decided in Phase 3.

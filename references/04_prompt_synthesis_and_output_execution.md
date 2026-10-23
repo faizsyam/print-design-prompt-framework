@@ -1,126 +1,97 @@
 # Prompt Synthesis & Output Execution
 
-*Used in Phases 4 and 5 of `SKILL.md`. Phase 4 carries every Decision Protocol decision (`SKILL.md`, Section 2) into the prompt; Phase 5 audits them.*
+*Used in Phases 4 and 5 of `SKILL.md`. Phase 4 carries every decision into the prompt, and Phase 5 audits them.*
 
-This reference guide establishes the principles, semantic translation mechanics, negative constraints, and output execution directives for converting synthesized strategic design decisions into a single, highly dense, professional image-generation prompt.
-
----
-
-## 1. Semantic Density & Precision Principles
-
-Image-generation vision models respond to precise structural, artistic, and spatial specification rather than conversational explanations or subjective buzzwords. Translate each strategic design decision into what is physically visible on the page:
-
-```
-┌─────────────────────────────────────────────────────────────────────────┐
-│                    SEMANTIC TRANSLATION PIPELINE                        │
-└─────────────────────────────────────────────────────────────────────────┘
-
-INTENT  (what the design must feel or do)
-   │  name the specific tradition, technique, or structure that embodies it
-   ▼
-OBSERVABLE PROPERTIES  (form, line, color, surface, scale)
-   │  state them as what is physically visible
-   ▼
-SPATIAL RELATIONSHIPS  (position, proportion, hierarchy, grouping)
-```
-
-### 1. Precision Principles
-* **Specify decisions, not judgments:** Every statement names what something is, where it sits, and how it relates to its neighbors. A statement that only assesses quality gives the model nothing to execute.
-* **Terminology from the discipline:** Draw on the full breadth of professional design, typography, art-historical, and print-production knowledge, and choose the term that most exactly names the intended decision. Compose the wording fresh for each brief; never reuse stock phrasing across briefs.
-* **Specificity resolved:** Every stylistic term is taken to the level at which it discriminates (`02`, Section 2.2). A category name alone is a non-decision; a term fits when other styles in its category could not answer to it.
-* **Term fit and discriminating modifiers:** Choose the term whose scope matches the decision exactly, neither broader nor narrower, and never a near-synonym that shifts the meaning. A modifier stays only if it separates this choice from its alternatives; modifiers that would fit any style are cut.
-* **Hybrid direction:** When layers differ in mode, direct which layer leads, the specific technique of each, and the shared properties that bind them, so the model composes one piece instead of assembling parts.
-* **Cover every layer:** Layout structure, typography, color roles, and rendering technique each carry a concrete decision in the prompt.
-* **Directive only:** Every phrase is a visual directive. The prompt carries decisions, never the rationale, justification, or intent behind them.
-* **English with literal contents:** The prompt is written in English. Only literal hard content (brand name, copy, prices, contact details, addresses, other supplied strings) stays verbatim in its original language, in quotation marks.
-* **Relationships over numbers:** Position, scale, and proportion are directed as relationships (order, alignment, relative size, relative dominance), and color by hue and role. Measurements, coordinates, angles, counts, and color codes appear only when the brief supplies them.
-* **Economy:** State each decision once, in the slot where it belongs, and never restate hierarchy, rationale, or the same constraint across slots.
-* **No internal vocabulary:** Framework terms (tier names, decision context, protocol) never appear in the prompt.
+Image-generation models respond to precise structural, artistic, and spatial specification, not to explanations or subjective adjectives. Phase 4 translates each decision into what is physically visible.
 
 ---
 
-## 2. Elimination of Generic AI Aesthetics & Fluff
+## 1. Semantic Density & Precision
 
-To prevent the vision model from reverting to generic "AI stock design" tropes, strictly purge conversational filler, vague language, and redundant descriptors.
+```
+INTENT  →  name the tradition, technique, stance, or structure that embodies it
+        →  state observable properties (form, line, light, color, surface, scale)
+        →  state spatial relationships (position, proportion, hierarchy, grouping)
+```
 
-### 1. Evaluative & Vague Language
-Exclude words that assess quality, promise an effect, or invoke popularity without describing form. Replace each with the visual mechanic it was standing in for. A rendering stance (photographic or otherwise) is stated as a chosen technique, never as a quality boost.
+* **Decisions, not judgments:** Every statement names what something is, where it sits, and how it relates to its neighbors. A statement that only assesses quality gives the model nothing to execute.
+* **Carry the concept visibly:** The concept and its range reach the model as visible directives in the slots where they act: the form and behavior of the mark, type, color relationships, composition structure, imagery stance, and ornament. The concept is never named as an abstraction and left for the model to interpret.
+* **Carry stance, not only category:** For each pictorial layer, direct kind of making and execution style as observable properties (`02`, Section 2.2). Saying only "photograph" or "illustration" leaves the decision to the model.
+* **Discipline terminology:** Draw on professional design, typography, art-historical, and print-production terminology, and choose the term whose scope matches the decision exactly. Compose wording fresh for each brief. A modifier stays only if it separates this choice from its alternatives.
+* **Hybrid direction:** State which layer leads, the technique of each, and the shared properties that bind them.
+* **Cover every layer:** Layout, typography, color roles, imagery, ornament, and ground each carry a concrete decision.
+* **Directive form:** The rules in `SKILL.md`, Section 5 apply to every phrase: directives only, English with literal hard content in quotation marks, relationships over numbers, each decision stated once, no framework vocabulary.
 
-### 2. Genericness Test & Default Overrides
-Genericness enters wherever a decision is left unspecified: where the prompt is silent, the model supplies its most common default for that element, so silence is itself a decision. For each element, make the decision that determines its distinctiveness: how it expresses the theme and personality, how it is anchored in the structure, how related information is grouped and separated (an enclosure is a decision, and so is its absence), the representation mode and expressive character of each visual layer, the typographic and decorative voice, what the background is and what it does for legibility, and which surface effects exist and why.
-* **Test:** If a sentence could be placed unchanged into a prompt for a different business, it is generic. Rewrite it with this brief's specifics. Apply the same test to decisions before they are worded: a decision that would not change if the business, audience, medium, or placement changed is generic.
-* **Prototype test:** Name the choice a typical prompt for this kind of business and medium would arrive at, and the choice that proximity or literal association suggests. If the prompt's choice is the same, it must be the strongest fit for this brief; otherwise depart from it.
+---
+
+## 2. Genericness Control
+
+Where the prompt is silent, the model supplies its most common default, so silence is a decision. For every element, decide what determines its distinctiveness: how it expresses the concept, how it is anchored in the structure, how related information is grouped or left ungrouped, the kind of making and stance of each visual layer, the typographic and decorative voice, what the ground is and does, and which surface effects exist.
+* **Test:** If a sentence could move unchanged into a prompt for a different business, it is generic; rewrite it with this brief's specifics.
+* **Prototype test:** Name the choice a typical prompt for this business and medium would reach, and the choice proximity or literal association suggests. If the prompt's choice is the same, it must be the strongest fit for this brief.
+* **Evaluative language:** Replace words that assess quality, promise an effect, or invoke popularity with the visual mechanic they stood for. A rendering stance is stated as a chosen technique, never as a quality boost.
 * **Exclusions:** State an exclusion only where a likely default would damage the brief.
 
 ---
 
-## 3. Boundary Control & Generative Freedom Balance
+## 3. Boundary Control
 
-The prompt framework must exercise **strategic boundary control**: it strictly governs visual structure, hierarchy, composition, brand architecture, and color logic, while leaving fine line execution, micro-rendering, and organic textures to the model's creative strength. Exact measurements, coordinates, angles, counts, and color codes belong to the generative side unless the brief supplies them: models cannot honor them reliably, and they crowd out the decisions that matter.
+Strictly direct structure, hierarchy, composition, brand architecture, color logic, movement, and imagery stance. Leave fine line execution, micro-texture, lighting falloff, and organic variation to the model.
 
 ```
-┌───────────────────────────────────────────────────────────────────────────┐
-│                    THE BOUNDARY CONTROL BALANCE                           │
-└───────────────────────────────────────────────────────────────────────────┘
-
-MUST BE EXPLICITLY DIRECTED                 LEFT TO GENERATIVE EXECUTION
-┌──────────────────────────────────────┐   ┌────────────────────────────────┐
-│ • Aspect ratio & media format        │   │ • Exact micro-texture grain    │
-│ • Zoning, hierarchy & reading flow   │   │ • Fine lighting falloff & shade│
-│ • Exact hard content & copy strings  │   │ • Subtle organic linework      │
-│ • Logo architecture, scale & position│   │   variations                   │
-│ • Color role hierarchy & proportions │   │ • Artistic stroke rendering    │
-│ • Visual style & design movement     │   │   nuances                      │
-└──────────────────────────────────────┘   └────────────────────────────────┘
+MUST BE EXPLICITLY DIRECTED                     LEFT TO GENERATIVE EXECUTION
+• Aspect ratio & media format                   • Micro-texture and grain
+• Zoning, hierarchy & reading flow              • Fine lighting falloff and shading
+• Exact hard content strings                    • Subtle organic linework variation
+• Mark architecture, scale & position           • Stroke rendering nuance
+• Color roles & proportions
+• Movement, stance & style traits
 ```
 
 ---
 
-## 4. Final Output Construction Pipeline
+## 4. Output Construction
 
-When generating the final prompt output, assemble the design decisions made through the Decision Protocol (`SKILL.md`, Section 2) according to the strict universal template, leaving no slot filled by habit:
-
-### Execution Protocol Steps
-
-1. **Header Block Assembly:** State aspect ratio, physical media type, full brand name, the brand theme and personality as a direct visual directive, design movement resolved to its distinguishing traits, and the palette's roles, hues, and proportions.
-2. **Primary Logo Mark & Branding:** Detail the emblem/wordmark geometry, its role and scale in the hierarchy, how it embodies the theme and personality, typography style, descriptor, and structural isolation mechanics.
-3. **Composition & Layout Zoning:** Map the physical canvas into distinct spatial zones derived from its dominant axis, visibility, and content groups, aligned to the target reading distance. Place every element, including the tagline, by attention tier and balance, with relative sizes calibrated to the physical scale, and include every hard-content string verbatim, in quotation marks, at its placed position.
-4. **Visual Elements & Rendering Technique:** Detail each pictorial subject admitted (subject, complexity, style, role, scale), or state that none is used, plus the representation mode, specific technique, and expressive character of each visual layer (with the leading layer and the properties that bind them when they differ in mode) and line-weight parameters.
-5. **Background, Borders & Finish:** Define substrate textures, borders or their deliberate absence, decorative accents, or background pattern density, each at the visibility its purpose needs.
-6. **Technical & Execution Constraints:** Enforce the layout and rendering rules suited to the medium and style, the legibility intent per hierarchy level, and strict hard-content fidelity.
+Assemble the decisions into the template in `SKILL.md`, Section 4, leaving no slot filled by habit.
+1. **Header:** aspect ratio, medium, full brand name, concept as direct visual direction, movement resolved to traits, palette roles, hues, and proportions, form language and tone.
+2. **Mark:** geometry, role and scale, embodiment of the concept, typography, descriptor, isolation.
+3. **Composition:** zones by axis, visibility, and content groups; placement by tier and balance, with relative sizes calibrated to physical scale; every hard-content string verbatim, in quotation marks, at its placed position.
+4. **Visual elements:** each pictorial subject (or its deliberate absence); for each layer, kind of making, execution style, expressive character, leading layer, and binding properties.
+5. **Background, borders, finish:** substrate, borders or deliberate absence, accents, and pattern density at the visibility their purpose needs.
+6. **Technical constraints:** layout and rendering rules suited to the medium and style, legibility intent per level, and strict hard-content fidelity.
 
 ---
 
 ## 5. Verification Checklist
 
-Before emitting the final prompt, run this audit internally and revise until every item passes. None of it appears in the output. A failed item is traced to the decision that caused it, revised there, and everything that decision governs is re-derived; patching downstream is not a fix.
+Run internally and revise until every item passes. None of it appears in the output. Trace each failure to the decision that caused it, revise there, and re-derive what it governs.
 
 **Content & Language**
-* [ ] **Hard Copy Fidelity:** Is every hard-content string from the brief included verbatim, in quotation marks, with nothing added, invented, or reworded?
-* [ ] **Language & Directness:** Is the entire prompt in English except literal hard content, and is every phrase, including the theme line, a direct visual directive with no rationale, free of framework terminology, measurements, coordinates, angles, counts, and color codes, and stating each decision once?
+* [ ] Is every hard-content string verbatim, in quotation marks, with nothing added, dropped, or reworded?
+* [ ] Does the prompt obey every rule in `SKILL.md`, Section 5 (English except hard content, directives only, no framework terms, relational direction, each decision stated once)?
 
-**Identity & Context**
-* [ ] **Theme Coherence:** Is one specific theme and personality stated, embodied in the logo mark as its canonical statement, and traceable through the few layers that carry it and consistent in the rest, without altering hard content?
-* [ ] **Relevance:** Does every context fact the identity decisions draw on (place, category, origin, era, culture) connect to the brand's own identity, claim, or audience rather than merely sitting near it, and was the apparent choice weighed against the underlying and personal alternatives?
-* [ ] **Division of Labor:** Does each message (what the brand is, what it offers, how it feels, what to do) have one best-placed carrier, with theme, mark, ornament, and palette carrying the identity the content and imagery do not already carry, and no layer echoing another's message?
-* [ ] **Tailoring:** Would each foundational decision (theme, mood, movement, representation modes, palette, typographic voice, composition) change if the business, audience, medium, or placement changed, does it resolve a tension of this brief, and does it draw on every context dimension that bears on it rather than the most salient or literal input?
-* [ ] **Contextual Fit:** Does the aesthetic register (finish, formality, realism, production character) belong natively in the placement context, with positioning expressed through signals that setting can carry and distinction coming from a differentiator within its range?
+**Problem & Concept**
+* [ ] Does the design answer a stated design problem and insight, and is the concept one specific idea that is visible in the directives rather than named as an abstraction?
+* [ ] Does every context fact the identity draws on connect to the brand's own identity, claim, or audience, and was the apparent choice weighed against the underlying and personal alternatives?
+* [ ] Would each foundational decision change if the business, audience, medium, or placement changed, and does it resolve a tension of this brief?
+* [ ] Does each message have one best-placed carrier, with the mark, type, color, composition, and ornament carrying what the content and imagery do not already carry?
+* [ ] Does the piece have range: a personality with productive tension, a payoff at each distance from which it is read, and layers that carry different things rather than one note repeated?
+* [ ] Does the aesthetic register belong natively in the placement, with distinction coming from an idea within its range?
+
+**Approach**
+* [ ] Is each visual layer's kind of making matched to the truth it must deliver, with hybrids justified by function, led by one layer, and bound by shared properties?
+* [ ] Is each execution style a stance resolved to observable properties for this brief, rather than a category name or a default treatment?
 
 **Hierarchy & Layout**
-* [ ] **Hierarchy Derivation:** Is the primary focus determined from the objective, reader's task, engagement mode, content structure, recognition already supplied, and style direction, with the logo mark's prominence (like every element's) set by its tier rather than assumed?
-* [ ] **Attention Balance:** Does visual weight follow the attention tiers across every dimension (scale, color relationship, placement, isolation), with ornament and lower-tier elements recessive in color and position rather than sharing the focal anchor's, and weight distributed across the canvas rather than clustered? Does the weight each element's attributes actually produce (area, contrast, chroma, detail, position), including grounds, bands, and borders, match its tier?
-* [ ] **Placement Logic:** Is every placement and group form (including the tagline and contact information) derived from function, relationship, and counterweight, rather than repeated from a template?
-* [ ] **Scale Calibration:** Is each element sized within the band set by its legibility floor and its tier, with surplus canvas given to Tier 1 scale and negative space rather than to enlarged secondary content, and with Tier 3 information kept legible but unboosted?
-* [ ] **Pictorial Decision:** Is the pictorial subject justified by need at the lowest grade of presence that does its job (or deliberately absent), with its scale set by sufficiency within the area left after content at its floor, and its subject, complexity, style, role, and placement derived from the reception balance, content load, theme, tier, and placement context rather than assumed?
+* [ ] Is the primary focus determined from the objective, reader task, engagement mode, content structure, recognition supplied, and movement, with the mark's prominence set by its tier?
+* [ ] Does the weight each element actually produces (area, contrast, chroma, detail, position, including grounds, bands, and borders) match its tier, with weight distributed across the canvas?
+* [ ] Is every placement and group form derived from function, relationship, and counterweight, and is each element sized within its band, with Tier 3 legible but unboosted?
+* [ ] Is the pictorial subject at the lowest grade that does its job (or deliberately absent), sized by sufficiency?
 
 **Decisions & Distinctiveness**
-* [ ] **Decision Traceability:** Can every element's size, position, grouping, color, and treatment be traced to its role and to the Decision Context parameters that bear on it? Is each grouping or separation device, representation mode, expressive character, and typographic and decorative voice a specific choice for this brief (including no boundary where none is needed), with none left to default or taken from its category, and do the decisions together read as one coherent, balanced piece?
-* [ ] **Derivation Direction:** Were the foundational decisions locked and checked against each other before any derived decision was made, and does every derived decision trace to the foundational decisions it serves and to its element's tier and purpose, with presence and visibility set at the lowest degree at which the element still does its job?
-* [ ] **Specificity:** Does every stylistic term, including typography, rendering, capture or drawing treatment, and palette hues, discriminate within its category, with no category name standing alone as a decision?
-* [ ] **Modality Fit:** Is each visual layer's representation mode matched to the job it does, with any hybrid justified by function, led by one layer, and bound by shared properties?
-* [ ] **Expression:** Is the personality perceptible at each viewing distance and across layers (ground, type, containers, edges, secondary elements), with tier setting each layer's volume and never its voice, every plain layer a deliberate choice the theme calls for, and ornament calibrated down in steps rather than dropped?
-* [ ] **Restraint:** Does every element and device earn its place (what is lost without it, including character), with ornament calibrated in weight to what the hierarchy and objective allow, and with nothing overlapping text?
-* [ ] **Open Choice:** Were the design movement, mark architecture, and layout derived from the brief's principles, rather than from the first conventional fit or a listed category?
-* [ ] **Distinctiveness:** Would any sentence in the prompt survive unchanged in a prompt for a different business, and does any major choice (theme, style, palette, mark architecture, layout) match the prototype without being the strongest fit? If so, rewrite it.
-* [ ] **Semantic Density:** Are all visual instructions expressed in professional design, art history, and print production terminology?
-* [ ] **Template Integrity:** Does the output strictly adhere to the universal template structure defined in `SKILL.md`?
+* [ ] Were the foundational decisions explored across different ideas, locked in their two stages, and checked against each other before any derived decision was made, and does every derived decision trace to them?
+* [ ] Does every stylistic term, including typography, rendering, imagery, and hues, discriminate within its category and use professional terminology?
+* [ ] Is the personality perceptible across layers (ground, type, containers, edges, secondary elements), with every plain layer a deliberate choice and ornament calibrated down in steps rather than dropped?
+* [ ] Does every element and device earn its place, with nothing overlapping text?
+* [ ] Would any sentence survive unchanged in a prompt for a different business, and does any major choice match the prototype without being the strongest fit? If so, rewrite it.
+* [ ] Does the output follow the template in `SKILL.md`, Section 4?

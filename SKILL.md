@@ -5,161 +5,127 @@ description: Universal framework for converting a business brief into a single, 
 
 # Print Design Prompt Engineering Framework
 
-A universal, principle-based system for translating business briefs, brand identities, print media constraints, and visual strategies into precise, semantically dense image-generation prompts.
+A principle-based system for turning a business brief into one precise image-generation prompt for a physical print piece. Its output answers a specific design problem; it is never a styled version of the business category.
 
-**How to use this skill:** Work through the 5 phases in Section 2 in order. At the start of each phase, read the matching reference file listed in Section 3 before making decisions for that phase. Then output the final prompt using the template in Section 4 and the rules in Section 5. The Decision Context and Decision Protocol at the end of Section 2 govern every phase. Foundational decisions are deliberated and locked before the decisions they govern; the pipeline order exists to enforce this.
+**How to use:** Work through the five phases in Section 2 in order. At the start of each phase, read the matching reference file (Section 3). Foundational decisions are explored and locked before the decisions they govern. Output the prompt with the template in Section 4 and the rules in Section 5.
 
 ---
 
-## 1. Philosophical Stance & Operating Limits
+## 1. Principles
 
-This framework operates on **strategic authority without execution micro-management**. It bridges high-level brand strategy and generative AI vision models through seven core axioms:
-
-1. **Principle-Driven Strategy:** Design decisions must emerge from structural analysis—media specs, viewing distance, business positioning, target psychology—never from static lookup tables, stock aesthetics, or predefined industry-to-style mappings.
-2. **Distinctive Visual Autonomy:** Every output must possess a clear, non-generic design identity, anchored in one brand theme and personality that unifies every layer, with distinct form language, color logic, and typographic personality tailored to the specific business context. It must stand out from its neighbors through a distinct idea, not through volume, while belonging natively to its placement context. Each visual layer is its own deliberate, brief-specific choice: its representation mode is chosen by the job it must do (hybrids across layers are as valid as a single mode), personality is carried by the layers best placed to carry it, and functional legibility never dictates stylistic intensity. Restraint calibrates intensity and never removes character: tier governs a layer's volume, not its voice, and a plain layer is a choice the theme must earn.
-3. **Semantic Density over Micro-Management:** Prompts communicate high-level concept, visual movement, composition, color palette, logo architecture, and spatial hierarchy using precise professional design terminology. Detailed pixel-level rendering and micro-textures are deliberately left to the generative vision model's creative interpretation. Density includes specificity: every stylistic term is resolved to the level at which it discriminates, because a category name alone leaves the decision to the model.
-4. **Contextual & Physical Reality:** Print design exists in physical space. Layouts must account for aspect ratio, viewing distance, ambient visual noise, exposure time, physical media substrate, and placement context (the setting, host surface, and surroundings the piece lives in). Visual weight, carried by scale, color, placement, and isolation together, is distributed by reader attention (what is read at a glance vs. only on closer reading), and element sizes are calibrated to the physical scale of the medium rather than to canvas proportion or a single viewing distance. Canvas area is the scarcest weight dimension because it is taken directly from content and breathing room, so it is spent last: hierarchy is built first with the cheaper dimensions (contrast, isolation, placement, color), and no element is owed area by its category or role.
-5. **Hierarchically Derived Decisions:** No decision about any element, layer, or attribute comes from its category or from habit, and none is made in isolation. Foundational decisions (theme, mood, movement, representation modes, palette, typographic voice, composition) are tailored to the whole Decision Context read jointly (business, objective, audience, medium, and placement together); a foundational decision that would survive a change in that context unchanged is generic. Derived decisions (every attribute of every element) serve the foundational decisions through the element's tier and purpose. Upstream governs downstream, and each decision is made explicit.
-6. **Deliberation Proportional to Leverage:** The more a decision governs, the more deliberately it is made. Foundational decisions are explored across meaningfully different candidates, tested, and locked before anything they govern is decided; derived decisions follow by derivation, not fresh invention. Rushing is the skipping of this order.
-7. **Divided Communicative Labor:** A piece carries several messages (what the brand is, what it offers, how it should feel, what the reader should do). Each is carried by the layer best placed to carry it, once, and not echoed through every layer; layers that already carry a message free the others to carry what they alone can. Each foundational decision draws on every context dimension that bears on it, never anchoring on the most salient or literal input. A fact merely adjacent to the brand (its place, category, or origin) constrains fit until the brand's own identity connects it to the personality.
-
-**Open-set rule:** Every list, category, ratio, or reference value in this skill that describes a design choice is a principle or a tendency along a continuum, never a closed set. Derive decisions from the principle. When a brief falls outside or between listed cases, extend the principle instead of forcing a fit. Hard-content fidelity, the output template, and the execution rules are fixed.
+1. **Problem before style.** Design starts from a design problem: the strain that appears where the brand's truth, the audience's state, the objective, the medium, and the placement meet. Style, imagery, color, and type are answers to that problem, never starting points. Context dimensions are read through their interactions, because the same attribute means different things to different audiences, placements, and distances. No dimension is interpreted alone.
+2. **Insight before concept.** A distinctive idea comes from an insight: a non-obvious truth about this brand, for this reader, at this moment of encounter, that the piece can make felt. The concept is that insight made visible as a specific world, device, structure, or behavior, concrete enough to settle later choices. A mood adjective or style label is not a concept.
+3. **Associations are hypotheses.** The first association a name, product, category, or place offers is the baseline every competitor shares. Trace it to what it is actually about, keep it only if the brand itself earns it, and express it as this brand's own form of that idea. A fact merely adjacent to the brand constrains fit until the brand's identity connects it to the personality.
+4. **Range, not a single note.** A piece is one-dimensional when every layer states the same thing the same way. A distinctive piece has one governing concept carried with range: a personality made of qualities held in productive tension, a payoff at each distance from which the piece is actually read, and layers that each contribute what no other layer does.
+5. **Approach follows the job.** Each visual layer receives a kind of making (captured, drawn, constructed, typographic, or a hybrid) according to the kind of truth it must deliver, and an execution style according to the stance the piece takes toward its subject and viewer. Neither is a default and neither is set by category.
+6. **Divided labor.** A piece carries several messages (what the brand is, what it offers, how it should feel, what to do). Each goes to the layer best placed to carry it, once. Layers that already carry a message free the others to carry what they alone can.
+7. **Physical reality.** Aspect ratio, physical size, viewing distance, exposure time, substrate, and placement set what can be read and what looks native. Weight comes from scale, color, placement, isolation, and detail together, distributed by reader attention. Canvas area is the last dimension spent. Size is bounded below by the legibility floor and above by tier.
+8. **Deliberation proportional to leverage.** What governs more is explored more widely, tested, and locked first. What is governed is derived, not reinvented.
+9. **Voice at every volume.** Tier sets an element's volume, never its voice. Restraint lowers intensity and complexity before it removes character, and a plain layer is a choice the concept must call for.
+10. **Open set.** Every list, ratio, or reference in this skill is a tendency along a continuum. Where a brief falls outside it, extend the principle. Hard-content fidelity, the output template, and the execution rules are fixed.
 
 ---
 
 ## 2. Master Decision Flow
 
-When processing a brief, follow this sequential 5-phase cognitive pipeline:
-
 ```
-[Phase 1: Strategic Brief Deconstruction]
-   │  Analyze business, objective, audience, medium, placement, copy density, and local market context; weigh them, name their tensions, and compile the Decision Context.
+[Phase 1: Design Problem]      Read the brief, weigh the context, find its interactions and tensions, state the insight.
    ▼
-[Phase 2: Brand Theme & Visual Identity Synthesis]
-   │  Lock the foundational identity decisions as one system: theme and personality, mood, design movement, representation modes, color architecture, typographic voice, and logo strategy.
+[Phase 2: Concept & Identity]  Concept, message allocation, visual approach per layer, movement, color, type, mark. Lock as one system.
    ▼
-[Phase 3: Spatial Architecture & Layout Grid]
-   │  Lock the composition strategy, then derive zoning, placement, size, presence, and visibility of every element from it, by tier and purpose.
+[Phase 3: Composition]         Composition strategy, then zoning, placement, size, and presence of every element.
    ▼
-[Phase 4: Semantic Prompt Synthesis]
-   │  Translate design decisions into a dense, structured, professional prompt text.
+[Phase 4: Prompt Synthesis]    Carry every decision into the template as an explicit visual directive.
    ▼
-[Phase 5: Boundary & Quality Verification]
-   │  Strip generic buzzwords, verify strict brief content adherence, confirm generative freedom, and audit decision traceability, re-opening the upstream cause of any failure.
+[Phase 5: Verification]        Audit, trace each failure to its upstream cause, re-derive.
 ```
 
-### Phase Details & Reference Modules
-
-* **Phase 1: Strategic Brief Deconstruction**
-  * Deconstruct the business (domain, background, positioning), communication objective and intended reader response, media substrate, placement context and its contextual register, aspect ratio, primary viewing distance, reading time, and mandatory content elements.
-  * Rank every content element into an attention tier (glance / scan / deliberate). Determine the primary focus from the objective, the reader's task, usage, content structure, and recognition already supplied, never assuming it.
-  * Derive the legibility floor from physical size and the distance at which each tier is read.
-  * Capture what is distinctive about the business, product, name, and audience as raw material for the theme, reading the name's full meaning and the whole brief rather than only what the brief emphasizes.
-  * Inventory the messages the piece must carry and note which the content and any pictorial subject will already carry; the rest is the work of the identity layers.
-  * Determine how much the piece is looked at versus read and, from that, the pictorial commitment it can support (absent, ambient, supporting, or dominant), given the objective, medium, content load, and reading time.
-  * Weigh the parameters by how much each governs in this brief and name the tensions between them (where serving one strains another). The foundational decisions exist to resolve these tensions, which is what makes them tailor-made.
-  * Compile everything into the Decision Context (see Decision Context & Decision Protocol below).
-  *(See detailed execution guidance in `references/01_strategic_analysis_and_deconstruction.md`)*
-
-* **Phase 2: Brand Theme & Visual Identity Synthesis**
-  * First establish the brand's theme and personality, derived from what the brand is (its name, character, heritage, and audience) and from what the other layers will not already carry, admitting facts about its situation such as place, category, or origin only where its own identity connects them to the personality, expressing the idea behind the first association in a fresh form rather than replacing it, and make the logo mark its canonical statement.
-  * Determine the exact design movement or tradition that serves the theme and belongs natively in its placement context, drawn from the full range of design history and practice, including hybrids, with its leading and supporting voices resolved to distinguishing traits.
-  * Define form language, edge behavior, the representation mode of each visual layer matched to the job it does (a single mode or a hybrid, with the leading layer and what unifies the layers) and the expressive character of each, the subject, complexity, and specific style of any pictorial subject admitted, the palette's roles, size, and combination keyed to the attention tiers with color logic set from the personality before any hue is chosen, any ornament calibrated in weight but drawn from the theme's world, and independent logo mark architecture. Resolve every stylistic choice to a discriminating level of specificity.
-  * Add the theme, personality, mood, and style direction to the Decision Context, check the foundational decisions against each other as one system, and lock them.
-  *(See detailed execution guidance in `references/02_visual_identity_and_style_synthesis.md`)*
-
-* **Phase 3: Spatial Architecture & Layout Grid**
-  * Confirm the tiering against the chosen style and pictorial decisions.
-  * Decide the composition strategy (axis commitment, focal anchor, reading path, density and negative-space stance) as a foundational decision, then lock it.
-  * Divide physical canvas space into functional zones derived from the canvas's dominant axis, visibility, and content groups.
-  * Establish scale contrast ratios (>2:1), typographic hierarchy, visual anchors, and breathing room.
-  * Place each element (including the tagline) by attention tier and compositional balance, deriving every placement and group form from function, relationship, and counterweight instead of a template. Set the role, placement, and scale of any pictorial subject by sufficiency (the smallest scale and weight at which it still does its job) within the area left after required content at its floor and breathing room.
-  * Set each element's purpose, presence, and visibility, deriving its attributes from the foundational decisions it serves, its tier, and its purpose.
-  * Express the hierarchy across every weight dimension (scale, color, placement, isolation), and size elements within the band set by their legibility floor and their tier.
-  * Audit the weight each element actually produces, including grounds, borders, and bands, against its tier, and reduce or remove any element that outweighs its tier. Audit expression as well: where a layer (ground, type, containers, edges) is bare or default without the theme calling for stillness, give it the theme's character at a volume its tier allows. Remove only what adds weight without adding meaning.
-  *(See detailed execution guidance in `references/03_compositional_architecture_and_spatial_systems.md`)*
-
-* **Phase 4: Semantic Prompt Synthesis**
-  * Construct the raw prompt using structured, highly dense design terminology organized from macro visual concept to specific zonal implementation.
-  * Carry every Decision Protocol decision into the prompt as an explicit directive, leaving no attribute to default.
-  *(See detailed execution guidance in `references/04_prompt_synthesis_and_output_execution.md`)*
-
-* **Phase 5: Boundary & Quality Verification**
-  * Audit the prompt internally against the Verification Checklist and revise until every item passes: content fidelity and language, identity and context, hierarchy and layout, and decision traceability and distinctiveness, tracing each failure to its upstream cause and re-deriving what that cause governs.
-  *(The Verification Checklist for this phase is in Section 5 of `references/04_prompt_synthesis_and_output_execution.md`)*
+* **Phase 1: Design Problem** (`references/01_strategic_analysis_and_deconstruction.md`)
+  * Deconstruct the business, objective and intended reader response, audience and moment of encounter, medium, placement and its contextual register, content, and reading time.
+  * Tier content by when the reader needs it, determine the primary focus, derive legibility floors, and set the reception balance and a provisional pictorial ceiling.
+  * Weigh the parameters, read how they interact, name the tensions, and state the design problem and the insight it opens.
+* **Phase 2: Concept & Identity** (`references/02_visual_identity_and_style_synthesis.md`)
+  * Derive the concept, personality, and mood from the insight, drawing on identity first and then on what other layers will not carry, and allocate each message to its carrier.
+  * Assign each visual layer its kind of making by the job it does and resolve its execution style from the stance the piece takes. Confirm or revise the pictorial commitment with these decisions.
+  * Choose movement, form language, color logic, typographic voice, any ornament, and the mark. Check all of it as one system and lock it.
+* **Phase 3: Composition** (`references/03_compositional_architecture_and_spatial_systems.md`)
+  * Confirm the tiering and primary focus against the locked identity decisions, then lock a composition strategy that carries the concept through structure.
+  * Derive every element's zone, position, size, presence, and treatment from tier, purpose, and the foundational decisions.
+  * Audit the weight each element actually produces and the expression and range each layer actually carries.
+* **Phase 4: Prompt Synthesis** (`references/04_prompt_synthesis_and_output_execution.md`)
+  * Write the prompt from macro concept to zonal implementation. Every decision becomes an observable directive and no attribute is left to default.
+* **Phase 5: Verification**
+  * Run the checklist in `references/04`, Section 5.
 
 ### Decision Context & Decision Protocol
-**Decision Context:** Compiled at the end of Phase 1, extended in Phase 2, and consulted by every later decision: the business (background, positioning, distinctive substance); objective, the reader's task, and the intended reader response; audience (who, state, familiarity, local codes); medium (physical scale, mode of use, viewing distances, visibility); placement context and contextual register; content load, attention tiers, and primary focus; the weight each parameter carries in this brief and the tensions between them; brand theme, personality, and mood; style direction (movement, representation modes, expressive character, palette logic).
 
-**Decision Protocol:** Decisions fall into two classes that differ in their source of authority and in the depth of deliberation they receive.
+**Decision Context:** Compiled in Phase 1, extended in Phase 2, consulted by every later decision. It holds: business and positioning; objective, reader task, and intended response; audience and moment of encounter; medium and physical scale; placement and register; content load, tiers, and primary focus; parameter weights, interactions, and tensions; the design problem and insight; then concept, personality, mood, approach per layer, and style direction.
 
-**Foundational decisions** govern all others: primary focus, the allocation of messages across layers, theme and personality, mood, design movement with its leading and supporting voices, the representation mode of each visual layer, pictorial commitment, palette architecture, typographic voice, mark architecture, and composition strategy. Their authority is the whole Decision Context read jointly, with its tensions resolved. Each is deliberated in full:
-1. **Frame:** The job the decision does and every Decision Context parameter that bears on it, weighted as this brief weights them.
-2. **Diverge:** Candidates that differ in underlying idea, not only in label, drawn at three depths: the apparent (what proximity, category, or literal association suggests, which includes the prototype), the underlying (what that is actually about), and the personal (what this brand's character would choose). The apparent is the baseline to beat and is chosen only when it is the strongest fit for the personality, never by reflex.
-3. **Test:** Tailoring (would the choice change if the business, audience, medium, or placement changed? if not, it is generic), range (it draws on every context dimension that bears on it, not on the most salient or literal input), complementarity (it carries what the other layers do not already carry), relevance (each context fact it draws on is connected to the brand's own identity, claim, or audience; proximity or category membership is not a connection), expression (it lets the personality be perceived, not merely avoids clashing), resolution of the brief's tensions, belonging and distinction within the placement context, generative power (does it settle downstream choices), legibility at the medium's distances, and coherence with the foundational decisions already made.
-4. **Specify:** Resolve it to a discriminating level of specificity (`02`, Section 2.2).
-5. **Lock:** Foundational decisions co-constrain one another, so they are checked against each other as one system and locked before the first derived decision is made.
+**Foundational decisions** govern all others: primary focus, message allocation, concept and personality, mood, kind of making and execution style per layer, pictorial commitment, movement, palette architecture, typographic voice, mark architecture, and composition strategy. Each is made in full:
+1. **Frame:** State the job of the decision and which context parameters, and which interactions among them, bear on it.
+2. **Diverge:** Generate candidates that differ in underlying idea, building them from different dominant context dimensions or interactions so they are genuinely distinct, at three depths: the apparent (what proximity, category, or the prototype suggests), the underlying (what that is about), and the personal (what this brand's character would choose). The apparent is the baseline to beat and is chosen only when it is the strongest fit.
+3. **Test:**
+   * *Tailoring:* would it change if the business, audience, medium, or placement changed? If not, it is generic.
+   * *Earned connection:* every context fact it draws on is connected to the brand's own identity, claim, or audience, not merely nearby.
+   * *Resolution:* it resolves a tension of this brief.
+   * *Range:* it carries something other layers do not, and it holds a tension rather than one note.
+   * *Belonging and distinction:* it looks native in the placement and differs from neighbors by idea, not by volume.
+   * *Function:* it is legible at the medium's distances and settles downstream choices.
+   * *Coherence:* it agrees with the foundational decisions already made.
+4. **Specify:** Resolve it to a level that discriminates (`02`, Section 5).
+5. **Lock:** Check the foundational decisions against each other as one system. Lock them in two stages: identity decisions at the end of Phase 2, composition strategy at the start of Phase 3, checked against the identity. No derived decision precedes the lock that governs it.
 
-**Derived decisions** are every attribute of every element and layer (presence, visibility, size, position, extent, grouping, boundary, color, typography, rendering, finish, complexity). Their authority is the foundational decisions plus the element's own role. They are derived, not reinvented:
-1. **Role:** The element's tier (when it is read), its purpose (what it does for the reader), and its presence and visibility, including whether it exists at all (`03`, Section 5.5).
-2. **Governing decisions:** The foundational decisions this attribute must express or stay subordinate to.
-3. **Derive:** The value that role and governing decisions imply. Alternatives are weighed only where more than one derivation survives, and the prototype is chosen only when it is what the derivation yields.
-4. **Test:** Necessity (what is lost without it, including loss of character), weight proportionate to role as the attributes actually produce it (across dimensions, including area), voice (its form carries the theme's character at its tier's volume, never a default), legibility at the floor, and consistency with sibling decisions.
-5. **Commit:** State the choice explicitly as a specific directive. No attribute is left to the model's default.
+**Derived decisions** are every attribute of every element and layer. Each is derived from the element's tier (when it is read), its purpose (what it does for the reader), its presence (whether and how visibly it exists), the physical conditions under which it is seen, and the foundational decisions it serves. Test each for necessity, proportionate weight as its attributes actually produce it, voice, legibility at the floor, and consistency with siblings. Commit each as an explicit directive.
 
-**Conflict rule:** When a derived decision cannot satisfy its governing decisions without breaking hierarchy or legibility, trace the conflict to its cause. If a foundational decision is the cause, revise it and re-derive what it governs. Never patch downstream.
+**Conflict rule:** When a derived decision cannot satisfy its governing decisions without breaking hierarchy or legibility, trace the conflict to its cause, revise the foundational decision, and re-derive what it governs. Never patch downstream.
 
-**Working discipline:** The protocol is how decisions are made, not extra output, but internal never means abbreviated: each foundational decision is deliberated separately and in full before any prompt text is drafted, while derived attributes that share role and governing decisions may be decided together. Only the committed directives appear in the prompt.
-
-**Whole-piece consistency:** Decisions are made per element but judged together. The weight budget balances across tiers, and color, form, spacing, and voice share one underlying logic, the theme. The piece is also edited for excess and for bareness. Any element or device that adds weight without adding meaning is removed or reduced, but restraint calibrates weight, complexity, and contrast before it removes expression, and a layer left plain must be so because the theme calls for stillness there, not by omission.
+**Working discipline:** Deliberation is internal but never abbreviated. Each foundational decision is explored separately and in full before any prompt text is drafted. Only committed directives appear in the prompt.
 
 ---
 
 ## 3. Reference Module Index
 
-When executing specific phases of the workflow, refer to these foundational documents for detailed decision logic:
-
 | File Path | Functional Domain |
 | :--- | :--- |
-| `references/01_strategic_analysis_and_deconstruction.md` | Brief analysis, business background, communication objective and intended response, placement context, context weights and tensions, canvas shape and visibility, physical scale and legibility floor, viewing contexts, content filtering, attention tiering, reception balance and pictorial commitment, and local market dynamics (including Indonesian UMKM context). |
-| `references/02_visual_identity_and_style_synthesis.md` | Brand theme sourcing, relevance gating, message allocation, personality, and mood, movement identification and style specificity, representation modes and hybrid integration, shape language, color logic, hue sourcing, and palette size, pictorial subject design, ornament derivation, and standalone logo mark strategy. |
-| `references/03_compositional_architecture_and_spatial_systems.md` | Zoning derivation, element purpose, presence, and visibility, typographic hierarchy, visual eye-tracking flow, negative space, attention balance, scale-aware sizing, placement logic, and pictorial subject role, sufficiency sizing, and placement. |
-| `references/04_prompt_synthesis_and_output_execution.md` | Prompt precision and specificity principles, exclusion of generic language, boundary control, output construction, and verification. |
+| `references/01_strategic_analysis_and_deconstruction.md` | Context deconstruction, interactions, tensions, design problem and insight, physical scale and legibility, placement register, content filtering, attention tiering, pictorial commitment, local market context. |
+| `references/02_visual_identity_and_style_synthesis.md` | Concept derivation, personality, mood, range, message allocation, visual approach and execution style per layer, movement, color, typographic voice, specificity, ornament, mark. |
+| `references/03_compositional_architecture_and_spatial_systems.md` | Composition strategy, zoning, typographic hierarchy, grouping, negative space, weight balance, sizing, placement, pictorial role, presence. |
+| `references/04_prompt_synthesis_and_output_execution.md` | Prompt precision, genericness control, boundary control, output construction, verification checklist. |
 
 ---
 
 ## 4. Universal Output Template
 
-The framework's final deliverable must ALWAYS be a single, self-contained, semantically dense prompt structured according to the following standard template:
+The final deliverable is ALWAYS a single, self-contained, semantically dense prompt in this structure:
 
 ```
-[Aspect Ratio] [Physical Media Type / Medium] for "[Brand Name]", [Brand Theme & Personality: the single creative idea as direct visual direction only (what it is, and the visible character and atmosphere it dictates), with no rationale], [Governing Design Movement / Tradition resolved to its distinguishing traits, with the supporting voice when hybrid], [Color Palette Architecture: the color roles, the hues chosen for them, and their relative proportions]. [Form Language, Edge Behavior, and Overall Aesthetic Tone].
+[Aspect Ratio] [Physical Media Type / Medium] for "[Brand Name]", [Creative Concept & Personality: the single idea as direct visual direction only (what is visibly present, how forms, type, and color behave, and the atmosphere that results), with no rationale], [Governing Design Movement / Tradition resolved to its distinguishing traits, with the supporting voice when hybrid], [Color Palette Architecture: the color roles, the hues chosen for them, and their relative proportions]. [Form Language, Edge Behavior, and Overall Aesthetic Tone].
 
 PRIMARY LOGO MARK & BRANDING:
-[Detailed description of mark/wordmark architecture, its role and relative scale in the hierarchy, how it embodies the theme and personality, typography style, enclosure or open construction, and sub-descriptors. Ensure mark remains structurally independent of background elements].
+[Mark/wordmark architecture, its role and relative scale in the hierarchy, how it embodies the concept, typography style, enclosure or open construction, and sub-descriptors. The mark remains structurally independent of background elements].
 
 COMPOSITION & LAYOUT ZONING:
-[Zonal structural breakdown derived from the canvas's dominant axis, visibility, and content groups. Define specific placement and relative scale, expressed as relationships, for focal anchor, any pictorial subject, tagline, information blocks, and action badges, assigned by attention tier and balance. Every hard-content string appears verbatim, in quotation marks, at its placed position].
+[Zonal structure derived from the canvas's dominant axis, visibility, and content groups. Specific placement and relative scale, expressed as relationships, for the focal anchor, any pictorial subject, tagline, information blocks, and action badges. Every hard-content string appears verbatim, in quotation marks, at its placed position].
 
 VISUAL ELEMENTS & RENDERING TECHNIQUE:
-[Each pictorial subject admitted (subject, complexity, role, relative scale, specific style), or a statement that none is used and the piece is carried by type, mark, and layout; the representation mode, specific technique or lineage, and expressive character chosen for each visual layer (primary visual, typography, decoration), which layer leads and what binds the layers when they differ in mode, shading or depth technique, line weight, and emphasis of key features where the concept calls for it].
+[Each pictorial subject admitted (subject, complexity, role, relative scale) or a statement that none is used; for each visual layer, its kind of making, its execution style resolved to observable properties (vantage, light, depth, subject state, and grade for captured work; lineage, medium, line, and simplification for drawn work; geometric logic and rhythm for constructed work), and its expressive character; which layer leads and what binds the layers when they differ].
 
 BACKGROUND, BORDERS & FINISH:
-[Ground character and surface treatment, borders, decorative motifs, and edge treatments, each carrying the theme's character at the visibility its purpose needs, or a statement that a layer is deliberately plain].
+[Ground character and surface treatment, borders, decorative motifs, and edge treatments, each carrying the concept's character at the visibility its purpose needs, or a statement that a layer is deliberately plain].
 
 TECHNICAL & EXECUTION CONSTRAINTS:
-[Explicit rendering rules suited to the chosen medium and style: layout structure, contrast behavior, photographic or non-photographic stance, execution quality, and legibility at the viewing distances involved].
+[Rendering rules suited to the medium and style: layout structure, contrast behavior, photographic or non-photographic stance, execution quality, and legibility at the viewing distances involved].
 ```
 
 ---
 
 ## 5. Execution Rules & Prompt Directives
 
-1. **Output Raw Prompt Only:** When generating the final response after applying the framework, output *only* the single expanded prompt block unless explicitly requested otherwise. The Decision Context, protocol work, and audits stay internal, but are performed in full before the prompt is written.
-2. **Never Invent Contents:** Strictly enforce all hard contents (text copy, phone numbers, addresses, menu items, prices, and any other required element) provided in the user brief. Never omit required text or insert extra items.
-3. **No Meta-Commentary or Fluff:** Exclude introductory conversational filler, self-congratulatory praise, and vague or evaluative descriptions that carry no visual instruction. Use objective, observable visual terminology. Every phrase in the prompt is a visual directive; reasoning, justification, and intent statements stay out. Framework terminology (tiers, protocol, context) never appears in the prompt.
-4. **Preserve Generative Freedom:** Specify structural visual strategy, spatial relationships, and aesthetic parameters, but allow the target image-generation model to execute fine line rendering, lighting falloff, and organic textures naturally.
-5. **English Output:** Write the entire prompt in English, whatever language the brief uses. Only literal hard content (brand name, copy, prices, contact details, addresses, and any other supplied string) is reproduced verbatim in its original language, placed in quotation marks; all descriptions, directions, and labels are English.
+1. **Output Raw Prompt Only:** Output only the single prompt block unless asked otherwise. The Decision Context, protocol work, and audits stay internal and are completed before the prompt is written.
+2. **Never Invent Contents:** Enforce all hard content (copy, numbers, addresses, menu items, prices, and any other required element) exactly as supplied. Never omit required text or add items.
+3. **No Meta-Commentary:** Every phrase is an objective, observable visual directive. Reasoning, justification, intent, evaluative language, and framework terminology never appear in the prompt.
+4. **Preserve Generative Freedom:** Specify structure, relationships, and aesthetic parameters. Leave fine line rendering, lighting falloff, and organic texture to the model.
+5. **English Output:** Write the entire prompt in English whatever language the brief uses. Only literal hard content is reproduced verbatim in its original language, in quotation marks.
 6. **Relational Direction:** Direct position, scale, and proportion through relationships (order, alignment, relative size, weight) and describe color by hue and role. Measurements, coordinates, angles, counts, and color codes appear only when the brief supplies them.
 7. **Economy:** State each decision once, in the slot where it belongs.
 8. **Specificity:** Every stylistic term is resolved to a level that discriminates within its category. A category name never stands alone as a decision.
