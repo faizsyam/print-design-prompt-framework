@@ -18,6 +18,7 @@ INTENT  →  name the tradition, technique, stance, or structure that embodies i
 * **Carry the concept visibly:** The concept and its range reach the model as visible directives in the slots where they act: the form and behavior of the mark, type, color relationships, composition structure, imagery stance, and ornament. The concept is never named as an abstraction and left for the model to interpret.
 * **Carry stance, not only category:** For each pictorial layer, direct kind of making and execution style as observable properties (`02`, Section 2.3). Saying only "photograph" or "illustration" leaves the decision to the model.
 * **Discipline terminology:** Draw on professional design, typography, art-historical, and print-production terminology, and choose the term whose scope matches the decision exactly. Compose wording fresh for each brief. A modifier stays only if it separates this choice from its alternatives.
+* **Space is directed:** Image models fill unspecified space, so negative space is stated as part of the composition: wide outer margins, separations between groups, regions left deliberately empty, and the modest fraction of the canvas the content occupies, matched to the medium's scale and viewing distances.
 * **Hybrid direction:** State which layer leads, the technique of each, and the shared properties that bind them.
 * **Cover every layer:** Layout, typography, color roles, imagery, ornament, and ground each carry a concrete decision.
 * **Directive form:** The rules in `SKILL.md`, Section 5 apply to every phrase: directives only, English with literal hard content in quotation marks, relationships over numbers, each decision stated once, no framework vocabulary.
@@ -42,6 +43,7 @@ Strictly direct structure, hierarchy, composition, brand architecture, color log
 MUST BE EXPLICITLY DIRECTED                     LEFT TO GENERATIVE EXECUTION
 • Aspect ratio & media format                   • Micro-texture and grain
 • Zoning, hierarchy & reading flow              • Fine lighting falloff and shading
+• Density, margins & negative space
 • Exact hard content strings                    • Subtle organic linework variation
 • Mark architecture, scale & position           • Stroke rendering nuance
 • Color roles & proportions
@@ -55,7 +57,7 @@ MUST BE EXPLICITLY DIRECTED                     LEFT TO GENERATIVE EXECUTION
 Assemble the decisions into the template in `SKILL.md`, Section 4, leaving no slot filled by habit.
 1. **Header:** aspect ratio, medium, full brand name, concept as direct visual direction, movement resolved to traits, palette roles, hues, and proportions, form language and tone.
 2. **Mark:** geometry, role and scale, embodiment of the concept, typography, descriptor, isolation.
-3. **Composition:** zones by axis, visibility, and content groups; placement by tier and balance, with relative sizes calibrated to physical scale; every hard-content string verbatim, in quotation marks, at its placed position.
+3. **Composition:** the density target and negative-space allocation; zones by axis, visibility, and content groups; placement by tier and balance, with relative sizes calibrated to physical scale and viewing distance; every hard-content string verbatim, in quotation marks, at its placed position.
 4. **Visual elements:** each pictorial subject (or its deliberate absence); for each layer, kind of making, execution style, intensity, leading layer, and binding properties.
 5. **Background, borders, finish:** substrate, borders or deliberate absence, accents, and pattern density at the visibility their purpose needs.
 6. **Technical constraints:** layout and rendering rules suited to the medium and style, legibility intent per level, and strict hard-content fidelity.
@@ -71,7 +73,8 @@ Run internally and revise until every item passes. None of it appears in the out
 * [ ] Does the prompt obey every rule in `SKILL.md`, Section 5 (English except hard content, directives only, no framework terms, relational direction, each decision stated once)?
 
 **Understanding & Concept**
-* [ ] Does the design draw on understanding beyond the brief (the subject's reality, the USP as lived difference, the real customer decision), and does the brand core show in how forms, type, and color behave?
+* [ ] Does the design draw on design-relevant truths beyond the brief (the subject's reality, the USP as lived difference, the real customer decision), and does the brand core show in how forms, type, and color behave?
+* [ ] Is the style direction composed of precisely named traits, each grounded in the subject or brand core, rather than a broad style label?
 * [ ] Is each category convention deliberately kept as a signal of belonging, questioned, or replaced, so the piece reads as native to its category and distinct from its field by idea?
 * [ ] Does the design answer a stated design problem and insight, and is the concept one specific idea that is visible in the directives rather than named as an abstraction?
 * [ ] Does every context fact the identity draws on connect to the brand's own identity, claim, or audience, and was the apparent choice weighed against the underlying and personal alternatives?
@@ -87,6 +90,7 @@ Run internally and revise until every item passes. None of it appears in the out
 **Hierarchy & Layout**
 * [ ] Is the primary focus determined from the objective, reader task, engagement mode, content structure, recognition supplied, and movement, with the mark's prominence set by its tier?
 * [ ] Does the weight each element actually produces (area, contrast, chroma, detail, position, including grounds, bands, and borders) match its tier, with weight distributed across the canvas?
+* [ ] Do density, margins, group separations, and empty regions match the medium's capacity and viewing distances, are they directed explicitly, and is any group cramped despite legible content?
 * [ ] Is every placement and group form derived from function, relationship, and counterweight, and is each element sized within its band, with Tier 3 legible but unboosted?
 * [ ] Is the pictorial subject at the lowest grade that does its job (or deliberately absent), sized by sufficiency?
 

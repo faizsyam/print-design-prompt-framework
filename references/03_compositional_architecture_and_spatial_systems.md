@@ -8,7 +8,14 @@ Composition is not a container for the concept; it is one of its carriers. Phase
 
 ## 1. Composition Strategy (Foundational)
 
-Decide, as one locked decision: the axis commitment, the focal anchor, the reading path, the density and negative-space stance, and the structural behavior (how rhythm, tension, symmetry or asymmetry, and edge relationships express the concept's personality). Diverge across candidates that differ in organizing idea, test them as in `SKILL.md`, and lock. A composition that would suit any brand on this canvas is generic.
+Decide, as one locked decision: the density target and negative-space stance (set first, below), the axis commitment, the focal anchor, the reading path, and the structural behavior (how rhythm, tension, symmetry or asymmetry, and edge relationships express the concept's personality). Diverge across candidates that differ in organizing idea, test them as in `SKILL.md`, and lock. A composition that would suit any brand on this canvas is generic.
+
+### Density & Scale Model (set before zoning)
+Space is a designed layer, decided before content is placed. Content is fitted into the density the medium supports, never the reverse.
+1. **Derive the density target:** how full the canvas should feel, from the medium's capacity (`01`), the reading time, the positioning, and the concept's character, with the content load last. Quiet or considered positioning, long viewing distances, and generous capacity call for low density; fast, value-driven, small-format contexts call for high density.
+2. **Think in visual size, not canvas fraction:** an element's size follows from how it must read at its distance, so on a large canvas even Tier 1 occupies a modest fraction of the area and lower tiers a small one. Hierarchy comes from the ratios between levels and from isolation, not from filling the canvas.
+3. **Fit or reduce:** if the content exceeds the density target, group, demote, or cut what is optional. Never recover room by shrinking gaps or margins below what the target needs.
+4. **State space as composition:** the margins, the separations between groups, the regions left empty, and the fraction of the canvas the content envelope occupies are decisions of the composition, directed in the prompt (`04`).
 
 ### Zoning
 1. **Read the canvas:** dominant axis and visibility map (`01`).
@@ -38,9 +45,12 @@ Decide, as one locked decision: the axis commitment, the focal anchor, the readi
 
 ## 4. Negative Space
 
-* **Macro:** Maintain an outer margin proportional to the canvas that protects against trim, mounting, and folds. Never crowd text or the mark against the edges.
-* **Micro:** Maintain internal padding within groups to prevent compression.
-* **Allocation:** Negative space is continuous. It rises with quieter positioning, longer reading time, and surplus canvas relative to floor-sized content, and it falls with fast-read, value-driven, high-density contexts and small canvases where the floor binds. It is also a compositional voice that can carry the concept.
+Negative space is an active element with a job: separating, framing, giving weight, setting pace, and carrying the concept's character. It is allocated deliberately, not left over.
+* **Macro:** An outer margin proportional to the canvas, protecting against trim, mounting, and folds. Text and the mark never crowd the edges.
+* **Between and within:** Space encodes relationship. Separation between groups exceeds spacing within a group, and spacing within a group is enough to prevent compression.
+* **Around the anchor:** The space around an element grows with its weight; an element that must be isolated to register is given room to be isolated.
+* **Rhythm:** The sizes of empty regions vary with purpose, so space has structure and is not an even gap repeated everywhere.
+* **Allocation:** Total negative space follows the density target (above). A canvas that reads as cramped despite legible content signals content sized or spaced from the canvas outward instead of from viewing conditions inward.
 
 ---
 
@@ -56,7 +66,7 @@ Decide, as one locked decision: the axis commitment, the focal anchor, the readi
 * **Range audit:** Check that the piece pays off at each distance from which it is read (`02`, Section 1) and does not repeat one note across layers.
 
 ### 5.2 Scale-Aware Sizing
-Size is a band: bounded below by the legibility floor at the distance the tier is actually read, bounded above by tier. Choose within it by hierarchy and balance. On large media, lower tiers sit near their floors, headroom goes to Tier 1 and negative space, and a crowded large canvas signals sizing from canvas proportion instead of from the floor. On small media, every element stays readable at its floor, count is reduced, and content is grouped.
+Size is a band: bounded below by the legibility floor at the distance the tier is actually read, bounded above by tier. Choose within it by hierarchy and balance. On large media, lower tiers sit near their floors, and the headroom goes to Tier 1 scale and to negative space rather than to enlarging lower tiers. On small media, every element stays readable at its floor, count is reduced, and content is grouped.
 
 ### 5.3 Placement Logic
 Every element's position, extent, and grouping is derived from:
