@@ -2,7 +2,7 @@
 
 *Used in Phase 2 of `SKILL.md`. Every decision follows the Decision Protocol in `SKILL.md`, Section 2, and extends the Decision Context.*
 
-Phase 2 turns the design problem, insight, and brand core into a concept positioned within its category field, then into a coherent set of visual decisions: what kind of making each layer uses, how it is executed, and how movement, color, type, ornament, and mark carry the concept.
+Phase 2 turns the implication map, insight, and brand core into a concept positioned within its category field, then into a coherent set of visual decisions: what kind of making each layer uses, how it is executed, and how movement, color, type, ornament, and mark carry the concept.
 
 ---
 
@@ -12,13 +12,22 @@ Phase 2 turns the design problem, insight, and brand core into a concept positio
 The **concept** is the insight from Phase 1, grounded in the brand core, made visible: a specific world, device, structure, or behavior that gives the brand an ownable identity and generates decisions. The **personality** is the brand core's character as the design behaves, expressed as visible behavior (how forms, type, and color act), not as adjectives. The **mood** is the felt response the piece is designed to produce, derived backward from the intended reader response and carried by the same visible behavior. A concept is not a style label, a mood, or a category convention. In the prompt, all three appear only as direct visual direction.
 
 ### Deriving the Concept
+Work in four stages: ground the idea, filter it, place it, then allocate it.
+
+**Ground**
 1. **Start from the brand core, insight, and tensions,** not from the product or the category.
 2. **Source from identity first:** the name (every part of its meaning, sound, and persona), character, heritage, audience identity, and world. A name that carries a clear idea is the strongest seed because the audience already holds it; originality then comes from the specific world and treatment the idea is given, never from replacing it.
 3. **Then from the subject's reality and the unsaid:** the materials, process, and lived qualities in the subject model (`01`, Section 2) give the concept a world no competitor shares. Product attributes and the USP that copy or a pictorial subject already carry enter the concept only when no other layer can carry them.
+
+**Filter**
 4. **Treat associations as hypotheses.** Take the first association as the baseline, name what it is actually about (the feeling, behavior, or relationship beneath it), and consider that underlying idea and the personal idea this brand's character would choose. Reference material (cultural, historical, subject) enters as an idea or structure, never as a pasted motif.
 5. **Relevance gate:** A fact about the situation (place, category, origin, era, demographic, surrounding culture) becomes concept content only when the brand's own name, claim, heritage, or audience affinity connects it to the personality. Proximity is not relevance. Otherwise it constrains register and fit.
+
+**Place**
 6. **Interpret positioning through context:** Translate each intended quality (`01`, Section 1) into visual behavior by asking what signals it to this audience, at this price level, in this place, against this field's baseline, and what the business can credibly deliver. The same quality takes different treatments in different contexts.
 7. **Position within the field:** Take each convention of the category's grammar (`01`, Section 2) and decide to keep it, question it, or replace it. Signals of belonging stay, executed in this brand's own voice; habits are kept only if they serve the problem; clichés go. The concept occupies territory the brand can credibly own and the field leaves open. Test: someone inside the category recognizes it as belonging, and someone outside it feels its specificity.
+
+**Allocate**
 8. **Message allocation:** Assign each message in the inventory (`01`) to the layer best placed to carry it, once. Copy and any pictorial subject carry what they carry already; the concept adds what they do not, through the mark, type, color, composition, and ornament.
 
 ### Range
@@ -82,7 +91,7 @@ Choose a design movement, vernacular, craft tradition, or coherent hybrid from t
 In a hybrid, one layer leads and sets the voice. The other layers are bound to it through shared properties (color logic, tonal range, edge and surface character, light or flatness, spatial logic, print finish) so the piece reads as one authored voice. Deliberate collage is valid only when it is the chosen movement. Layers are unified by the concept and the movement's logic, not by identical treatment; lower-tier layers are quieter in scale, contrast, and complexity but keep the form language. Personality is carried by whichever layers carry it at the least cost to legibility, and legibility never dictates stylistic intensity.
 
 ### 2.6 Pictorial Subject Design
-Applies only when a pictorial subject is admitted (`01`, Section 4). Decide in this order:
+Applies only when a pictorial subject is admitted (`01`, Section 3). Decide in this order:
 1. **Subject:** What it depicts, derived from the subject truth, the concept, and supplied content. It never implies items the brief does not supply.
 2. **Complexity:** Its detail, element count, and rendering depth, set by its role, reading distance, and the information load it shares the canvas with. The lower its tier or the heavier the content load, the simpler; the more it is the sole focus read from afar, the more it can carry while resolving as one clear form. Detail that cannot resolve at its reading distance is noise.
 3. **Style:** Its kind of making and stance (2.2, 2.3), suited to that complexity, the other layers, and the placement register.

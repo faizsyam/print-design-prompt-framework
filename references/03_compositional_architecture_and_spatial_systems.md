@@ -59,7 +59,7 @@ Negative space is an active element with a job: separating, framing, giving weig
 ### 5.1 Balance by Attention
 * **Tier 1** forms the dominant anchor. **Tier 2** is distributed to counterweight the anchor and carry the eye along the path. **Tier 3** stays compact and quiet, as one group or several.
 * **Distribute weight:** Do not cluster content into one zone and leave others inert. Elements related by meaning stay together; elements merely of the same kind need not.
-* **Weight across dimensions:** Hierarchy holds across every weight dimension (`01`, Section 4) together. A small element that shares a higher tier's color relationship or occupies a prime position still competes.
+* **Weight across dimensions:** Hierarchy holds across every weight dimension (`01`, Section 3) together. A small element that shares a higher tier's color relationship or occupies a prime position still competes.
 * **Area is spent last:** Build hierarchy first with contrast, isolation, placement, and color. No element is owed area by its category or role.
 * **Weight audit:** After attributes are set, assess the weight each element actually produces, including grounds, bands, borders, and fields (which carry weight by area alone), and compare it to tier order. Reduce or remove anything that outweighs its tier. A hierarchy declared in words does not replace one the attributes produce. Ornament stays recessive in color, scale, and placement.
 * **Expression audit:** Check for bareness. A layer sitting at default without the concept calling for stillness is given the concept's character at the volume its tier allows. Remove only what adds weight without meaning.
@@ -78,7 +78,7 @@ Every element's position, extent, and grouping is derived from:
 
 ### 5.4 Pictorial Subject: Role, Scale, Placement
 * **Role:** primary anchor, supporting element, or ornament, as ranked by tier. There is one primary anchor, and a pictorial subject holds that role only when it is the Tier 1 element serving the objective.
-* **Scale:** By sufficiency (`01`, Section 4). Registration at distance is tried through contrast, isolation, and placement before area. As information load rises, the subject recedes in scale, then visibility, toward ambient or absent. Surplus canvas goes to anchor scale and negative space, not to the subject by default.
+* **Scale:** By sufficiency (`01`, Section 3). Registration at distance is tried through contrast, isolation, and placement before area. As information load rises, the subject recedes in scale, then visibility, toward ambient or absent. Surplus canvas goes to anchor scale and negative space, not to the subject by default.
 * **Placement:** By function, relationship to what it depicts, and counterweight. Supporting or ornamental subjects take recessive color relationships and positions.
 
 ### 5.5 Purpose, Presence & Visibility

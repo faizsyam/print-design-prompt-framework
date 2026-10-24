@@ -30,39 +30,36 @@ Every list, ratio, or reference in this skill is a tendency along a continuum; w
 
 ## 2. Master Decision Flow
 
+Each phase takes the accumulated Decision Context, does ordered work, and produces entries that later phases depend on.
+
 ```
-[Phase 1: Understanding]       Read the brief, model the subject and its field, find interactions and tensions, state the problem, insight, and brand core.
-   ▼
-[Phase 2: Concept & Identity]  Concept, message allocation, visual approach per layer, movement, color, type, mark. Lock as one system.
-   ▼
-[Phase 3: Composition]         Composition strategy, then zoning, placement, size, and presence of every element.
-   ▼
-[Phase 4: Prompt Synthesis]    Carry every decision into the template as an explicit visual directive.
-   ▼
-[Phase 5: Verification]        Audit, trace each failure to its upstream cause, re-derive.
+Phase 1 Understanding  →  Phase 2 Concept & Identity  →  Phase 3 Composition  →  Phase 4 Prompt Synthesis  →  Phase 5 Verification
 ```
 
 * **Phase 1: Understanding & Design Problem** (`references/01_strategic_analysis_and_deconstruction.md`)
-  * Deconstruct the stated brief: business, objective and intended response, audience and moment of encounter, medium, placement and register, content, and reading time.
-  * Investigate beyond the brief for design-relevant truths: the business as operated, the subject's reality, the USP as lived difference, the real customer decision, and the category field and its grammar.
-  * Tier content by when the reader needs it, determine the primary focus, derive viewing conditions, legibility floors, and capacity, and set the reception balance and a provisional pictorial ceiling.
-  * Weigh the parameters, read how they interact, name the tensions, state the design problem, the insight, and the brand core, and convert every weighted driver into an implication map.
+  * *Takes:* the brief.
+  * *Does:* (1) Run each assessment in the register as question, finding, implication, decision informed, covering the stated brief and then the subject beyond it. (2) Tier content, set the primary focus, derive viewing conditions, legibility floors, and capacity, and set the reception balance and a provisional pictorial ceiling. (3) Weigh the drivers, read their interactions, name the tensions, and state the design problem, insight, and brand core. (4) Compile the implication map.
+  * *Produces:* the subject model, tiers and focus, floors and capacity, problem, insight, brand core, and implication map.
 * **Phase 2: Concept & Identity** (`references/02_visual_identity_and_style_synthesis.md`)
-  * Position the piece within the category field, derive the concept, personality, and mood from the insight and brand core, and allocate each message to its carrier.
-  * Brief each visual layer from its job and the subject's truth, assign its kind of making, and resolve its execution style from the stance the piece takes. Confirm or revise the pictorial commitment with these decisions.
-  * Choose movement, form language, color logic, typographic voice, any ornament, and the mark. Check all of it as one system and lock it.
+  * *Takes:* the implication map, brand core, insight, tiers, and viewing conditions.
+  * *Does:* (1) Position the piece within the category field, derive the concept, personality, and mood, and allocate each message to its carrier. (2) Brief each visual layer from its job and the subject's truth, assign its kind of making and execution style, and confirm or revise the pictorial commitment. (3) Choose movement, form language, color logic, typographic voice, ornament, and the mark. (4) Check all of it as one system and lock it.
+  * *Produces:* locked identity decisions.
 * **Phase 3: Composition** (`references/03_compositional_architecture_and_spatial_systems.md`)
-  * Confirm the tiering and primary focus against the locked identity decisions, set the density target, then lock a composition strategy that carries the concept through structure.
-  * Derive every element's zone, position, size, presence, and treatment from tier, purpose, and the foundational decisions.
-  * Audit the weight each element actually produces and the expression and range each layer actually carries.
+  * *Takes:* the locked identity, tiers, focus, and capacity.
+  * *Does:* (1) Confirm tiering and focus against the identity (a change returns through the conflict rule). (2) Set the density target and lock a composition strategy that carries the concept through structure. (3) Brief every element (job, tier, distance, relationships) and derive its zone, position, size, presence, and treatment. (4) Audit the weight, expression, and range the attributes actually produce.
+  * *Produces:* a locked composition and a complete, traceable attribute set for every element.
 * **Phase 4: Prompt Synthesis** (`references/04_prompt_synthesis_and_output_execution.md`)
-  * Write the prompt from macro concept to zonal implementation. Every decision becomes an observable directive and no attribute is left to default.
-* **Phase 5: Verification**
-  * Run the checklist in `references/04`, Section 5.
+  * *Takes:* every locked decision and attribute.
+  * *Does:* Fill the template slot by slot from macro concept to zonal implementation, converting each decision into observable properties and relationships.
+  * *Produces:* the prompt, with no attribute left to default.
+* **Phase 5: Verification** (`references/04`, Section 5)
+  * *Takes:* the prompt and the Decision Context.
+  * *Does:* Run the checklist, trace each failure to the decision that caused it, revise there, and re-derive what it governs.
+  * *Produces:* the final prompt.
 
 ### Decision Context & Decision Protocol
 
-**Decision Context:** Compiled in Phase 1, extended in Phase 2, consulted by every later decision. It holds: business and positioning; objective, reader task, and intended response; audience and moment of encounter; medium and physical scale; placement and register; the subject model (design-relevant truths: operations, reality, lived USP, customer decision and buying behavior, category field, surroundings); content load, tiers, and primary focus; parameter weights, interactions, and tensions; the design problem, insight, and brand core; the implication map linking each weighted driver to the decisions it informs; then field position, concept, personality, mood, approach per layer, and style direction.
+**Decision Context:** Compiled in Phase 1, extended in every later phase, consulted by every decision. It is also a ledger: each committed decision is entered with the drivers behind it, each new decision is checked against all entries, and revising an entry reopens everything derived from it. It holds: business and positioning; objective, reader task, and intended response; audience and moment of encounter; medium and physical scale; placement and register; the subject model (design-relevant truths: operations, reality, lived USP, customer decision and buying behavior, category field, surroundings); content load, tiers, and primary focus; parameter weights, interactions, and tensions; the design problem, insight, and brand core; the implication map linking each weighted driver to the decisions it informs; then, as decisions are committed, field position, concept, personality, mood, approach per layer, and style direction.
 
 **Foundational decisions** govern all others: primary focus, message allocation, concept and personality, mood, kind of making and execution style per layer, pictorial commitment, movement, palette architecture, typographic voice, mark architecture, and composition strategy (including its density target). Each follows these steps, with divergence widest for the decisions that govern the most:
 1. **Frame:** State the job of the decision and which drivers (weighted findings, interactions, and tensions in the implication map) bear on it, and what each implies for it.
@@ -84,7 +81,7 @@ Every list, ratio, or reference in this skill is a tendency along a continuum; w
 
 **Traceability chain:** Every directive traces from driver to implication to foundational decision to derived attribute to directive. What governs more is explored more widely and locked first; what is governed is derived, not reinvented. A directive with no chain is a default, and a weighted driver that reaches no decision signals analysis left unfinished.
 
-**Conflict rule:** When a derived decision cannot satisfy its governing decisions without breaking hierarchy or legibility, trace the conflict to its cause, revise the foundational decision, and re-derive what it governs. Never patch downstream.
+**Conflict rule:** When a derived decision cannot satisfy its governing decisions without breaking hierarchy or legibility, trace the conflict to its cause in the ledger, revise the foundational decision, and re-derive everything entered after it that depends on it. Never patch downstream.
 
 **Working discipline:** Deliberation is internal. Each foundational decision is explored separately before any prompt text is drafted, and only committed directives appear in the prompt.
 
@@ -94,7 +91,7 @@ Every list, ratio, or reference in this skill is a tendency along a continuum; w
 
 | File Path | Functional Domain |
 | :--- | :--- |
-| `references/01_strategic_analysis_and_deconstruction.md` | Brief deconstruction, subject model (reality, lived USP, customer decision, category field), interactions, tensions, design problem, insight and brand core, physical scale and legibility, placement register, content filtering, attention tiering, pictorial commitment, local market context. |
+| `references/01_strategic_analysis_and_deconstruction.md` | Assessment register and method, brief deconstruction, subject model (operations, reality, lived USP, customer decision, category field), interactions, tensions, design problem, insight, brand core, implication map, viewing conditions and capacity, content filtering, attention tiering, pictorial commitment, local market context. |
 | `references/02_visual_identity_and_style_synthesis.md` | Concept derivation, field position, personality, mood, range, message allocation, layer briefs, kind of making and execution style, movement, color, typographic voice, specificity, ornament, mark. |
 | `references/03_compositional_architecture_and_spatial_systems.md` | Composition strategy, zoning, typographic hierarchy, grouping, negative space, weight balance, sizing, placement, pictorial role, presence. |
 | `references/04_prompt_synthesis_and_output_execution.md` | Prompt precision, genericness control, boundary control, output construction, verification checklist. |

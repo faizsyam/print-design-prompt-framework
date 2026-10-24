@@ -1,8 +1,25 @@
 # Strategic Understanding & Design Problem
 
-*Used in Phase 1 of `SKILL.md`. Findings are compiled into the Decision Context.*
+*Used in Phase 1 of `SKILL.md`. Implications are compiled into the Decision Context.*
 
-Phase 1 turns a brief into understanding, then into a design problem. Deconstruction reads what the brief states; the subject model supplies what it does not; synthesis yields the problem, the insight, and the brand core. Complete all three before any foundational decision.
+Phase 1 turns a brief into understanding, then into a design problem. Every assessment exists to inform decisions, so each is run for a declared purpose and ends in an implication. Complete assessment, synthesis, and the implication map before any foundational decision.
+
+## 0. Assessment Register & Method
+
+| Assessment | Establishes (and why) | Informs |
+| :--- | :--- | :--- |
+| Business model, operations, means | what the piece must do commercially, what promise the business can keep, what finish it can sustain | primary focus, tiers, credibility test, finish and fidelity, ornament budget |
+| Positioning | what quality of signals the piece must send, read through audience codes and the field baseline | personality, color logic, type voice, density target, finish |
+| Objective and intended response | what must register and what the reader should feel and do | primary focus, tiers, mood, action elements |
+| Audience, encounter, buying behavior | how they judge credibility, how long and closely they read, how much information they want | hierarchy depth, density target, stance, kind of making, color relationships |
+| Subject reality and lived USP | what is true, perceptible, and ownable | concept world, subject truth, kind of making, stance, ornament source, mark idea |
+| Category field | the baseline to beat and the signals of belonging | field position, movement, palette logic, composition structure |
+| Medium and viewing conditions | floors, capacity, and distances | sizes, density target, axis, margins, detail resolution |
+| Placement and surroundings | register, figure-ground relation, visibility | zoning, palette constraints, edge and finish, contrast strategy |
+| Production and substrate | what the print can hold | texture fidelity, line weight, gamut, rendering depth |
+| Content and hard content | what must be said, in what order, under what load | tiers, pictorial commitment, zoning, verbatim strings |
+
+Run every assessment as one chain: **question** (what is being established and why, from the register), **finding** (what the evidence says), **implication** (what it requires, permits, or rules out), **decision informed**. An assessment that cannot name the decision it informs is not run. A finding without an implication is not recorded. Sections 1 and 2 say how to assess; Section 4 compiles the implications into the implication map.
 
 ---
 
@@ -42,34 +59,7 @@ Understanding is an investigation, not a form to fill. Build a working model of 
 
 ---
 
-## 3. Synthesis: From Understanding to Decisions
-
-1. **Weights:** Judge how much each parameter governs in this brief. Dominant parameters set decisions; the rest constrain them. Separate fixed constraints (physics, substrate, supplied content) from flexible ones (preferences, conventions); design finds its room in the flexible ones.
-2. **Interactions:** Read the parameters in pairs and groups, not as a list. For each strongest pair, ask how one changes the meaning, cost, or risk of the other. Interactions are where design problems come from.
-3. **Tensions:** Name where serving one parameter strains another. A foundational decision that resolves no tension is probably the prototype.
-4. **Design Problem:** State it in one sentence: what this piece must achieve, for whom, under which conditions, against which strain.
-5. **Insight:** State the non-obvious truth the interactions and the subject model reveal: something about what the reader wants, assumes, or overlooks at the moment of encounter, set against what only this brand can offer. It is a truth, not a slogan or a style. Test: it holds for this brand in this context and would not survive a change of business, audience, or placement.
-6. **Brand core:** Derive what the brand is to its customer in a clause, its character (the temperament and manner it would show as a person), and its ownable territory (the meaning it can credibly claim that the field leaves open). Derive it from the lived USP, the subject's reality, and the insight. Where a brand identity already exists, interpret and respect it rather than replace it. The concept (`02`, Section 1) is the insight, grounded in the brand core, made visible.
-7. **Implication map:** For each weighted driver (a parameter, design-relevant truth, interaction, or tension), write its implication: what it requires, permits, or rules out, and which decisions it informs (the influence map below shows where each class of factor lands). An implication is complete when it is specific enough to change a decision. A driver whose implication changes no decision is dropped, and a decision with no driver behind it is a default to be derived or removed.
-
-### Influence Map
-
-| Factor | Determines | Informs |
-| :--- | :--- | :--- |
-| Business model, operations, means | commercial job, promise it can keep, finish it can sustain | primary focus, tiers, credibility, finish and fidelity, ornament budget |
-| Positioning | register of signals, read through audience codes and field baseline | personality, color logic, type voice, density target, finish |
-| Objective and intended response | what must register and what the reader does | primary focus, tiers, mood, action elements |
-| Audience, encounter, buying behavior | credibility codes, reading time, information appetite | hierarchy depth, density, stance, kind of making, color relationships |
-| Subject reality and lived USP | what is true, perceptible, and ownable | concept world, subject truth, kind of making, stance, ornament source, mark idea |
-| Category field | baseline to beat, signals of belonging | field position, movement, palette logic, composition structure |
-| Medium and viewing conditions | floors, capacity, distances | sizes, density target, axis, margins, detail resolution |
-| Placement and surroundings | register, figure-ground relation, visibility | zoning, palette constraints, edge and finish, contrast strategy |
-| Production and substrate | what the print can hold | texture fidelity, line weight, gamut, rendering depth |
-| Content and hard content | what must be said and in what order | tiers, zoning, verbatim strings |
-
----
-
-## 4. Content Filtering & Structural Hierarchy
+## 3. Content Filtering & Structural Hierarchy
 
 ### Content Categories
 1. **Hard Content (inviolable):** Brand name, descriptor, copy and taglines, listed items and variants (with supplied names and ingredients), prices, contact details, badges and claims, and anything else the brief supplies or designates as required. Supplied brand assets (an existing mark, palette, or reference imagery) are fixed constraints: interpret and build around them, never redesign them.
@@ -93,6 +83,30 @@ A pictorial subject is optional. A piece can be carried by type, mark, pattern, 
 * **Graded presence:** Absent, ambient, supporting, or dominant. Choose the lowest grade that still does the job. Dominance requires a looked-at piece, a subject whose job is the Tier 1 job, and content that fits at its floor without the subject's area.
 * **Sufficiency:** The subject takes the smallest scale and weight at which it does its job. Registering first is achieved by contrast, isolation, and placement as well as size. Area is a ceiling, never an entitlement.
 * **Provisional until Phase 2:** Phase 1 sets the reception balance and the highest grade the content load allows. Phase 2 confirms or lowers it once the kind of making for each layer shows what the subject could actually deliver (`02`, Section 2).
+
+---
+
+## 4. Synthesis: From Understanding to Decisions
+
+1. **Weights:** Judge how much each parameter governs in this brief. Dominant parameters set decisions; the rest constrain them. Separate fixed constraints (physics, substrate, supplied content) from flexible ones (preferences, conventions); design finds its room in the flexible ones.
+2. **Interactions:** Read the parameters in pairs and groups, not as a list. For each strongest pair, ask how one changes the meaning, cost, or risk of the other. Interactions are where design problems come from.
+3. **Tensions:** Name where serving one parameter strains another. A foundational decision that resolves no tension is probably the prototype.
+4. **Design Problem:** State it in one sentence: what this piece must achieve, for whom, under which conditions, against which strain.
+5. **Insight:** State the non-obvious truth the interactions and the subject model reveal: something about what the reader wants, assumes, or overlooks at the moment of encounter, set against what only this brand can offer. It is a truth, not a slogan or a style. Test: it holds for this brand in this context and would not survive a change of business, audience, or placement.
+6. **Brand core:** Derive what the brand is to its customer in a clause, its character (the temperament and manner it would show as a person), and its ownable territory (the meaning it can credibly claim that the field leaves open). Derive it from the lived USP, the subject's reality, and the insight. Where a brand identity already exists, interpret and respect it rather than replace it. The concept (`02`, Section 1) is the insight, grounded in the brand core, made visible.
+7. **Implication map:** Compile the implications of every assessment into one map. Each entry is a weighted driver (a parameter, design-relevant truth, interaction, or tension), its implication, and the decisions it informs, as the register indicates. Where implications conflict, the dominant driver sets the decision and the others constrain it, and the conflict is recorded as a tension. Check coverage both ways: every foundational decision has at least one driver behind it (else it is a default to be derived or removed), and every weighted driver informs at least one decision (else drop it).
+
+--- | :--- | :--- |
+| Business model, operations, means | commercial job, promise it can keep, finish it can sustain | primary focus, tiers, credibility, finish and fidelity, ornament budget |
+| Positioning | register of signals, read through audience codes and field baseline | personality, color logic, type voice, density target, finish |
+| Objective and intended response | what must register and what the reader does | primary focus, tiers, mood, action elements |
+| Audience, encounter, buying behavior | credibility codes, reading time, information appetite | hierarchy depth, density, stance, kind of making, color relationships |
+| Subject reality and lived USP | what is true, perceptible, and ownable | concept world, subject truth, kind of making, stance, ornament source, mark idea |
+| Category field | baseline to beat, signals of belonging | field position, movement, palette logic, composition structure |
+| Medium and viewing conditions | floors, capacity, distances | sizes, density target, axis, margins, detail resolution |
+| Placement and surroundings | register, figure-ground relation, visibility | zoning, palette constraints, edge and finish, contrast strategy |
+| Production and substrate | what the print can hold | texture fidelity, line weight, gamut, rendering depth |
+| Content and hard content | what must be said and in what order | tiers, zoning, verbatim strings |
 
 ---
 
