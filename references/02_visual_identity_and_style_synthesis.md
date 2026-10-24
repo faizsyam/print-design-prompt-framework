@@ -1,8 +1,8 @@
 # Concept & Visual Identity Synthesis
 
-*Used in Phase 2 of `SKILL.md`. Every decision follows the Decision Protocol in `SKILL.md`, Section 2, and extends the Decision Context.*
+*Used in Phase 2 of `SKILL.md`. Every decision follows the Decision Protocol in `SKILL.md`, Section 2, and extends the Decision Context. The style bank (`05`, `06`, `07`) is consulted for candidates and precise terms as each section below indicates, always after the drivers are stated and following `05`, Sections 2 to 4.*
 
-Phase 2 turns the implication map, insight, and brand core into a concept positioned within its category field, then into a coherent set of visual decisions: what kind of making each layer uses, how it is executed, and how movement, color, type, ornament, and mark carry the concept.
+Phase 2 turns the implication map, insight, and brand core into a concept positioned within its category field, then into a coherent set of visual decisions: what kind of making each layer and each image role uses, how it is executed, and how movement, color, type, ornament, and mark carry the concept. Imagery is decided in two levels: one style identity for the piece, and a register of it for each image (Sections 2.3 and 2.7; `08`).
 
 ---
 
@@ -37,7 +37,9 @@ A concept that produces one note is the main cause of flat design. Give it range
 * **Concentrated carriers:** Concept expression is concentrated in a few carriers chosen for their capacity to carry it (the mark first, the layers that hold Tier 1, and any ornament). Every other layer keeps the concept's form language at lower volume, and no carrier repeats another's motif.
 
 ### Embodiment & Acceptance
-The mark is the concept's most concentrated statement in design, not necessarily in size. When the mark is not Tier 1, the layers that carry Tier 1 carry the concept's atmosphere and the mark stays consistent with it. The concept shapes how things look and never adds, removes, or alters hard content.
+The mark is the concept's most concentrated statement in design, not necessarily in size, and it carries the concept as a constructed unit (`09`, Section 3.5), not as styled lettering. When the mark is not Tier 1, the layers that carry Tier 1 carry the concept's atmosphere and the mark stays consistent with it. The concept shapes how things look and never adds, removes, or alters hard content.
+
+*Bank:* Facet J (character dials) turns personality into visible behavior; Facet K (domain worlds) and Facet A5a and A5b help mine the subject's own world once the concept's idea exists. Neither supplies the concept.
 
 Beyond the protocol tests, a concept must be **Derived** (traceable to the insight and brand core), **Singular** (one dominant idea, with facets clearly subordinate), and **Generative** (it settles later choices).
 
@@ -45,13 +47,13 @@ Beyond the protocol tests, a concept must be **Derived** (traceable to the insig
 
 ## 2. Visual Approach
 
-Decide each visual layer separately (primary visual if any, typography, ornament, ground, edges, containers).
+Decide each visual layer separately (each image role in the ledger, typography, ornament, ground, edges, containers). An image role is any place where an image does work (`08`, Section 1), and each is briefed on its own.
 
 ### 2.1 Layer Brief
 For each layer, settle in this order:
 1. **Job:** What only this layer does for the reader (prove, evoke, explain, identify, organize, set atmosphere).
 2. **Subject truth:** From the subject model (`01`, Section 2): how the subject is actually met in life (its use, material, process, setting, human presence), which facet makes it credible or desirable to this audience, and what the piece must show or imply of it.
-3. **Kind of making** (2.2), then **stance** (2.3), then **integration** with the other layers (2.5).
+3. **Role profile** for an image (function, grade, reading regime, relations, truth demand; `08`, Section 2), then **kind of making** (2.2), then **stance** (2.3), then **register** (2.7), then **integration** with the other layers (2.5).
 
 ### 2.2 Kind of Making: Chosen by the Truth the Layer Must Deliver
 Each kind of making delivers something the others cannot, and carries a risk:
@@ -61,7 +63,7 @@ Each kind of making delivers something the others cannot, and carries a risk:
 * **Typographic** delivers direct voice and information, and can carry identity entirely when letterform is the concept.
 * **Hybrid** is warranted when layers, or facets of one subject, have different jobs that call for different strengths. It is justified by function, never by novelty.
 
-Choose by weighing: whether the layer must prove the real or convey an idea; what counts as credible, appetizing, or desirable to this audience; what the reading distance and exposure reward; what the substrate and print process preserve; what the concept requires; the placement register; and what the field already does. Positioning does not fix the kind of making, and none is the default for a category of business. Any layer may use any kind, and no layer must match another merely for consistency.
+Kind of making is decided per image role, and the role's truth demand (record, idea, or field; `08`, Section 2) is the first test. Choose by weighing: whether the layer must prove the real or convey an idea; what counts as credible, appetizing, or desirable to this audience; what the reading distance and exposure reward; what the substrate and print process preserve; what the concept requires; the placement register; and what the field already does. Positioning does not fix the kind of making, and none is the default for a category of business. Any layer may use any kind, and no layer must match another merely for consistency.
 
 ### 2.3 Execution Style: Chosen by Stance
 Stance is the viewpoint and attitude the piece gives the reader toward a subject or form. Decide it from the subject truth and the concept, then test it against the field's usual stance: keep the usual only where it is a signal of belonging the audience needs. Render stance as observable properties. Its dimensions, each decided from the concept, audience, claim, distance, and register:
@@ -81,26 +83,43 @@ Render stance by kind of making:
 
 One subject can say very different things under different stances, so the stance, not the subject, is the decision. Typography takes its stance through its voice (Section 4).
 
+**Stance sets the identity; role sets the register.** For imagery, the stance and lineage are decided once for the piece and form its style signature (`08`, Section 3): the primary anchors that every image keeps. A role changes how much of each trait shows (`08`, Section 4) and never which stance the piece takes. Where a role truly needs another kind of making, Section 2.5 binds it.
+
+*Bank:* Facet B (techniques and media), Facet C (illustration approaches, photographic genres, lighting, optics, grade, subject state, hybrids, subject rendering cues), and Facet G (surfaces) supply the vocabulary for kind of making and stance, and Facet P (role archetypes, making families, style signatures) supplies the anchors and reach that registers are derived from.
+
 ### 2.4 Movement & Form Language
-Choose a design movement, vernacular, craft tradition, or coherent hybrid from the full range of design history and practice. No part of that range is reserved for a type of business. Derive it from the concept and personality first, then from positioning, objective, audience, distance, and placement register. Compose the direction rather than pick it: a lineage (tradition, vernacular, era, or region), a technique and material logic, structural traits, and a brand-specific inflection that makes it this brand's variant and not the lineage's default. Each trait must be grounded in a design-relevant truth or the brand core; a trait that cannot be grounded is decoration. It is the tradition under which the layers' lineages unify, so it must be able to host the chosen kinds of making; if none can, revise the movement or the kinds of making through the conflict rule.
+Choose a design movement, vernacular, craft tradition, or coherent hybrid from the full range of design history and practice. No part of that range is reserved for a type of business. Derive it from the concept and personality first, then from positioning, objective, audience, distance, and placement register. Compose the direction rather than pick it: a lineage (tradition, vernacular, era, or region), a technique and material logic, structural traits, and a brand-specific inflection that makes it this brand's variant and not the lineage's default. Each trait must be grounded in a design-relevant truth or the brand core; a trait that cannot be grounded is decoration. It is the tradition under which the layers' lineages unify, so it must be able to host the chosen kinds of making and a register for every admitted image role (`08`, Section 3.3); if none can, revise the movement or the kinds of making through the conflict rule.
 * **Diverge first:** Consider candidates that differ in idea and structure, including the prototype for this kind of brief. Choose the prototype only when it is the strongest fit.
 * **Combine only with a dominant voice.**
+* **Compose it with the bank:** Facets A and O (lineages, vernaculars, regional traditions, sensibilities, logic axes, influence slots, inflection moves) and `05`, Section 2: one dominant lineage, at most two bounded influences, one brand-specific inflection. Heritage and regional entries follow `05`, Section 3.
 * **Resolve it** into four observable properties: form and shape vocabulary, linework and edge behavior, rendering and depth (including whether depth exists), and texture and print material fidelity suited to the substrate.
 
 ### 2.5 Integration
-In a hybrid, one layer leads and sets the voice. The other layers are bound to it through shared properties (color logic, tonal range, edge and surface character, light or flatness, spatial logic, print finish) so the piece reads as one authored voice. Deliberate collage is valid only when it is the chosen movement. Layers are unified by the concept and the movement's logic, not by identical treatment; lower-tier layers are quieter in scale, contrast, and complexity but keep the form language. Personality is carried by whichever layers carry it at the least cost to legibility, and legibility never dictates stylistic intensity.
+In a hybrid, one layer leads and sets the voice. The other layers are bound to it through shared properties (color logic, tonal range, edge and surface character, light or flatness, spatial logic, print finish) so the piece reads as one authored voice. For images these shared properties are the signature's primary anchors, and they persist at every register (`08`, Sections 3.4 and 4.3). Deliberate collage is valid only when it is the chosen movement. Layers are unified by the concept and the movement's logic, not by identical treatment; lower-tier layers are quieter in scale, contrast, and complexity but keep the form language. Personality is carried by whichever layers carry it at the least cost to legibility, and legibility never dictates stylistic intensity.
 
-### 2.6 Pictorial Subject Design
-Applies only when a pictorial subject is admitted (`01`, Section 3). Decide in this order:
+### 2.6 Image Design
+Applies to every image admitted in the ledger (`01`, Section 3), the dominant one and each supporting, ambient, and series image. Decide in this order:
 1. **Subject:** What it depicts, derived from the subject truth, the concept, and supplied content. It never implies items the brief does not supply.
-2. **Complexity:** Its detail, element count, and rendering depth, set by its role, reading distance, and the information load it shares the canvas with. The lower its tier or the heavier the content load, the simpler; the more it is the sole focus read from afar, the more it can carry while resolving as one clear form. Detail that cannot resolve at its reading distance is noise.
-3. **Style:** Its kind of making and stance (2.2, 2.3), suited to that complexity, the other layers, and the placement register.
+2. **Role profile:** Function, grade, reading regime, relations, and truth demand (`08`, Section 2).
+3. **Complexity:** Its detail, element count, and rendering depth, set by the role profile, and in particular by the reading regime, the image's own scale, and the information load it shares the canvas with. The lower its tier or the heavier the content load, the simpler; the more it is the sole focus read from afar, the more it can carry while resolving as one clear form. Detail that cannot resolve at its reading distance is noise.
+4. **Style:** Its kind of making (2.2) and its register of the piece's style signature (2.3, 2.7), suited to its complexity, the other layers, and the placement register.
 
 Role, scale, and placement follow in Phase 3 (`03`, Section 5.4).
+
+### 2.7 Register: Expressing the Style in Each Role
+A register is the style signature at the settings a role calls for. For every image, derive it with the dials and drivers of `08`, Section 4, in this order:
+1. Read the role profile and set a target range for each of the eight dials (resolution, tonal range, chroma, edge, depth and focus, completeness and crop, mark and surface visibility, specificity).
+2. Run the anchor test and the transfer moves, so that a role that holds a dial low keeps the style's identity in the dials it can afford.
+3. Check reach (`06`, Facet P3); resolve a shortfall by scale, crop, simplification, a bounded influence, or a bound sibling register, and by the conflict rule when none holds.
+4. Record the register in the ledger with its drivers.
+
+Roles differ from one another by exactly what their profiles require. Identical registers across images with different profiles show a skipped derivation, and unrelated registers across images of one style show a lost signature.
 
 ---
 
 ## 3. Color System
+
+*Bank:* Facet F (harmony, value, saturation, palette sources in the subject's own world, ink systems, cultural associations, print and outdoor behavior). Palette sources are described by hue, never by code.
 
 Derive the palette from the concept and personality, mood, audience color codes, moment of encounter, environment, objective, tiers, and print constraints, in this order:
 1. **Roles before hues:** Decide the functional roles the piece needs (ground, content, emphasis, ornament, anything the concept demands).
@@ -116,19 +135,23 @@ Derive the palette from the concept and personality, mood, audience color codes,
 
 ## 4. Typographic Voice
 
-Typography is a visual layer with its own job. Derive the display voice from the concept, movement, and the distance of the tier it serves, and the supporting voice from the information it carries, both within the script and language of the supplied copy (its letterform conventions, diacritics, and reading direction). The voices must differ in weight, structure, or personality, and neither may compromise legibility at its tier's floor. Where letterform itself can carry the concept, it is a primary carrier.
+*Bank:* Facet E (families, lettering traditions, structural traits, devices, pairing logic).
+
+Typography is a visual layer with its own job. The mark's lettering is part of the mark (`09`, Section 3) and relates to the display voice by derivation, contrast, or neutrality, never by identity (`09`, Section 3.4). Derive the display voice from the concept, movement, and the distance of the tier it serves, and the supporting voice from the information it carries, both within the script and language of the supplied copy (its letterform conventions, diacritics, and reading direction). The voices must differ in weight, structure, or personality, and neither may compromise legibility at its tier's floor. Where letterform itself can carry the concept, it is a primary carrier.
 
 ---
 
 ## 5. Specificity Resolution
 
-Name each decision in the precise vocabulary practitioners of the relevant discipline use (art and design history, typography, photography, illustration, printmaking, craft, print production). A precise term replaces a paragraph of adjectives, and an adjective alone is never a direction. A stylistic choice is complete only when it is resolved through its levels (family of representation, technique and medium, tradition with era or region, distinguishing traits) to where a practitioner could execute it without asking what kind. Test: does the term exclude most of its own category? If other styles in the category could answer to the same words, descend further. This applies to typography (resolved to structural traits such as proportion, contrast, terminals, and rhythm), imagery, rendering, ornament, and hues (resolved by family, value, saturation character, and temperament) alike.
+Name each decision in the precise vocabulary practitioners of the relevant discipline use (art and design history, typography, photography, illustration, printmaking, craft, print production). A precise term replaces a paragraph of adjectives, and an adjective alone is never a direction. A stylistic choice is complete only when it is resolved through its levels (family of representation, technique and medium, tradition with era or region, distinguishing traits) to where a practitioner could execute it without asking what kind. Test: does the term exclude most of its own category? If other styles in the category could answer to the same words, descend further. This applies to typography (resolved to structural traits such as proportion, contrast, terminals, and rhythm), imagery, rendering, ornament, and hues (resolved by family, value, saturation character, and temperament) alike. `07`, Section 6 shows how vague words convert to visible properties, and `06` supplies the precise terms.
 
 ---
 
 ## 6. Ornament & Decoration
 
-Backgrounds, borders, patterns, flourishes, and accents are ornament unless they do structural work.
+*Bank:* Facet H (borders, patterns, devices, iconography, flourishes) and Facet G6 (local material worlds). Heritage patterns follow `05`, Section 3.
+
+Backgrounds, borders, patterns, flourishes, and accents are ornament unless they do structural work. Decorative and atmospheric imagery is an image role (embellish, set atmosphere), takes its register from `08`, and passes the same tests.
 * **Earns its place:** It does a job (organizes, directs, builds atmosphere, states identity) that layout, color, and type cannot do as well. Test what is lost without it, including the character.
 * **Absent only by call of the concept:** Separate ornament may be omitted only when the concept's character is already carried at full strength by other layers and the concept calls for stillness there.
 * **Budget:** Weight, quantity, and complexity fall as information load grows and reading time shortens. Calibrate it down in steps (simpler, tonal, integrated into the ground, confined to edges) before removing it.
@@ -138,9 +161,14 @@ Backgrounds, borders, patterns, flourishes, and accents are ornament unless they
 
 ## 7. Brand Mark
 
-The mark is the canonical anchor of identity, and its prominence is a tier decision. It must be structurally autonomous. When the brief supplies a mark, it is reproduced as supplied; the decisions below then govern its role, scale, isolation, and surroundings.
-* **Independence:** It never depends on product imagery, background, or seasonal props to be recognized, and it represents the institution, not one product.
-* **Enclosure:** Contained or open, and if contained, the form of the boundary, which can itself carry the concept. Judge from what a boundary or its absence says, the mark's role and scale, the grounds and reductions it must survive, silhouette distinctiveness, name length, and how the piece's other boundaries behave. Consider at least one contained and one open candidate before committing.
-* **Composition:** Typographic, symbolic, or combined, and how the parts relate in scale and hierarchy. Any architecture that satisfies autonomy and recognition is valid.
-* **Isolation:** How it separates from the ground and survives reduction and distance.
-* **Internal levels:** A primary wordmark, dominant within the mark, with letterform character resolved to structural traits, and a category descriptor that is clean and highly legible. The tagline is a separate supporting element whose placement is decided in Phase 3.
+*Bank:* Facet I (mark types, distinction levers, boundary constructions, name-to-mark moves, symbol sources, roles and representations, reproduction tolerance). The full method is in `09`; this section states how it joins the identity decisions.
+
+The mark is a designed identity asset, not the brand name set in a display typeface. It is designed once as a master mark, a coherent unit with its own structure, silhouette, and character, and then represented in each composition at the role, variant, and scale the hierarchy gives it (`09`, Sections 3 and 5). Its decisions are foundational and follow the Decision Protocol:
+* **Job and distinction requirement:** from the recognition assessment in Phase 1 (`09`, Section 2): how much construction the mark needs to be recognized and to separate from ordinary text.
+* **Construction:** chosen across candidates that differ in idea: open, with an explicit or implied boundary, and symbol-led or structure-led. Enclosure is neither required nor avoided; each construction qualifies only through the tests in `09`, Sections 1 and 3.3.
+* **Distinction:** worked through silhouette, structure, lettering built for the mark, symbol, boundary, and color or material identity (Facet I3), and tested against the headline, blur, and swap tests.
+* **Relation to the display voice:** derived, contrasting, or neutral, with the mark's lettering always differing from the display voice in at least one structural property (`09`, Section 3.4).
+* **Independence:** the mark never depends on product imagery, background, ornament, or seasonal props to be recognized, and it represents the institution, not one product.
+* **Internal levels:** their order follows the construction (a wordmark, a symbol, or both may lead). A category descriptor is clean, highly legible, and subordinate. The tagline is a separate supporting element whose placement is decided in Phase 3.
+* **Supplied marks:** when the brief supplies a mark it is reproduced as supplied (`09`, Section 4); the decisions above then govern only its role, scale, isolation, and surroundings.
+* **Role and representation** (prominence, variant, scale, clear space, placement) are tier decisions made in Phase 3 (`09`, Section 5).
