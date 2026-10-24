@@ -84,7 +84,7 @@ Every element's position, extent, and grouping is derived from:
 ### 5.5 Purpose, Presence & Visibility
 * **Purpose:** to be understood (clarity first, voice second), to attract or persuade (the concept at full strength for its tier), to organize, or to shape atmosphere (reduced weight, competing with nothing).
 * **Presence is a continuum** from absent through barely perceptible and supporting to prominent. Purpose and tier set it at the lowest visibility where the element still does its job.
-* **Element brief:** Before setting an element's attributes, state its job for the reader, tier, reading distance, and relationship to its neighbors. Derive size, position, color, type voice, rendering, finish, and complexity from that brief and the foundational decisions it serves. An attribute that cannot be traced is a default, and identical attributes across elements with different briefs show a skipped derivation.
+* **Element brief:** Before setting an element's attributes, state its job for the reader, tier, reading distance, and relationship to its neighbors. Derive size, position, color, type voice, rendering, finish, and complexity from that brief, the foundational decisions it serves, and the implications that govern them. An attribute that cannot be traced is a default, and identical attributes across elements with different briefs show a skipped derivation.
 * **Sibling consistency:** Elements of the same tier and purpose share a treatment, and elements that differ in purpose differ by exactly that difference.
 
 ### 5.6 No Category Defaults

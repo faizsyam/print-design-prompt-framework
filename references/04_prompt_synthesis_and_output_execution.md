@@ -96,6 +96,7 @@ Run internally and revise until every item passes. None of it appears in the out
 * [ ] Is the pictorial subject at the lowest grade that does its job (or deliberately absent), sized by sufficiency?
 
 **Decisions & Distinctiveness**
+* [ ] Does every weighted driver appear as a visible consequence in the prompt, and does every major directive trace through a decision to a driver?
 * [ ] Were the foundational decisions explored across different ideas, locked in their two stages, and checked against each other before any derived decision was made, and does every derived decision trace to them?
 * [ ] Does every stylistic term, including typography, rendering, imagery, and hues, discriminate within its category and use professional terminology?
 * [ ] Is the personality perceptible across layers (ground, type, containers, edges, secondary elements), with every plain layer a deliberate choice and ornament calibrated down in steps rather than dropped?

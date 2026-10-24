@@ -33,7 +33,7 @@ Phase 1 turns a brief into understanding, then into a design problem. Deconstruc
 
 ## 2. Understanding the Subject Beyond the Brief
 
-Understanding is an investigation, not a form to fill. Build a working model of the business as its owner and a domain expert would hold it, in three layers: what the brief states, what must be true for the brief to make sense (implied), and how this kind of business actually operates and is experienced (domain knowledge). Press each finding until it becomes design-relevant: why it is true, what it means to this customer, and what it would look, feel, or sound like. Look for what practitioners know that outsiders do not (what separates excellent from adequate, what the owner overlooks because it is daily life, what customers feel but do not say). Keep the findings that are true, distinctive within the field, perceptible, and relevant to the customer's decision. These **design-relevant truths** and the variables on which this business genuinely differs from its field, not the brief's adjectives, supply the subject truth, the insight, the brand core, and the axes of divergence. Stated facts outrank inferences. Where research tools are available, verify the category field in this locale rather than relying on recall. Inferences are hypotheses: build the insight from supplied facts first, let inferred parameters fill only what they leave open, and never let an inference add or alter hard content. The model covers:
+Understanding is an investigation, not a form to fill. Build a working model of the business as its owner and a domain expert would hold it, in three layers: what the brief states, what must be true for the brief to make sense (implied), and how this kind of business actually operates and is experienced (domain knowledge). Press each finding until it becomes design-relevant: why it is true, what it means to this customer, and what it would look, feel, or sound like. Look for what practitioners know that outsiders do not (what separates excellent from adequate, what the owner overlooks because it is daily life, what customers feel but do not say). Keep the findings that are true, distinctive within the field, perceptible, and relevant to the customer's decision. These **design-relevant truths** and the variables on which this business genuinely differs from its field, not the brief's adjectives, supply the subject truth, the insight, the brand core, and the axes of divergence. Stated facts outrank inferences. Research and inference serve decisions: pursue an unknown only if some decision would change with its answer, and state each answer as an implication before moving on. Where research tools are available, verify the category field in this locale rather than relying on recall. Inferences are hypotheses: build the insight from supplied facts first, let inferred parameters fill only what they leave open, and never let an inference add or alter hard content. The model covers:
 * **The business as operated:** Its model and how it earns (volume or margin, walk-in or planned, one-off or repeat, ticket size), its scale, hours, premises, and operating setting, the touchpoints that make up its brand system (premises, packaging, vehicles, digital), and the means it has to produce and maintain the piece. This sets what the piece must do commercially, what promise the business can actually keep, and the finish it can sustain; a signal beyond its means reads as false or decays quickly.
 * **The subject's reality:** What the product or service is in lived terms: how it is made or delivered, its materials, process, sensory qualities, scale, the people involved, and where and how it is met and used. This is the raw material of authentic imagery and of the concept.
 * **The USP as lived difference:** Translate the claimed advantage into what the customer experiences or gains that alternatives do not, the evidence for it, and which part can be seen or felt versus which must be stated. An advantage that cannot be made perceptible is left to copy.
@@ -42,7 +42,7 @@ Understanding is an investigation, not a form to fill. Build a working model of 
 
 ---
 
-## 3. Synthesis: From Understanding to Problem
+## 3. Synthesis: From Understanding to Decisions
 
 1. **Weights:** Judge how much each parameter governs in this brief. Dominant parameters set decisions; the rest constrain them. Separate fixed constraints (physics, substrate, supplied content) from flexible ones (preferences, conventions); design finds its room in the flexible ones.
 2. **Interactions:** Read the parameters in pairs and groups, not as a list. For each strongest pair, ask how one changes the meaning, cost, or risk of the other. Interactions are where design problems come from.
@@ -50,6 +50,22 @@ Understanding is an investigation, not a form to fill. Build a working model of 
 4. **Design Problem:** State it in one sentence: what this piece must achieve, for whom, under which conditions, against which strain.
 5. **Insight:** State the non-obvious truth the interactions and the subject model reveal: something about what the reader wants, assumes, or overlooks at the moment of encounter, set against what only this brand can offer. It is a truth, not a slogan or a style. Test: it holds for this brand in this context and would not survive a change of business, audience, or placement.
 6. **Brand core:** Derive what the brand is to its customer in a clause, its character (the temperament and manner it would show as a person), and its ownable territory (the meaning it can credibly claim that the field leaves open). Derive it from the lived USP, the subject's reality, and the insight. Where a brand identity already exists, interpret and respect it rather than replace it. The concept (`02`, Section 1) is the insight, grounded in the brand core, made visible.
+7. **Implication map:** For each weighted driver (a parameter, design-relevant truth, interaction, or tension), write its implication: what it requires, permits, or rules out, and which decisions it informs (the influence map below shows where each class of factor lands). An implication is complete when it is specific enough to change a decision. A driver whose implication changes no decision is dropped, and a decision with no driver behind it is a default to be derived or removed.
+
+### Influence Map
+
+| Factor | Determines | Informs |
+| :--- | :--- | :--- |
+| Business model, operations, means | commercial job, promise it can keep, finish it can sustain | primary focus, tiers, credibility, finish and fidelity, ornament budget |
+| Positioning | register of signals, read through audience codes and field baseline | personality, color logic, type voice, density target, finish |
+| Objective and intended response | what must register and what the reader does | primary focus, tiers, mood, action elements |
+| Audience, encounter, buying behavior | credibility codes, reading time, information appetite | hierarchy depth, density, stance, kind of making, color relationships |
+| Subject reality and lived USP | what is true, perceptible, and ownable | concept world, subject truth, kind of making, stance, ornament source, mark idea |
+| Category field | baseline to beat, signals of belonging | field position, movement, palette logic, composition structure |
+| Medium and viewing conditions | floors, capacity, distances | sizes, density target, axis, margins, detail resolution |
+| Placement and surroundings | register, figure-ground relation, visibility | zoning, palette constraints, edge and finish, contrast strategy |
+| Production and substrate | what the print can hold | texture fidelity, line weight, gamut, rendering depth |
+| Content and hard content | what must be said and in what order | tiers, zoning, verbatim strings |
 
 ---
 
