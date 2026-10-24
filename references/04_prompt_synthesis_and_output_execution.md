@@ -57,7 +57,7 @@ MUST BE EXPLICITLY DIRECTED                     LEFT TO GENERATIVE EXECUTION
 Assemble the decisions into the template in `SKILL.md`, Section 4, leaving no slot filled by habit.
 1. **Header:** aspect ratio, medium, full brand name, concept as direct visual direction, movement resolved to traits, palette roles, hues, and proportions, form language and tone.
 2. **Mark:** geometry, role and scale, embodiment of the concept, typography, descriptor, isolation.
-3. **Composition:** the density target and negative-space allocation; zones by axis, visibility, and content groups; placement by tier and balance, with relative sizes calibrated to physical scale and viewing distance; every hard-content string verbatim, in quotation marks, at its placed position.
+3. **Composition:** the density target and negative-space allocation; the display and supporting typographic voices per hierarchy level, resolved to structural traits; zones by axis, visibility, and content groups; placement by tier and balance, with relative sizes calibrated to physical scale and viewing distance; every hard-content string verbatim, in quotation marks, at its placed position.
 4. **Visual elements:** each pictorial subject (or its deliberate absence); for each layer, kind of making, execution style, intensity, leading layer, and binding properties.
 5. **Background, borders, finish:** substrate, borders or deliberate absence, accents, and pattern density at the visibility their purpose needs.
 6. **Technical constraints:** layout and rendering rules suited to the medium and style, legibility intent per level, and strict hard-content fidelity.
@@ -67,6 +67,10 @@ Assemble the decisions into the template in `SKILL.md`, Section 4, leaving no sl
 ## 5. Verification Checklist
 
 Run internally and revise until every item passes. None of it appears in the output. Trace each failure to the decision that caused it, revise there, and re-derive what it governs.
+
+**Outcome & Information**
+* [ ] Walking the encounter at each viewing distance and exposure, does the reader register Tier 1, grasp the offer, and take the intended action?
+* [ ] Was information that could not be inferred obtained, or handled by a choice that holds under every plausible reading, with no invented facts or hard content, and assumptions kept out of the prompt's hard content?
 
 **Content & Language**
 * [ ] Is every hard-content string verbatim, in quotation marks, with nothing added, dropped, or reworded?

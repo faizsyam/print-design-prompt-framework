@@ -116,7 +116,7 @@ Derive the palette from the concept and personality, mood, audience color codes,
 
 ## 4. Typographic Voice
 
-Typography is a visual layer with its own job. Derive the display voice from the concept, movement, and the distance of the tier it serves, and the supporting voice from the information it carries. The voices must differ in weight, structure, or personality, and neither may compromise legibility at its tier's floor. Where letterform itself can carry the concept, it is a primary carrier.
+Typography is a visual layer with its own job. Derive the display voice from the concept, movement, and the distance of the tier it serves, and the supporting voice from the information it carries, both within the script and language of the supplied copy (its letterform conventions, diacritics, and reading direction). The voices must differ in weight, structure, or personality, and neither may compromise legibility at its tier's floor. Where letterform itself can carry the concept, it is a primary carrier.
 
 ---
 

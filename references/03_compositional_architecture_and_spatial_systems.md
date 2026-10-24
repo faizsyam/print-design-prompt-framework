@@ -21,7 +21,7 @@ Space is a designed layer, decided before content is placed. Content is fitted i
 1. **Read the canvas:** dominant axis, visibility map, and the surroundings it is seen in (`01`), so the composition works as a figure against its ground.
 2. **Form zones from content groups:** the number of zones is the number of groups the brief has, not a fixed count.
 3. **Size zones by tier:** area follows attention weight, and lower-tier zones stay compact or merge.
-4. **Set the path:** the reading path is a consequence of weight gradients and directional cues, designed for the canvas and its anchor.
+4. **Set the path:** the reading path is a consequence of weight gradients and directional cues, designed for the canvas, its anchor, and the reading direction of the copy's script.
 * **Axis tendencies** are on a continuum. Horizontal canvases flow along the long axis with the entry anchor at the start. Vertical canvases stack content in path order with the anchor in the best-visibility region. Near-equal axes use central or radial anchors positioned to stay visible behind people and objects. Extreme ratios commit to the axis and concentrate weight where visibility is reliable.
 
 ---

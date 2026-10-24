@@ -7,7 +7,7 @@ description: Universal framework for converting a business brief into a single, 
 
 A principle-based system for turning a business brief into one precise image-generation prompt for a physical print piece. Its output answers a specific design problem; it is never a styled version of the business category.
 
-**How to use:** Work through the five phases in Section 2 in order. At the start of each phase, read the matching reference file (Section 3). Foundational decisions are explored and locked before the decisions they govern. Output the prompt with the template in Section 4 and the rules in Section 5.
+**How to use:** Work through the five phases in Section 2 in order. At the start of each phase, read the matching reference file (Section 3). Foundational decisions are explored and locked before the decisions they govern. Output the prompt with the template in Section 4 and the rules in Section 5. A brief for several pieces shares Phases 1 and 2, so the pieces read as one family, and repeats Phases 3 to 5 for each medium.
 
 ---
 
@@ -39,15 +39,15 @@ Phase 1 Understanding  →  Phase 2 Concept & Identity  →  Phase 3 Composition
 * **Phase 1: Understanding & Design Problem** (`references/01_strategic_analysis_and_deconstruction.md`)
   * *Takes:* the brief.
   * *Does:* (1) Run each assessment in the register as question, finding, implication, decision informed, covering the stated brief and then the subject beyond it. (2) Tier content, set the primary focus, derive viewing conditions, legibility floors, and capacity, and set the reception balance and a provisional pictorial ceiling. (3) Weigh the drivers, read their interactions, name the tensions, and state the design problem, insight, and brand core. (4) Compile the implication map.
-  * *Produces:* the subject model, tiers and focus, floors and capacity, problem, insight, brand core, and implication map.
+  * *Produces:* the subject model, tiers and focus, floors and capacity, problem, insight, brand core, and implication map, each finding tagged stated, inferred, or unknown.
 * **Phase 2: Concept & Identity** (`references/02_visual_identity_and_style_synthesis.md`)
   * *Takes:* the implication map, brand core, insight, tiers, and viewing conditions.
   * *Does:* (1) Position the piece within the category field, derive the concept, personality, and mood, and allocate each message to its carrier. (2) Brief each visual layer from its job and the subject's truth, assign its kind of making and execution style, and confirm or revise the pictorial commitment. (3) Choose movement, form language, color logic, typographic voice, ornament, and the mark. (4) Check all of it as one system and lock it.
-  * *Produces:* locked identity decisions.
+  * *Produces:* locked identity decisions: field position, concept, personality, and mood as visible behavior; message allocation; per-layer kind of making and stance; pictorial grade; movement and form language; palette roles, logic, hues, and proportions; display and supporting typographic voices; ornament; and mark architecture.
 * **Phase 3: Composition** (`references/03_compositional_architecture_and_spatial_systems.md`)
   * *Takes:* the locked identity, tiers, focus, and capacity.
   * *Does:* (1) Confirm tiering and focus against the identity (a change returns through the conflict rule). (2) Set the density target and lock a composition strategy that carries the concept through structure. (3) Brief every element (job, tier, distance, relationships) and derive its zone, position, size, presence, and treatment. (4) Audit the weight, expression, and range the attributes actually produce.
-  * *Produces:* a locked composition and a complete, traceable attribute set for every element.
+  * *Produces:* a locked composition and, for every element, its zone, position, relative size, weight and color relationship, typographic treatment, rendering, and presence, each traceable.
 * **Phase 4: Prompt Synthesis** (`references/04_prompt_synthesis_and_output_execution.md`)
   * *Takes:* every locked decision and attribute.
   * *Does:* Fill the template slot by slot from macro concept to zonal implementation, converting each decision into observable properties and relationships.
@@ -59,7 +59,7 @@ Phase 1 Understanding  →  Phase 2 Concept & Identity  →  Phase 3 Composition
 
 ### Decision Context & Decision Protocol
 
-**Decision Context:** Compiled in Phase 1, extended in every later phase, consulted by every decision. It is also a ledger: each committed decision is entered with the drivers behind it, each new decision is checked against all entries, and revising an entry reopens everything derived from it. It holds: business and positioning; objective, reader task, and intended response; audience and moment of encounter; medium and physical scale; placement and register; the subject model (design-relevant truths: operations, reality, lived USP, customer decision and buying behavior, category field, surroundings); content load, tiers, and primary focus; parameter weights, interactions, and tensions; the design problem, insight, and brand core; the implication map linking each weighted driver to the decisions it informs; then, as decisions are committed, field position, concept, personality, mood, approach per layer, and style direction.
+**Decision Context:** Compiled in Phase 1, extended in every later phase, consulted by every decision. It is also a ledger: each committed decision is entered with the drivers behind it and the information status of those drivers, each new decision is checked against all entries, and revising an entry reopens everything derived from it. It holds: business and positioning; objective, reader task, and intended response; audience and moment of encounter; medium and physical scale; placement and register; the subject model (design-relevant truths: operations, reality, lived USP, customer decision and buying behavior, category field, surroundings); content load, tiers, and primary focus; parameter weights, interactions, and tensions; the design problem, insight, and brand core; the implication map linking each weighted driver to the decisions it informs; then, as decisions are committed, field position, concept, personality, mood, approach per layer, and style direction.
 
 **Foundational decisions** govern all others: primary focus, message allocation, concept and personality, mood, kind of making and execution style per layer, pictorial commitment, movement, palette architecture, typographic voice, mark architecture, and composition strategy (including its density target). Each follows these steps, with divergence widest for the decisions that govern the most:
 1. **Frame:** State the job of the decision and which drivers (weighted findings, interactions, and tensions in the implication map) bear on it, and what each implies for it.
@@ -109,7 +109,7 @@ PRIMARY LOGO MARK & BRANDING:
 [Mark/wordmark architecture, its role and relative scale in the hierarchy, how it embodies the concept, typography style, enclosure or open construction, and sub-descriptors. The mark remains structurally independent of background elements].
 
 COMPOSITION & LAYOUT ZONING:
-[Zonal structure derived from the canvas's dominant axis, visibility, and content groups. The density target and negative-space allocation (outer margins, separations between groups, regions left deliberately empty). Specific placement and relative scale, expressed as relationships, for the focal anchor, any pictorial subject, tagline, information blocks, and action badges. Every hard-content string appears verbatim, in quotation marks, at its placed position].
+[Zonal structure derived from the canvas's dominant axis, visibility, and content groups. The density target and negative-space allocation (outer margins, separations between groups, regions left deliberately empty). The display and supporting typographic voices per hierarchy level, resolved to structural traits. Specific placement and relative scale, expressed as relationships, for the focal anchor, any pictorial subject, tagline, information blocks, and action badges. Every hard-content string appears verbatim, in quotation marks, at its placed position].
 
 VISUAL ELEMENTS & RENDERING TECHNIQUE:
 [Each pictorial subject admitted (subject, complexity, role, relative scale) or a statement that none is used; for each visual layer, its kind of making, its execution style resolved to observable properties (vantage, light, depth, subject state, and grade for captured work; lineage, medium, line, and simplification for drawn work; geometric logic and rhythm for constructed work), and its intensity; which layer leads and what binds the layers when they differ].
@@ -125,11 +125,11 @@ TECHNICAL & EXECUTION CONSTRAINTS:
 
 ## 5. Execution Rules & Prompt Directives
 
-1. **Output Raw Prompt Only:** Output only the single prompt block unless asked otherwise. The Decision Context, protocol work, and audits stay internal and are completed before the prompt is written.
+1. **Output Raw Prompt Only:** Output only the single prompt block unless asked otherwise, except when information that cannot be inferred and would change a foundational decision or the hard content is missing; ask for it concisely first. The Decision Context, protocol work, and audits stay internal and are completed before the prompt is written.
 2. **Never Invent Contents:** Enforce all hard content (copy, numbers, addresses, menu items, prices, and any other required element) exactly as supplied. Never omit required text or add items.
 3. **No Meta-Commentary:** Every phrase is an objective, observable visual directive. Reasoning, justification, intent, evaluative language, and framework terminology never appear in the prompt.
 4. **Preserve Generative Freedom:** Specify structure, relationships, and aesthetic parameters. Leave fine line rendering, lighting falloff, and organic texture to the model.
 5. **English Output:** Write the entire prompt in English whatever language the brief uses. Only literal hard content is reproduced verbatim in its original language, in quotation marks.
-6. **Relational Direction:** Direct position, scale, and proportion through relationships (order, alignment, relative size, weight) and describe color by hue and role. Measurements, coordinates, angles, counts, and color codes appear only when the brief supplies them.
+6. **Relational Direction:** Direct position, scale, and proportion through relationships (order, alignment, relative size, weight) and describe color by hue and role. Measurements, coordinates, angles, counts, and color codes appear only when the brief supplies them (the aspect ratio is derived from supplied dimensions).
 7. **Economy:** State each decision once, in the slot where it belongs.
 8. **Specificity:** Every stylistic term is resolved to a level that discriminates within its category. A category name never stands alone as a decision.

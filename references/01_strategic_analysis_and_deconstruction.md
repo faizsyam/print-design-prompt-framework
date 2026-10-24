@@ -11,7 +11,7 @@ Phase 1 turns a brief into understanding, then into a design problem. Every asse
 | Business model, operations, means | what the piece must do commercially, what promise the business can keep, what finish it can sustain | primary focus, tiers, credibility test, finish and fidelity, ornament budget |
 | Positioning | what quality of signals the piece must send, read through audience codes and the field baseline | personality, color logic, type voice, density target, finish |
 | Objective and intended response | what must register and what the reader should feel and do | primary focus, tiers, mood, action elements |
-| Audience, encounter, buying behavior | how they judge credibility, how long and closely they read, how much information they want | hierarchy depth, density target, stance, kind of making, color relationships |
+| Audience, encounter, buying behavior, language | how they judge credibility, how long and closely they read, how much information they want, in which script and reading direction | hierarchy depth, density target, stance, kind of making, color relationships, type voice, reading path |
 | Subject reality and lived USP | what is true, perceptible, and ownable | concept world, subject truth, kind of making, stance, ornament source, mark idea |
 | Category field | the baseline to beat and the signals of belonging | field position, movement, palette logic, composition structure |
 | Medium and viewing conditions | floors, capacity, and distances | sizes, density target, axis, margins, detail resolution |
@@ -19,7 +19,14 @@ Phase 1 turns a brief into understanding, then into a design problem. Every asse
 | Production and substrate | what the print can hold | texture fidelity, line weight, gamut, rendering depth |
 | Content and hard content | what must be said, in what order, under what load | tiers, pictorial commitment, zoning, verbatim strings |
 
-Run every assessment as one chain: **question** (what is being established and why, from the register), **finding** (what the evidence says), **implication** (what it requires, permits, or rules out), **decision informed**. An assessment that cannot name the decision it informs is not run. A finding without an implication is not recorded. Sections 1 and 2 say how to assess; Section 4 compiles the implications into the implication map.
+Run every assessment as one chain: **question** (what is being established and why, from the register), **finding** (what the evidence says), **implication** (what it requires, permits, or rules out), **decision informed**. An assessment that cannot name the decision it informs is not run. A finding without an implication is not recorded.
+
+**Information status.** Tag every finding as *stated* (supplied by the brief), *inferred* (reasoned from what is stated, with its basis), or *unknown*. Handle each by what it does to the design:
+* *Obtain* what cannot be inferred and would change a foundational decision or the hard content if wrong (the copy, the physical dimensions and viewing distances, mandatory elements). Ask the person concisely and once, before deciding.
+* *Infer* what the stated facts and domain knowledge support, state the basis, and weigh the driver by the confidence of that basis.
+* *Hold open* what stays uncertain: choose the option that holds under every plausible reading, record the assumption in the Decision Context, and never present an assumption as a fact or let it add or alter hard content.
+
+Sections 1 and 2 say how to assess; Section 4 compiles the implications into the implication map.
 
 ---
 
@@ -32,18 +39,18 @@ Run every assessment as one chain: **question** (what is being established and w
 * **Message Inventory:** The messages the piece must carry (what the brand is, what it offers, how it should feel, what to do), and which of them the hard content and any pictorial subject will already carry. The rest is the work of the identity layers.
 
 ### Objective & Reader
-* **Objective:** The single outcome the piece exists to produce. It decides which content is primary and whether conversion elements belong in the hierarchy at all.
+* **Objective:** The single outcome the piece exists to produce, and its time frame (permanent, seasonal, or event-bound). It decides which content is primary, whether conversion elements belong in the hierarchy at all, and how durable or dated the piece may be.
 * **Intended Response:** What the reader should feel and do. The feeling is the target the mood is designed backward from, and the action is the target the hierarchy serves.
-* **Audience and Moment of Encounter:** Who they are, what they are doing, how fast, in what frame of mind, with what familiarity, and through which local codes they judge what is credible, desirable, or trustworthy.
+* **Audience and Moment of Encounter:** Who they are, what they are doing, how fast, in what frame of mind, with what familiarity, and through which local codes they judge what is credible, desirable, or trustworthy. Include the language and script of the supplied copy and the reading direction the audience is used to, which bind the typographic voice and the reading path.
 * **Reading Time:** Continuous, set by how the piece is met (moving or still, chosen or incidental, quiet or competitive). The shorter the exposure, the fewer focal points and hierarchy levels it can carry. Longer exposure allows structure, detail, and secondary information.
 
 ### Medium & Placement
 * **Canvas shape:** The long axis sets the primary reading direction, near-equal axes call for central or radial organization, and extreme ratios demand commitment to the axis. For folded, multi-panel, wraparound, or dimensional formats, treat each independently seen face as its own canvas and design the continuity between them.
 * **Visibility map:** Which regions are reliably seen and which are compromised by mounting, folds, trim, motion, obstruction, or surroundings. High-tier weight goes in reliable regions.
-* **Viewing conditions:** The distances, angles, speed, dwell, light, and obstructions under which each tier is actually read: Tier 1 from the farthest distance, Tier 2 while approaching, Tier 3 by a reader who has chosen to engage.
+* **Viewing conditions:** The distances, angles, light, and obstructions, within the reading time above, under which each tier is actually read: Tier 1 from the farthest distance, Tier 2 while approaching, Tier 3 by a reader who has chosen to engage.
 * **Legibility floor and capacity:** Each element has a minimum physical size below which it stops being readable at its distance, derived from physical dimensions and viewing conditions, never from canvas proportion. The floor is a lower bound, never a target. Capacity is how much the medium can hold at those floors and distances while still feeling uncrowded; it grows with physical size and shrinks with the exposure the reader gives. On large media, floor-sized content occupies a small fraction of the canvas, so most of it is available as designed space and as scale for Tier 1. On small media the floor binds and content must be grouped and reduced.
-* **Placement context:** The setting and what a visitor expects there; the host surface and surroundings (material, color, condition, neighboring signage, competing media, ambient light, times of viewing); production process, substrate, lifespan, and exposure; adjacent brand touchpoints.
-* **Surroundings in situ:** What the piece is seen against and among: the host surface, architecture, neighboring signage and media, light, and the activity of the people passing. The piece is a figure in this ground, and its relationship to it (blending, contrasting, or complementing) is a decision.
+* **Placement context:** The setting and what a visitor expects there; production process, substrate, lifespan, and exposure; adjacent brand touchpoints.
+* **Surroundings in situ:** What the piece is seen against and among: the host surface (material, color, condition), architecture, neighboring signage and competing media, ambient light and times of viewing, and the activity of the people passing. The piece is a figure in this ground, and its relationship to it (blending, contrasting, or complementing) is a decision.
 * **Contextual register:** From the above, derive the range of finish, formality, realism, and production character that looks native in this setting. Positioning, concept, and style are expressed inside that range, and distinction is sought within it, never by importing a register from another setting.
 
 ---
@@ -62,7 +69,7 @@ Understanding is an investigation, not a form to fill. Build a working model of 
 ## 3. Content Filtering & Structural Hierarchy
 
 ### Content Categories
-1. **Hard Content (inviolable):** Brand name, descriptor, copy and taglines, listed items and variants (with supplied names and ingredients), prices, contact details, badges and claims, and anything else the brief supplies or designates as required. Supplied brand assets (an existing mark, palette, or reference imagery) are fixed constraints: interpret and build around them, never redesign them.
+1. **Hard Content (inviolable):** Brand name, descriptor, copy and taglines, listed items and variants (with supplied names and ingredients), prices, contact details, badges and claims, and anything else the brief supplies or designates as required. Supplied brand assets (an existing mark, palette, or reference imagery) are fixed constraints: interpret and build around them, never redesign them. Elements the category or placement mandates that the brief omits are flagged to the person, never invented.
    * Every hard-content string appears in the prompt unaltered; only line breaks and grouping may adapt.
    * Descriptive detail attached to a listed item is hard content when listed among the required contents and visual reference only when the brief frames it so. When ambiguous, treat it as hard content and tier it by role.
 2. **Soft Preferences:** Suggested colors, moods, style ideas. Weigh them against the design problem: synthesize them where they reinforce it, and adjust them where they conflict with legibility or the placement.
@@ -73,7 +80,7 @@ Rank every content element by when the reader needs it, not by what kind of elem
 * **Tier 1 (Glance):** What must register first, at full distance, within the reading time, for the objective to be met. Determine it; the brand identity is Tier 1 only when establishing recognition is the job.
 * **Tier 2 (Scan):** Supporting content that builds interest while the reader approaches. Reading time limits how many Tier 2 elements the piece can carry; surplus is grouped or demoted.
 * **Tier 3 (Deliberate):** Reference details needed after the reader has decided to engage. Legible, never boosted.
-* **Primary focus:** Decide it from the objective and reader task, mode of engagement, content structure, recognition already supplied by the setting and familiarity, and the weight distribution native to the chosen movement. Set it here and confirm it in Phase 3. The Tier 1 element is the focal anchor.
+* **Primary focus:** Decide it from the objective and reader task, mode of engagement, content structure, recognition already supplied by the setting and familiarity, and the weight distribution native to the chosen movement. Set it provisionally here, before the movement is chosen, and confirm it in Phase 3. The Tier 1 element is the focal anchor.
 * **Weight is a budget** allocated in descending order by tier across all dimensions (scale, area, value contrast, hue and chroma distinctiveness, placement, isolation, detail). A lower tier never outweighs a higher one. Purely ornamental elements carry no content tier and rank below all content.
 
 ### Pictorial Commitment
@@ -88,25 +95,13 @@ A pictorial subject is optional. A piece can be carried by type, mark, pattern, 
 
 ## 4. Synthesis: From Understanding to Decisions
 
-1. **Weights:** Judge how much each parameter governs in this brief. Dominant parameters set decisions; the rest constrain them. Separate fixed constraints (physics, substrate, supplied content) from flexible ones (preferences, conventions); design finds its room in the flexible ones.
+1. **Weights:** Judge how much each driver governs in this brief: it weighs more when it is fixed rather than flexible, bears directly on the objective, would be costly or irreversible if misjudged, informs many decisions, or rests on stated rather than inferred facts. Dominant drivers set decisions; the rest constrain them. Separate fixed constraints (physics, substrate, supplied content) from flexible ones (preferences, conventions); design finds its room in the flexible ones.
 2. **Interactions:** Read the parameters in pairs and groups, not as a list. For each strongest pair, ask how one changes the meaning, cost, or risk of the other. Interactions are where design problems come from.
 3. **Tensions:** Name where serving one parameter strains another. A foundational decision that resolves no tension is probably the prototype.
 4. **Design Problem:** State it in one sentence: what this piece must achieve, for whom, under which conditions, against which strain.
 5. **Insight:** State the non-obvious truth the interactions and the subject model reveal: something about what the reader wants, assumes, or overlooks at the moment of encounter, set against what only this brand can offer. It is a truth, not a slogan or a style. Test: it holds for this brand in this context and would not survive a change of business, audience, or placement.
 6. **Brand core:** Derive what the brand is to its customer in a clause, its character (the temperament and manner it would show as a person), and its ownable territory (the meaning it can credibly claim that the field leaves open). Derive it from the lived USP, the subject's reality, and the insight. Where a brand identity already exists, interpret and respect it rather than replace it. The concept (`02`, Section 1) is the insight, grounded in the brand core, made visible.
 7. **Implication map:** Compile the implications of every assessment into one map. Each entry is a weighted driver (a parameter, design-relevant truth, interaction, or tension), its implication, and the decisions it informs, as the register indicates. Where implications conflict, the dominant driver sets the decision and the others constrain it, and the conflict is recorded as a tension. Check coverage both ways: every foundational decision has at least one driver behind it (else it is a default to be derived or removed), and every weighted driver informs at least one decision (else drop it).
-
---- | :--- | :--- |
-| Business model, operations, means | commercial job, promise it can keep, finish it can sustain | primary focus, tiers, credibility, finish and fidelity, ornament budget |
-| Positioning | register of signals, read through audience codes and field baseline | personality, color logic, type voice, density target, finish |
-| Objective and intended response | what must register and what the reader does | primary focus, tiers, mood, action elements |
-| Audience, encounter, buying behavior | credibility codes, reading time, information appetite | hierarchy depth, density, stance, kind of making, color relationships |
-| Subject reality and lived USP | what is true, perceptible, and ownable | concept world, subject truth, kind of making, stance, ornament source, mark idea |
-| Category field | baseline to beat, signals of belonging | field position, movement, palette logic, composition structure |
-| Medium and viewing conditions | floors, capacity, distances | sizes, density target, axis, margins, detail resolution |
-| Placement and surroundings | register, figure-ground relation, visibility | zoning, palette constraints, edge and finish, contrast strategy |
-| Production and substrate | what the print can hold | texture fidelity, line weight, gamut, rendering depth |
-| Content and hard content | what must be said and in what order | tiers, zoning, verbatim strings |
 
 ---
 
